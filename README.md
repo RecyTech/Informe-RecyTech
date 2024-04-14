@@ -833,6 +833,7 @@ El sistema de búsqueda para los compradores funcionará de dos formas mediante 
 
 # Bibliografía
 
+aaaaaaaaaaaaaaaaaa
 
 Alvarado, J. (8 de diciembre de 2021). _Conoce RAECO, la app que impulsa el reciclaje de residuos electrónicos_. TecnoEmpresa. https://tecnoempresa.mx/index.php/2021/12/08/raeco-la-app-que-impulsa-el-reciclaje-de-residuos-electronicos/
 
