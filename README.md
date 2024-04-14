@@ -507,6 +507,19 @@ Para poder destacar en el mercado, debemos enfrentar las fortalezas de nuestros 
 
 - **Resumen:** En esta entrevista, tenemos a un escolar de secundaria que tiene familiares que ejercen el servicio de reparacion de objetos. Nos comenta que sus padres al realisar estas reparaciones tienen varios aparatos electricos alrededor de su casa por clientes anteriores que tuvo y no recogieron sus prodcustos reparados. Es por ello, que al entrecistado el entusiasma la idea de contar con esta aplicacion para deshacerse de estos aparatos electricos malogrados y recibir algun beneficio monetario con ello. Ademas, de poder ampliar su casa de estos productos que no reutilisa. Hasta el momento no cuenta con experiencia en venta de productos en linea, pero igualmente le satisface la idea y lo comentara cono todos sus amigos.
 
+**Entrevista 3:**
+
+- **Segmento:** Donante
+- **Nombre:** Mauricio Rojas
+- **Edad:** 18 años
+- **Localidad:** La Victoria
+
+<div style="text-align: center;">
+  <img src="images/Mauricio.png" alt="Entrevista Mauricio" width="500px">
+</div>
+
+- **Resumen:** En la entrevista, Mauricio, un estudiante universitario con un espíritu emprendedor, comparte una fascinante idea que ha estado desarrollando: una aplicación destinada a reciclar componentes electrónicos. Su inspiración proviene de su observación de que muchas personas tienen dispositivos electrónicos que ya no utilizan, ya sea porque están obsoletos o simplemente porque han sido reemplazados por modelos más nuevos. Mauricio ve esta situación como una oportunidad para crear una solución innovadora que no solo aborde el problema del desperdicio electrónico, sino que también fomente la reutilización de estos dispositivos.
+
 ### 2.2.3. Analisis de entrevistas
 
 En la primera entrevista tenemos a un estudiante universitario que nos comenta que podria usarlo para conseguir materiales tecnologicos para sus proyecto univeristarios. Esto nos podria beneficiar para ampliar nuestro segmento empresarial hacia universitarios o hacia talleres locales que solicitan de estos materiales a un precio asequible. Con esto, estariamos tambien maximisando nuestra idea del reciclaje y sostener nuestro producto en el mercado.
@@ -781,10 +794,103 @@ El sistema de búsqueda para los compradores funcionará de dos formas mediante 
 ### 4.3.2. Landing Page Mock-up
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
+
+### Diseño para visualizar la donación y la venta de dispositivos..  
+
+<img src="images/registroylogin.png" alt="Registro y login"></img>
+
+### Diseño para visualizar el historial de dispositivos comprados/donados/vendidos y el estado del dispositivo que se encuentra en venta.
+
+<img src="images/Historial-y-estado.png" alt="Historial y estado" style="width: 20;"></img>
+
+### Diseño de la alta demanda en dispositivos electrónicos.
+
+<img src="images/Demanda.png" alt="alta demanda" style="width: 20;"></img>
+
+### Diseño de la visualización para la donación y la venta de dispositivos. 
+
+<img src="images/Donar-y-comprar.png" alt="Donación y compra" style="width: 20;"></img>
+
+### Diseño para visualizar la fase de compra de los dispositivos.  
+
+<img src="images/Fase-de-compra.png" alt="Fase de compra" style="width: 20;"></img>
+
+### Diseño para visualizar la suscripción actual y los tipos de esta que existen.
+
+<img src="images/Suscripcion.png" alt="System Context" style="width: 20;"></img>
+
+### Diseño para visualizar el soporte que brinda la página.
+
+<img src="images/Soporte.png" alt="System Context" style="width: 20;"></img>
+
+
 ### 4.4.2. Web Applications Wireflow Diagrams
+Los diagramas de flujo de alambre, conocidos como Wireflow Diagrams, desempeñan un papel fundamental en el proceso de diseño y desarrollo de aplicaciones móviles. Permiten una planificación y comunicación efectiva de la estructura y funcionalidad de la aplicación, lo que conduce a una experiencia de usuario más eficiente y satisfactoria. Esta herramienta beneficia tanto a diseñadores como a desarrolladores al facilitar la creación de aplicaciones móviles efectivas y atractivas.
+
+### Diagrama de interacción de registro/inicio de sesión de usuario.
+
+<img src="images/Wireflow-1.png" alt="Inicio de sesión" style="width: 20;"></img>
+
+### Diagrama de interacción de recepción de mensaje acerca de la venta de un dispositivo
+
+<img src="images/Wireflow-2.png" alt="Mensaje de venta" style="width: 20;"></img>
+
+### Diagrama de interacción de venta de dispositivos
+
+<img src="images/Wireflow-3.png" alt="Venta de dispositivos" style="width: 20;"></img>
+
+### Diagrama de interacción de historial de actividad del usuario y estados de dispositivos
+
+<img src="images/Wireflow-4.png" alt="Historial/estados de dispositivos" style="width: 20;"></img>
+
+### Diagrama de interacción del carrito de compra
+
+<img src="images/Wireflow-5.png" alt="Carrito de compra" style="width: 20;"></img>
+
+### Diagrama de interacción del proceso de compra
+
+<img src="images/Wireflow-6.png" alt="Proceso de compra" style="width: 20;"></img>
+
+### Diagrama de interacción de productos de alta demanda
+
+<img src="images/Wireflow-7.png" alt="Productos de alta demanda" style="width: 20;"></img>
+
 ### 4.4.2. Web Applications Mock-ups
+
+<img src="images/MockUp-1.png" alt="MockUp-1" style="width: 20;"></img>
+
+<img src="images/MockUp-2.png" alt="MockUp-2" style="width: 20;"></img>
+
+<img src="images/MockUp-3.png" alt="MockUp-3" style="width: 20;"></img>
+
+<img src="images/MockUp-4.png" alt="MockUp-4" style="width: 20;"></img>
+
+<img src="images/MockUp-5.png" alt="MockUp-5" style="width: 20;"></img>
+
+<img src="images/MockUp-6.png" alt="MockUp-6" style="width: 20;"></img>
+
+<img src="images/MockUp-7.png" alt="MockUp-7" style="width: 20;"></img>
+
 ### 4.4.3. Web Applications User Flow Diagrams
+
+<img src="images/Flow-1.png" alt="Flow-1" style="width: 20;"></img>
+
+<img src="images/Flow-2.png" alt="Flow-2" style="width: 20;"></img>
+
+<img src="images/Flow-3.png" alt="Flow-3" style="width: 20;"></img>
+
+<img src="images/Flow-4.png" alt="Flow-4" style="width: 20;"></img>
+
+<img src="images/Flow-5.png" alt="Flow-5" style="width: 20;"></img>
+
 ## 4.5. Web Applications Prototyping
+
+Web Applications Prototyping es una metodología esencial en el desarrollo de aplicaciones web, que implica la creación de representaciones visuales o modelos preliminares de una aplicación antes de su implementación completa. Este proceso permite a los diseñadores y desarrolladores experimentar con diferentes diseños, funcionalidades y flujos de usuario, con el objetivo de visualizar y probar la usabilidad y la experiencia del usuario de manera efectiva.
+
+Los prototipos de aplicaciones web pueden variar en complejidad, desde simples bocetos de diseño hasta prototipos interactivos totalmente funcionales. Estos prototipos actúan como una herramienta invaluable para identificar y abordar problemas de diseño y funcionalidad en las etapas iniciales del desarrollo, lo que ayuda a reducir los costos y el tiempo asociados con cambios significativos más adelante en el proceso.
+
+Al crear prototipos de aplicaciones web, los equipos de desarrollo pueden obtener comentarios tempranos de los interesados ​​y usuarios finales, lo que les permite realizar ajustes y mejoras antes de la implementación final. Además, los prototipos son una forma efectiva de comunicar la visión del producto a todas las partes interesadas, lo que ayuda a alinear las expectativas y garantizar que todos estén en la misma página durante el proceso de desarrollo.
+
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Software Architecture Context Diagram
 
@@ -831,9 +937,66 @@ El sistema de búsqueda para los compradores funcionará de dos formas mediante 
 ### 4.8.1. Database Diagram
 ![DatabaseDiagram](/./images/DatabaseDiagram.png)
 
+# Capítulo V: Product Implementation, Validation & Deployment.
+## 5.1. Software Configuration Management.
+### 5.1.1. Software Development Environment Configuration.
+Project Management:
+GitHub es una plataforma en línea que facilita la gestión colaborativa del código entre los miembros del equipo. Utilizando la tecnología de control de versiones Git, permite el seguimiento de modificaciones y versiones del código, mejorando así la organización y el control del trabajo conjunto.
+
+https://github.com/  
+
+Requirements Management:
+Miro es una herramienta de gestión de requisitos que permite a los equipos visualizar, colaborar y organizar los requisitos del proyecto de manera efectiva. Facilita la creación de diagramas, mapas mentales y tableros que ayudan a definir y mantener los requisitos del proyecto de manera clara y accesible para todos los miembros del equipo.
+
+https://miro.com/   
+
+Product UX/UI Design:
+Figma proporciona una plataforma para el diseño de interfaces, permitiendo trabajar en aspectos visuales como colores, imágenes y formas para crear aplicaciones. Además, facilita la creación de prototipos interactivos que simulan la experiencia del usuario, contribuyendo al desarrollo y refinamiento del proyecto.
+
+https://www.figma.com/    
+
+Software Development:
+HTML y CSS son tecnologías fundamentales en el desarrollo web. HTML se encarga de definir la estructura y organización del contenido en las páginas web, mientras que CSS se utiliza para dar estilo y presentación a ese contenido. Juntos, aseguran que el contenido esté bien organizado y visualmente atractivo en la web.
+
+https://es.wikipedia.org/wiki/HTML
+https://es.wikipedia.org/wiki/CSS 
+
+Software Testing:
+En el proceso de testing de software, herramientas como Selenium, Appium y Cypress son útiles para la automatización de pruebas de aplicaciones web y móviles. Estas herramientas permiten realizar pruebas exhaustivas que garantizan la calidad y el rendimiento del producto final.
+
+https://es.wikipedia.org/wiki/Selenium 
+
+Software Deployment:
+Para el despliegue de software, herramientas como Docker, Kubernetes y Terraform son útiles para automatizar la instalación y configuración de aplicaciones en diferentes entornos. Estas herramientas facilitan el despliegue rápido y confiable de software en entornos locales, en la nube o en servidores dedicados.
+
+https://es.wikipedia.org/wiki/Docker_(software) 
+
+Software Documentation:
+Markdown es una opción versátil y efectiva para la documentación de software, que permite escribir manuales de usuario, guías de instalación y documentación técnica de manera clara y concisa. Con su sintaxis sencilla y legible, Markdown facilita la creación de documentos bien estructurados y fácilmente legibles para desarrolladores y usuarios finales.
+
+https://es.wikipedia.org/wiki/Markdown 
+
+
+### 5.1.2. Source Code Management.
+Explicaremos nuestra estrategia de gestión de código fuente para el proyecto, crucial para rastrear y controlar cambios hechos por el equipo. Hemos optado por crear un repositorio en GitHub para este propósito, tanto para el informe como para la landing page. Esto asegura la coherencia del proyecto y facilita la colaboración entre los miembros del equipo, aprovechando las herramientas y funcionalidades ofrecidas por GitHub para una gestión eficiente del proyecto.
+
+https://github.com/RecyTech/Informe-RecyTec
+
+### 5.1.3. Source Code Style Guide & Conventions.
+En nuestra Landing Page, hemos integrado elementos HTML y estilos CSS siguiendo las mejores prácticas de diseño. Para estructurar el contenido, utilizamos etiquetas de encabezado HTML como h1 para los títulos principales y p para los párrafos. Además, hemos empleado atributos como HTML Style para personalizar el aspecto visual, definiendo propiedades como color, tamaño de fuente y tipo de letra.
+
+Para resaltar elementos importantes, hemos aplicado HTML Text Formatting, incluyendo etiquetas como b para negrita, strong para resaltado y del para mostrar cambios de precios. En cuanto a la navegación, hemos implementado una barra de navegación horizontal utilizando CSS para mejorar la experiencia del usuario al explorar el contenido.
+
+Los formularios, creados con CSS, permiten a los usuarios ingresar información relevante, como detalles de inicio de sesión, información de pago y dirección de envío. Para añadir interactividad, hemos agregado botones con efectos hover utilizando CSS y paginación CSS para facilitar la navegación entre las diferentes páginas de productos.
+
+Finalmente, en el footer, hemos incluido enlaces a las redes sociales de la organización para brindar a los usuarios una forma adicional de conectarse y seguir nuestras actualizaciones
+
+### 5.1.4. Software Deployment Configuration.
+Utilizaremos GitHub Pages para alojar nuestra Landing Page. Para lograrlo, subiremos los archivos esenciales (HTML, CSS, etc.) a un repositorio público en GitHub. De esta manera, nuestra página estará disponible en línea y accesible para todos los usuarios.
+
 # Bibliografía
 
-aaaaaaaaaaaaaaaaaa
+
 
 Alvarado, J. (8 de diciembre de 2021). _Conoce RAECO, la app que impulsa el reciclaje de residuos electrónicos_. TecnoEmpresa. https://tecnoempresa.mx/index.php/2021/12/08/raeco-la-app-que-impulsa-el-reciclaje-de-residuos-electronicos/
 
