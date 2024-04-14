@@ -549,7 +549,7 @@ Para poder destacar en el mercado, debemos enfrentar las fortalezas de nuestros 
 
 - **Resumen:** Se entrevistó a un joven estudiante acerca de lo que solía hacer con sus dispositivos electrónicos obsoletos, usados o viejos. Él explica que a menudo los desecha o los regala y que, las veces que ha querido venderlos, ha tenido problemas encontrando compradores. Alessandro indica que la idea de una aplicación o plataforma en la cual pueda subir fotos e información de los dispositivos que deseaba vender le interesaría mucho, pues se le haría mucho más fácil deshacerse de los electrónicos que ya no usa. Comenta también que tiene poca experiencia con la venta de productos en línea, pero podría sin problemas adaptarse si la plataforma es intuitiva, dinámica y sencilla de utilizar. Concluye mencionando que la idea de nuestro proyecto le parece muy buena, y que seguramente la utilizaría a menudo si llegara a realizarse de verdad.
 
-**Entrevista 3:**
+**Entrevista 4:**
 
 - **Segmento:** Donante
 - **Nombre:** Mauricio Rojas
