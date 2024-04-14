@@ -264,10 +264,10 @@ En RecyTech, creemos en el poder de la tecnología para generar un impacto posit
   </tr>
  <tr>
     <td>
-      <h2>nombre</h2>
-      <p>Código: codigo</p>
+      <h2>Salvador Edward Chamorro Acero</h2>
+      <p>Código: U201914367</p>
       <p>Descripción: <br>
-        descripcion</p>
+        Mi nombre es Salvador Chamorro. Tengo 21 años y soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Tengo conocimientos en programación e ingeniería de software. Me considero una persona bastante empática y creativa. Considero que mi perfil tiene todo lo necesario para aportar al grupo de trabajo.</p>
     </td>
 <td></td>
   </tr>
@@ -562,6 +562,15 @@ Para poder destacar en el mercado, debemos enfrentar las fortalezas de nuestros 
 
 - **Resumen:** En la entrevista, Mauricio, un estudiante universitario con un espíritu emprendedor, comparte una fascinante idea que ha estado desarrollando: una aplicación destinada a reciclar componentes electrónicos. Su inspiración proviene de su observación de que muchas personas tienen dispositivos electrónicos que ya no utilizan, ya sea porque están obsoletos o simplemente porque han sido reemplazados por modelos más nuevos. Mauricio ve esta situación como una oportunidad para crear una solución innovadora que no solo aborde el problema del desperdicio electrónico, sino que también fomente la reutilización de estos dispositivos.
 
+**Entrevista 5:**
+
+- **Segmento:** Solicitante
+- **Nombre:** Diego Cisneros
+- **Edad:** 21 años
+- **Localidad:** Surco
+
+- **Resumen:** El interesado en la compra de artefactos electronicos nos menciona que es un usario activo en el mundo de la tecnologia y que siempre ha tenido el inconveniente con los precios por lo que ha buscando formas de ahorrar dinero pero que realmente no ha encontrado alguna fuente confiable y segura. Por lo que se encuentra emocionado con la propuesta de RecyTech.
+
 ### 2.2.3. Analisis de entrevistas
 
 En la primera entrevista tenemos a un estudiante universitario que nos comenta que podria usarlo para conseguir materiales tecnologicos para sus proyecto univeristarios. Esto nos podria beneficiar para ampliar nuestro segmento empresarial hacia universitarios o hacia talleres locales que solicitan de estos materiales a un precio asequible. Con esto, estariamos tambien maximizando nuestra idea del reciclaje y sostener nuestro producto en el mercado.
@@ -827,12 +836,45 @@ En los compradores se utilizan dos tipos de organización, tanto la organizació
 Finalmente, en caso de que el usuario quiera realizar otra funcionalidades en común, como por ejemplo editar el perfil, donar producto o cerrar sesión, se mantendrá la organización jerárquica ya que todas esas funciones están debidamente segmentadas.
 
 ### 4.2.2. Labeling Systems
+
+Para el sistema de encabezados se han seleccionado palabras claves que vayan a atraer la atencion del publico y que ademas puedan resumir perfectamente el contenido al que representan. Si nos dirimos a la barra de navegacion en la superior podremos ver una serie de encabezos que representan perfectamente este sistema.
+
 ### 4.2.3. SEO Tags and Meta Tags
+
+**Titulo:**
+
+```
+<Title>RecyTech</Title>
+```
+
+**Codificación de carácteres:**
+
+```
+<meta charset="utf-8">
+```
+
+**Descripción:**
+
+```
+<meta name="description" content="UniRider is a web application focused on the retail of rewashed products."/>
+```
+
+**Autor y Derechos de Autor:**
+
+```
+<meta name="author" content="RecyTechr"/>
+
+<meta name="copyright" content="Copyright RecyTech team" />
+
+```
 ### 4.2.4. Searching Systems
 
 El sistema de búsqueda para los compradores funcionará de dos formas mediante diferentes filtros que serán marcados antes de realizar alguna búsqueda y mediante el tipeo de algún producto en específico. Como los productos se verán reflejados mediante un catálogo se tomó la decisión de colocar filtros que harán que en el catálogo se muestran solamente los productos en los que el usuario esté interesado, además en caso de no usar los filtros el usuario también podrá tipear algún artefacto en particular y se verá reflejado en el catálogo siempre y cuando el artefacto se encuentre disponible.
 
 ### 4.2.5. Navigation Systems
+
+El sistema central de navegacion vendria a ser la barra de navegacion ya que mediante esta podremos interactuar y dirigirnos a las diferentes secciones en la pagina web. Lo mismo vendria a ser en el caso del Footer ya que mediante su interacciones podremos navegar en diferentes secciones de la pagina web.
+
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
 ### 4.3.2. Landing Page Mock-up
@@ -1037,6 +1079,39 @@ Finalmente, en el footer, hemos incluido enlaces a las redes sociales de la orga
 
 ### 5.1.4. Software Deployment Configuration.
 Utilizaremos GitHub Pages para alojar nuestra Landing Page. Para lograrlo, subiremos los archivos esenciales (HTML, CSS, etc.) a un repositorio público en GitHub. De esta manera, nuestra página estará disponible en línea y accesible para todos los usuarios.
+
+## 5.2. Landing Page, Services \& Applications Implementation.
+### 5.2.1. Sprint 1.
+#### 5.2.1.1. Sprint Planning 1.
+
+| Sprint 1                         | Implementación de funcionalidades y diseño de la aplicación.                                                                                                          |
+| -------------------------------- |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sprint Planning Background       |
+| Date                             | 05/04/2024                                                                                                                                                            |
+| Time                             | 18:00 horas (GMT-5)                                                                                                                                                   |
+| Location                         | Reunión realizada mediante Discord                                                                                                                                    |
+| Prepared By                      | Morales Montalvo, Omar Andrew                                                                                                                                         |
+| PAttendees (to planning meeting) | <li>Chamorro Acero, Salvador Edward</li>	 <li>Jorge Arévalo, Ramón Alejandro</li> <li>Morales Montalvo, Omar Andrew</li> <li>Palomino Fano, Cristhofer Sebastian</li> |
+|Sprint n -1 Review|
+|Resumen| Se creará la organización de RecyTech en Github, se crea las ramas, se separa los trabajos a realizar como entrevistas, wireframe y mock-up                           |
+|Sprint n -1 Retrospective|
+|Resumen| Se implemento para el landing se ha realizado mediante html css y js.                                                                                                 |
+| **Sprint Goal & User Stories**   |
+| Sprint 1 Velocity                | 21 points                                                                                                                                                             |
+| Sum of Story Points              | 21 points                                                                                                                                                             |
+
+#### 5.2.1.2. Sprint Backlog 1.
+
+| id   | Title               | Id  | Title                                               | Description                                                                                                   | Estimations(Hours) | Assigned To | Status(To-do /InProcess/ToReview/Done) |
+| ---- |---------------------| --- |-----------------------------------------------------|---------------------------------------------------------------------------------------------------------------|--------------------|-------------|---------------------------------------|
+| US01 | Seccion descargar   | UT01 | Sección "descargar"(Desarrollado en HTML y CSS)     | Desarrollo e implementación de los estilos que corresponden a la sección de descargar. Debe ser responsive.   | 3                  | Jorge Arévalo, Ramón Alejandro         | Done                                  |
+| US02 | Seccion Nosotros    | UT02 | Sección "Nosotros"(Desarrollado en HTML y CSS)      | Desarrollo e implementación de los estilos que corresponden a la sección de nosotros. Debe ser responsive.    | 2                  | Chamorro Acero, Salvador Edward         | Done                                  |
+| US03 | Seccion Beneficios  | UT03 | Sección "Beneficios"(Desarrollado en HTML y CSS)    | Desarrollo e implementación de los estilos que corresponden a la sección de beneficios. Debe ser responsive.  | 3                  | Jorge Arévalo, Ramón Alejandro         | Done                                  |
+| US04 | Suscripcion         | UT04 | Sección "Suscripcion  "(Desarrollado en HTML y CSS) | Desarrollo e implementación de los estilos que corresponden a la sección de suscripcion. Debe ser responsive. | 2                  | Morales Montalvo, Omar Andrew        | Done                                  |
+| US05 | Seccion contactenos | UT05 | Sección "Contacto"(Desarrollado en HTML y CSS)      | Desarrollo e implementación de los estilos que corresponden a la sección de contactenos. Debe ser responsive. | 3                  | Chamorro Acero, Salvador Edward         | Done                                  |
+| US06 | Barra header        | UT06 | Header responsivos (Desarrollado en HTML y CSS).    | Desarrollo e implementación de los estilos que corresponden al encabezado (Header). Debe ser responsive.      | 3                  | Morales Montalvo, Omar Andrew        | Done                                  |
+| US07 | Footer              | UT07 | Footer responsivos (Desarrollado en HTML y CSS).    | Desarrollo e implementación de los estilos que corresponden al pie de página (Footer). Debe ser responsive.   | 3                  | Palomino Fano, Cristhofer Sebastian         | Done                                  |
+| US08 | Seccion registro    | UT08 | Sección "Registro"(Desarrollado en HTML y CSS)      | Desarrollo e implementación de un formulario para el registro.                                                | 2                  | Palomino Fano, Cristhofer Sebastian         | Done                                  |
 
 # Bibliografía
 
