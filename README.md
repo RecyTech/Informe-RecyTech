@@ -549,6 +549,15 @@ Para poder destacar en el mercado, debemos enfrentar las fortalezas de nuestros 
 
 - **Resumen:** Se entrevistó a un joven estudiante acerca de lo que solía hacer con sus dispositivos electrónicos obsoletos, usados o viejos. Él explica que a menudo los desecha o los regala y que, las veces que ha querido venderlos, ha tenido problemas encontrando compradores. Alessandro indica que la idea de una aplicación o plataforma en la cual pueda subir fotos e información de los dispositivos que deseaba vender le interesaría mucho, pues se le haría mucho más fácil deshacerse de los electrónicos que ya no usa. Comenta también que tiene poca experiencia con la venta de productos en línea, pero podría sin problemas adaptarse si la plataforma es intuitiva, dinámica y sencilla de utilizar. Concluye mencionando que la idea de nuestro proyecto le parece muy buena, y que seguramente la utilizaría a menudo si llegara a realizarse de verdad.
 
+**Entrevista 4:**
+
+- **Segmento:** Solicitante
+- **Nombre:** Diego Cisneros
+- **Edad:** 21 años
+- **Localidad:** Surco
+
+- **Resumen:** El interesado en la compra de artefactos electronicos nos menciona que es un usario activo en el mundo de la tecnologia y que siempre ha tenido el inconveniente con los precios por lo que ha buscando formas de ahorrar dinero pero que realmente no ha encontrado alguna fuente confiable y segura. Por lo que se encuentra emocionado con la propuesta de RecyTech.
+
 ### 2.2.3. Analisis de entrevistas
 
 En la primera entrevista tenemos a un estudiante universitario que nos comenta que podria usarlo para conseguir materiales tecnologicos para sus proyecto univeristarios. Esto nos podria beneficiar para ampliar nuestro segmento empresarial hacia universitarios o hacia talleres locales que solicitan de estos materiales a un precio asequible. Con esto, estariamos tambien maximizando nuestra idea del reciclaje y sostener nuestro producto en el mercado.
