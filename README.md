@@ -6,7 +6,7 @@
 
 # COURSE PROJECT
 ### Profesor: Hugo Allan Mori Paiva
-### Curso: Desarrollo de Aplicaciones Open Source
+### Curso: Desarrollo de Aplicaciones Open Source aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 # FINAL REPORT
 ## Startup: 
 ## Propuesta: 
