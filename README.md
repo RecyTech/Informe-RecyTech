@@ -229,20 +229,49 @@ En RecyTech, creemos en el poder de la tecnología para generar un impacto posit
 |Nuestra misión en RecyTech es transformar la forma en que se gestionan los desechos electrónicos al ofrecer una solución inclusiva y sostenible que mejore el acceso a la tecnología y proteja el medio ambiente. Nos comprometemos a proporcionar una plataforma segura y fácil de usar que empodere a las comunidades para contribuir activamente al reciclaje y la reutilización de dispositivos electrónicos, promoviendo un futuro más verde y equitativo para todos.|En RecyTech, visualizamos un mundo donde la tecnología se utiliza de manera responsable y sostenible, donde cada dispositivo electrónico tiene una segunda vida y donde el acceso a la tecnología no está limitado por barreras económicas. Nos esforzamos por ser líderes en la industria de gestión de desechos electrónicos, creando un impacto positivo en las comunidades al fomentar la economía circular y reducir el impacto ambiental de la tecnología obsoleta.|
 
 ### 1.1.2. Perfiles de integrantes del equipo
+<table>
+  <tr>
+    <th>Información</th>
+    <th>Foto</th>
+  </tr>
+  <tr>
+    <td>
+      <h2>Morales Montalvo, Omar Andrew</h2>
+      <p>Código: U202212383</p>
+      <p>Descripcion: <br>
+      Soy Omar Andrew Morales Montalvo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas, estoy cursando en quinto ciclo y   actualmente tengo 18 años, soy colaborativo, responsable y proactivo, tratando de ayudar a los demás en lo que mi alcance me lo permita. Por ello, actuare de igual manera con mi grupo apoyando en lo más que pueda en los trabajos futuros.</p>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+      <h2>Palomino Fano, Cristhofer Sebastian</h2>
+      <p>Código: U20191B600</p>
+      <p>Descripción: <br>
+        Actualmente estudio la carrera de Ingeniería de Software en la universidad UPC. Me comprometo a apoyar y dar todo de mis capacidades a mi equipo y a cumplir con mis deberes en la construcción del proyecto. Tengo conocimientos aprendidos antecesoras a este curso como C++, C#, Python, Java junto a desarrollo de Apis con base de datos con SQL y aprendizaje autónomo sobre ciberseguridad.</p>
+    </td>
+   <td><img src="images/Cristhofer.jpg" alt=" " width="50%";"></img></td>
 
-|<!-- -->|<!-- -->|
-|--------|--------|
-|Nombre|Morales Montalvo, Omar Andrew (U202212383)|
-|Soy Omar Andrew Morales Montalvo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas, estoy cursando en quinto ciclo y actualmente tengo 18 años, soy colaborativo, responsable y proactivo, tratando de ayudar a los demás en lo que mi alcance me lo permita. Por ello, actuare de igual manera con mi grupo apoyando en lo más que pueda en los trabajos futuros. ||
-
-**Palomino Fano, Cristhofer Sebastian:**
-|<!-- -->|<!-- -->|
-|--------|--------|
-|Nombre|Palomino Fano, Cristhofer Sebastian (U20191B600)|
-|Actualmente estudio la carrera de Ingeniería de Software en la universidad UPC. Me comprometo a apoyar y dar todo de mis capacidades a mi equipo y a cumplir con mis deberes en la construcción del proyecto. Tengo conocimientos aprendidos antecesoras a este curso como C++, C#, Python, Java junto a desarrollo de Apis con base de datos con SQL y aprendizaje autónomo sobre ciberseguridad|
-<div style="float: right; margin-left: 10px;">
-  <img src="images/Cristhofer.jpg" alt="FOTO Cristhofer" width="80px">
-</div>|
+  </tr>
+  <tr>
+    <td>
+      <h2>Ramón Alejandro Jorge Arévalo</h2>
+      <p>Código: U20221D126</p>
+      <p>Descripción: <br>
+        Mi nombre es Ramón Alejandro Jorge Arévalo y tengo 21 años. Actualmente estoy cursando el quinto ciclo de la carrera de Ingeniería de Software en la UPC. Tengo conocimiento en programación estructurada, patrones de software, programación orientada a objetos y algoritmos. Manejo de estructuras de datos, diseños de patrones y algoritmos complejos en C++, Python, HTML, CSS y JavaScript.</p>
+    </td>
+<td><img src="images/img-Ramon.png" alt=" " width="50%";"></img></td>
+  </tr>
+ <tr>
+    <td>
+      <h2>nombre</h2>
+      <p>Código: codigo</p>
+      <p>Descripción: <br>
+        descripcion</p>
+    </td>
+<td></td>
+  </tr>
+</table>
 
 ## 1.2. Solution Profile
 ### 1.2.1	Antecedentes y problemática
@@ -505,13 +534,28 @@ Para poder destacar en el mercado, debemos enfrentar las fortalezas de nuestros 
 
 - **Enlace:** https://youtu.be/rgY-aWwnfco?si=gaEih7vGOZAjugb8
 
-- **Resumen:** En esta entrevista, tenemos a un escolar de secundaria que tiene familiares que ejercen el servicio de reparacion de objetos. Nos comenta que sus padres al realisar estas reparaciones tienen varios aparatos electricos alrededor de su casa por clientes anteriores que tuvo y no recogieron sus prodcustos reparados. Es por ello, que al entrecistado el entusiasma la idea de contar con esta aplicacion para deshacerse de estos aparatos electricos malogrados y recibir algun beneficio monetario con ello. Ademas, de poder ampliar su casa de estos productos que no reutilisa. Hasta el momento no cuenta con experiencia en venta de productos en linea, pero igualmente le satisface la idea y lo comentara cono todos sus amigos.
+- **Resumen:** En esta entrevista, tenemos a un escolar de secundaria que tiene familiares que ejercen el servicio de reparación de objetos. Nos comenta que sus padres al realizar estas reparaciones tienen varios aparatos electrónicos alrededor de su casa debido a algunos clientes anteriores que tuvo y no recogieron sus productos reparados. Es por ello que al entrevistado le entusiasma la idea de contar con esta aplicación para deshacerse de estos aparatos electrónicos malogrados y recibir algun beneficio monetario con ello. Además de poder sacar de su casa de estos productos que no usa. Hasta el momento no cuenta con experiencia en venta de productos en linea, pero igualmente le satisface la idea y lo comentará cono todos sus amigos.
+
+**Entrevista 3:**
+
+- **Segmento:** Donante
+- **Nombre:** Alessandro Rey
+- **Edad:** 20 años
+- **Localidad:** Jesús María
+
+<div style="text-align: center;">
+  <img src="images/img-entrevista-rey.png" alt="Entrevista Rey" width="500px">
+</div>
+
+- **Resumen:** Se entrevistó a un joven estudiante acerca de lo que solía hacer con sus dispositivos electrónicos obsoletos, usados o viejos. Él explica que a menudo los desecha o los regala y que, las veces que ha querido venderlos, ha tenido problemas encontrando compradores. Alessandro indica que la idea de una aplicación o plataforma en la cual pueda subir fotos e información de los dispositivos que deseaba vender le interesaría mucho, pues se le haría mucho más fácil deshacerse de los electrónicos que ya no usa. Comenta también que tiene poca experiencia con la venta de productos en línea, pero podría sin problemas adaptarse si la plataforma es intuitiva, dinámica y sencilla de utilizar. Concluye mencionando que la idea de nuestro proyecto le parece muy buena, y que seguramente la utilizaría a menudo si llegara a realizarse de verdad.
 
 ### 2.2.3. Analisis de entrevistas
 
-En la primera entrevista tenemos a un estudiante universitario que nos comenta que podria usarlo para conseguir materiales tecnologicos para sus proyecto univeristarios. Esto nos podria beneficiar para ampliar nuestro segmento empresarial hacia universitarios o hacia talleres locales que solicitan de estos materiales a un precio asequible. Con esto, estariamos tambien maximisando nuestra idea del reciclaje y sostener nuestro producto en el mercado.
+En la primera entrevista tenemos a un estudiante universitario que nos comenta que podria usarlo para conseguir materiales tecnologicos para sus proyecto univeristarios. Esto nos podria beneficiar para ampliar nuestro segmento empresarial hacia universitarios o hacia talleres locales que solicitan de estos materiales a un precio asequible. Con esto, estariamos tambien maximizando nuestra idea del reciclaje y sostener nuestro producto en el mercado.
 
-En la segunda entrevista tenemos a un estudiante con familiares tecnicos que ofrecen el servicio de reparacion de productos. La parte interesante de la entrevista es cuando nos comenta sobre la cantidad de productos que tienen guardados en su casa que no les son de utilidad y desea desecharlos, pero tiene la preocupacion de tirar sus objetos y dañar el medio ambiente. Ademas por el beneficio que puede conseguir, le parece que nuestra aplicacion podria ayudar mucho y estara esperando con ansias el uso del mismo.
+En la segunda entrevista tenemos a un estudiante con familiares técnicos que ofrecen el servicio de reparación de productos. La parte interesante de la entrevista es cuando nos comenta sobre la cantidad de productos que tienen guardados en su casa que no les son de utilidad y desea desecharlos, pero tiene la preocupación de tirar sus objetos y dañar el medio ambiente. Además, por el beneficio que puede conseguir, le parece que nuestra aplicación podría ayudar mucho y estará esperando con ansias el uso de la misma.
+
+En la tercera entrevista tenemos a un estudiante universitario que comenta que le gustaría poder vender sus electrónicos usados con facilidad, pues siempre que desea hacerlo, se le dificulta encontrar compradores. Al mencionarle nuestra idea de negocio, se mostró interesado y expresó que sí estaría dispuesto a utilizarla siempre y cuando la interfaz sea intuitiva y fácil de usar. Con esta entrevista podemos darnos cuenta que el sector de la gente joven y adulta es uno de los que más potencial tienen, pues casi todos tienen aparatos electrónicos que ya no utilizan y que estarían dispuestos a vender por un precio adecuado. Además, aprendemos que una de las principales características que debe tener nuestra aplicación es la de sencillez y facilidad de uso.
 
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
