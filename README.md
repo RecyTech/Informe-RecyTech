@@ -264,10 +264,10 @@ En RecyTech, creemos en el poder de la tecnología para generar un impacto posit
   </tr>
  <tr>
     <td>
-      <h2>nombre</h2>
-      <p>Código: codigo</p>
+      <h2>Salvador Edward Chamorro Acero</h2>
+      <p>Código: U201914367</p>
       <p>Descripción: <br>
-        descripcion</p>
+        Mi nombre es Salvador Chamorro. Tengo 21 años y soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Tengo conocimientos en programación e ingeniería de software. Me considero una persona bastante empática y creativa. Considero que mi perfil tiene todo lo necesario para aportar al grupo de trabajo.</p>
     </td>
 <td></td>
   </tr>
