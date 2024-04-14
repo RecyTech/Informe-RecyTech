@@ -269,7 +269,7 @@ En RecyTech, creemos en el poder de la tecnología para generar un impacto posit
       <p>Descripción: <br>
         Mi nombre es Salvador Chamorro. Tengo 21 años y soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Tengo conocimientos en programación e ingeniería de software. Me considero una persona bastante empática y creativa. Considero que mi perfil tiene todo lo necesario para aportar al grupo de trabajo.</p>
     </td>
-<td></td>
+<td><img src="images/salvadorfoto.jpg" alt=" " width="50%";"></img></td>
   </tr>
 </table>
 
@@ -568,6 +568,10 @@ Para poder destacar en el mercado, debemos enfrentar las fortalezas de nuestros 
 - **Nombre:** Diego Cisneros
 - **Edad:** 21 años
 - **Localidad:** Surco
+
+<div style="text-align: center;">
+  <img src="entrevistasalvador.png" alt="Entrevista Diego" width="500px">
+</div>
 
 - **Resumen:** El interesado en la compra de artefactos electronicos nos menciona que es un usario activo en el mundo de la tecnologia y que siempre ha tenido el inconveniente con los precios por lo que ha buscando formas de ahorrar dinero pero que realmente no ha encontrado alguna fuente confiable y segura. Por lo que se encuentra emocionado con la propuesta de RecyTech.
 
