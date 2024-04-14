@@ -741,6 +741,14 @@ Para la elaboración de tales User Persona, se ha utilizado la plataforma UXPres
 # [Capítulo III: Requirements Specification.](#capítulo-iii-requirements-specification)
 ## [3.1. To-Be Scenario Mapping.](#to-be-scenario-mapping)
 
+#### 3.1.1 To-Be Scenario Mapping Donante
+
+![Empathy Mapping 1](/./images/to-be-mapping-donante.jpg)
+
+#### 3.1.2 To-Be Scenario Mapping Solicitante
+
+![Empathy Mapping 2](/./images/to-be-mapping-solicitante.jpg)
+
 ## [3.2. User Stories.](#user-stories)
 
 | Epic/Story ID |Titulo|Descripción| Criterios de aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Relacionado con (Epic ID) |
