@@ -562,6 +562,15 @@ Para poder destacar en el mercado, debemos enfrentar las fortalezas de nuestros 
 
 - **Resumen:** En la entrevista, Mauricio, un estudiante universitario con un espíritu emprendedor, comparte una fascinante idea que ha estado desarrollando: una aplicación destinada a reciclar componentes electrónicos. Su inspiración proviene de su observación de que muchas personas tienen dispositivos electrónicos que ya no utilizan, ya sea porque están obsoletos o simplemente porque han sido reemplazados por modelos más nuevos. Mauricio ve esta situación como una oportunidad para crear una solución innovadora que no solo aborde el problema del desperdicio electrónico, sino que también fomente la reutilización de estos dispositivos.
 
+**Entrevista 5:**
+
+- **Segmento:** Solicitante
+- **Nombre:** Diego Cisneros
+- **Edad:** 21 años
+- **Localidad:** Surco
+
+- **Resumen:** El interesado en la compra de artefactos electronicos nos menciona que es un usario activo en el mundo de la tecnologia y que siempre ha tenido el inconveniente con los precios por lo que ha buscando formas de ahorrar dinero pero que realmente no ha encontrado alguna fuente confiable y segura. Por lo que se encuentra emocionado con la propuesta de RecyTech.
+
 ### 2.2.3. Analisis de entrevistas
 
 En la primera entrevista tenemos a un estudiante universitario que nos comenta que podria usarlo para conseguir materiales tecnologicos para sus proyecto univeristarios. Esto nos podria beneficiar para ampliar nuestro segmento empresarial hacia universitarios o hacia talleres locales que solicitan de estos materiales a un precio asequible. Con esto, estariamos tambien maximizando nuestra idea del reciclaje y sostener nuestro producto en el mercado.
