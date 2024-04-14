@@ -8,13 +8,13 @@
 ### Profesor: Hugo Allan Mori Paiva
 ### Curso: Desarrollo de Aplicaciones Open Source
 # FINAL REPORT
-## Startup: 
-## Propuesta: 
+## Startup:
+## Propuesta:
 **Team Members**
 - Chamorro Acero, Salvador Edward
-- Jorge Arévalo, Ramón Alejandro 
+- Jorge Arévalo, Ramón Alejandro
 - Morales Montalvo, Omar Andrew
-- Palomino Fano, Cristhofer Sebastian  
+- Palomino Fano, Cristhofer Sebastian
 
 
 
@@ -312,7 +312,7 @@ Ante esta situación, surge nuestra pregunta de negocio: ¿Como podemos ayudar a
 3. Sostenibilidad económica: Suponemos que el modelo de negocio basado en suscripciones y comisiones por ventas nos permitirá generar suficientes ingresos para mantener la plataforma y ofrecer los servicios adicionales prometidos.
 
 - Business Outcomes:
-  
+
 1. Generación de ingresos: Esperamos generar ingresos consistentes a través de las suscripciones de los vendedores y las comisiones por las ventas realizadas en la plataforma.
 
 2. Crecimiento de la base de usuarios: Esperamos atraer y retener a un número creciente de usuarios, tanto vendedores como compradores, a medida que nuestra plataforma se convierta en un destino popular para la compraventa de componentes electrónicos.
@@ -324,9 +324,9 @@ Ante esta situación, surge nuestra pregunta de negocio: ¿Como podemos ayudar a
 1. Acceso a tecnología asequible: Los usuarios de bajos recursos podrán acceder a componentes electrónicos a precios más bajos, lo que les permitirá participar en proyectos y actividades que de otra manera no podrían permitirse.
 
 2. Facilidad de transacción: Tanto los compradores como los vendedores se beneficiarán de una plataforma fácil de usar que simplifica el proceso de compraventa de componentes electrónicos y ofrece garantías adicionales para las transacciones.
-   
+
 3. Oportunidad de ingresos: Los vendedores tendrán la oportunidad de ganar dinero vendiendo componentes electrónicos no deseados o excedentes, con la garantía de que recibirán un retorno, ya sea a través de la venta del producto o mediante el reembolso completo si no se vende.
-  
+
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
 - **Creemos que** al proporcionar acceso a componentes electrónicos a precios más bajos, especialmente para usuarios de bajos recursos. **Sabremos que** hemos tenido exito, **cuando** observemos un aumento en la participación de este grupo demográfico en nuestra plataforma y recibamos comentarios positivos sobre la asequibilidad de nuestros productos.
@@ -551,12 +551,16 @@ Para poder destacar en el mercado, debemos enfrentar las fortalezas de nuestros 
 
 **Entrevista 4:**
 
-- **Segmento:** Solicitante
-- **Nombre:** Diego Cisneros
-- **Edad:** 21 años
-- **Localidad:** Surco
+- **Segmento:** Donante
+- **Nombre:** Mauricio Rojas
+- **Edad:** 18 años
+- **Localidad:** La Victoria
 
-- **Resumen:** El interesado en la compra de artefactos electronicos nos menciona que es un usario activo en el mundo de la tecnologia y que siempre ha tenido el inconveniente con los precios por lo que ha buscando formas de ahorrar dinero pero que realmente no ha encontrado alguna fuente confiable y segura. Por lo que se encuentra emocionado con la propuesta de RecyTech.
+<div style="text-align: center;">
+  <img src="images/Mauricio.png" alt="Entrevista Mauricio" width="500px">
+</div>
+
+- **Resumen:** En la entrevista, Mauricio, un estudiante universitario con un espíritu emprendedor, comparte una fascinante idea que ha estado desarrollando: una aplicación destinada a reciclar componentes electrónicos. Su inspiración proviene de su observación de que muchas personas tienen dispositivos electrónicos que ya no utilizan, ya sea porque están obsoletos o simplemente porque han sido reemplazados por modelos más nuevos. Mauricio ve esta situación como una oportunidad para crear una solución innovadora que no solo aborde el problema del desperdicio electrónico, sino que también fomente la reutilización de estos dispositivos.
 
 ### 2.2.3. Analisis de entrevistas
 
@@ -580,7 +584,7 @@ Para la elaboración de tales User Persona, se ha utilizado la plataforma UXPres
 
 ![](https://eastus1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=png&cs=fFNQTw&docid=https%3A%2F%2Fupcedupe-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!z3XiyfF_kE-JHQExcCmyJQcYfLjTwS5OpvDyTqB9vsKxExbOHz_JQJaay3NAEpdD%2Fitems%2F01NCRFCSMTZMLRPREX5RHKEYDN2N722REM%3Fversion%3DPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvdXBjZWR1cGUtbXkuc2hhcmVwb2ludC5jb21AMGUwY2IwNjAtMDlhZC00OWY1LWEwMDUtNjhiOWI0OWFhMWY2IiwiaXNzIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwIiwibmJmIjoiMTcxMjE3ODAwMCIsImV4cCI6IjE3MTIxOTk2MDAiLCJlbmRwb2ludHVybCI6ImtJVXQraDVTeERLRlIvNThqQVBhTTJBVmh3cDBLdlZNK2lKUGlMU1BMUGs9IiwiZW5kcG9pbnR1cmxMZW5ndGgiOiIxMTgiLCJpc2xvb3BiYWNrIjoiVHJ1ZSIsInZlciI6Imhhc2hlZHByb29mdG9rZW4iLCJzaXRlaWQiOiJZemxsTWpjMVkyWXROMlptTVMwMFpqa3dMVGc1TVdRdE1ERXpNVGN3TWpsaU1qSTEiLCJzaWduaW5fc3RhdGUiOiJbXCJrbXNpXCJdIiwibmFtZWlkIjoiMCMuZnxtZW1iZXJzaGlwfHUyMDIxMTYwNzhAdXBjLmVkdS5wZSIsIm5paSI6Im1pY3Jvc29mdC5zaGFyZXBvaW50IiwiaXN1c2VyIjoidHJ1ZSIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfDEwMDMyMDAxMDYzMmZiY2VAbGl2ZS5jb20iLCJzaWQiOiJjZTI5M2NkYi1lNTcxLTQwM2QtYTFlOS1jZDBlZTY0YmYxODgiLCJ0dCI6IjAiLCJpcGFkZHIiOiIxOTAuMjM5LjEzOS4xOTkiLCJzbmlkIjoiNiIsInN0cCI6InQifQ.LbA7TQMFiHXHIUO8E7rHskJGFUz5iegf8P9I6oPk-WQ&cTag=%22c%3A%7B1717CB93-97C4-4EEC-A260-6DD37FAD448C%7D%2C1%22&encodeFailures=1&width=1675&height=943&srcWidth=1920&srcHeight=1080)
 ### 2.3.2. User Task Matrix
- 
+
 <table>
     <thead>
         <tr>
@@ -782,13 +786,13 @@ Branding:
 
 El nombre del proyecto es RecyTech. Esto surge de la combinación de dos palabras en inglés ya que es nuestra forma de mostrarnos como una empresa abierta a todo tipo de público. Las palabras son recycling y technology que al juntarlas se crea RecyTech que podría interpretarse como reciclador de tecnología, lo que le da sentido al concepto de la aplicación ya que tenemos como finalidad de alguna manera la reutilización de artefactos electrónicos.
 
-Typography: 
+Typography:
 
 La tipografía que se usará es “Inter” en estilos medium y normal tanto para el heading como para el texto respectivamente.
 
 ![User Persona 1](/./images/typography.png)
 
-Colors: 
+Colors:
 
 Se tienen como colores principales el verde y el marrón, ya que ambos colores representan protección al medio ambiente que es el principal enfoque que tiene nuestra aplicación. En cuanto a los colores secundarios, se utilizarán distintos tonos de los colores primarios para poder conseguir una armonía en la aplicación y no saturar visualmente al usuario.
 
@@ -823,54 +827,114 @@ En los compradores se utilizan dos tipos de organización, tanto la organizació
 Finalmente, en caso de que el usuario quiera realizar otra funcionalidades en común, como por ejemplo editar el perfil, donar producto o cerrar sesión, se mantendrá la organización jerárquica ya que todas esas funciones están debidamente segmentadas.
 
 ### 4.2.2. Labeling Systems
-
-Para el sistema de encabezados se han seleccionado palabras claves que vayan a atraer la atencion del publico y que ademas puedan resumir perfectamente el contenido al que representan. Si nos dirimos a la barra de navegacion en la superior podremos ver una serie de encabezos que representan perfectamente este sistema.
-
 ### 4.2.3. SEO Tags and Meta Tags
-
-**Titulo:**
-
-```
-<Title>RecyTech</Title>
-```
-
-**Codificación de carácteres:**
-
-```
-<meta charset="utf-8">
-```
-
-**Descripción:**
-
-```
-<meta name="description" content="UniRider is a web application focused on the retail of rewashed products."/>
-```
-
-**Autor y Derechos de Autor:**
-
-```
-<meta name="author" content="RecyTechr"/>
-
-<meta name="copyright" content="Copyright RecyTech team" />
-
-```
 ### 4.2.4. Searching Systems
 
 El sistema de búsqueda para los compradores funcionará de dos formas mediante diferentes filtros que serán marcados antes de realizar alguna búsqueda y mediante el tipeo de algún producto en específico. Como los productos se verán reflejados mediante un catálogo se tomó la decisión de colocar filtros que harán que en el catálogo se muestran solamente los productos en los que el usuario esté interesado, además en caso de no usar los filtros el usuario también podrá tipear algún artefacto en particular y se verá reflejado en el catálogo siempre y cuando el artefacto se encuentre disponible.
 
 ### 4.2.5. Navigation Systems
-
-El sistema central de navegacion vendria a ser la barra de navegacion ya que mediante esta podremos interactuar y dirigirnos a las diferentes secciones en la pagina web. Lo mismo vendria a ser en el caso del Footer ya que mediante su interacciones podremos navegar en diferentes secciones de la pagina web.
-
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
 ### 4.3.2. Landing Page Mock-up
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
+
+### Diseño para visualizar la donación y la venta de dispositivos..
+
+<img src="images/registroylogin.png" alt="Registro y login"></img>
+
+### Diseño para visualizar el historial de dispositivos comprados/donados/vendidos y el estado del dispositivo que se encuentra en venta.
+
+<img src="images/Historial-y-estado.png" alt="Historial y estado" style="width: 20;"></img>
+
+### Diseño de la alta demanda en dispositivos electrónicos.
+
+<img src="images/Demanda.png" alt="alta demanda" style="width: 20;"></img>
+
+### Diseño de la visualización para la donación y la venta de dispositivos.
+
+<img src="images/Donar-y-comprar.png" alt="Donación y compra" style="width: 20;"></img>
+
+### Diseño para visualizar la fase de compra de los dispositivos.
+
+<img src="images/Fase-de-compra.png" alt="Fase de compra" style="width: 20;"></img>
+
+### Diseño para visualizar la suscripción actual y los tipos de esta que existen.
+
+<img src="images/Suscripcion.png" alt="System Context" style="width: 20;"></img>
+
+### Diseño para visualizar el soporte que brinda la página.
+
+<img src="images/Soporte.png" alt="System Context" style="width: 20;"></img>
+
+
 ### 4.4.2. Web Applications Wireflow Diagrams
+Los diagramas de flujo de alambre, conocidos como Wireflow Diagrams, desempeñan un papel fundamental en el proceso de diseño y desarrollo de aplicaciones móviles. Permiten una planificación y comunicación efectiva de la estructura y funcionalidad de la aplicación, lo que conduce a una experiencia de usuario más eficiente y satisfactoria. Esta herramienta beneficia tanto a diseñadores como a desarrolladores al facilitar la creación de aplicaciones móviles efectivas y atractivas.
+
+### Diagrama de interacción de registro/inicio de sesión de usuario.
+
+<img src="images/Wireflow-1.png" alt="Inicio de sesión" style="width: 20;"></img>
+
+### Diagrama de interacción de recepción de mensaje acerca de la venta de un dispositivo
+
+<img src="images/Wireflow-2.png" alt="Mensaje de venta" style="width: 20;"></img>
+
+### Diagrama de interacción de venta de dispositivos
+
+<img src="images/Wireflow-3.png" alt="Venta de dispositivos" style="width: 20;"></img>
+
+### Diagrama de interacción de historial de actividad del usuario y estados de dispositivos
+
+<img src="images/Wireflow-4.png" alt="Historial/estados de dispositivos" style="width: 20;"></img>
+
+### Diagrama de interacción del carrito de compra
+
+<img src="images/Wireflow-5.png" alt="Carrito de compra" style="width: 20;"></img>
+
+### Diagrama de interacción del proceso de compra
+
+<img src="images/Wireflow-6.png" alt="Proceso de compra" style="width: 20;"></img>
+
+### Diagrama de interacción de productos de alta demanda
+
+<img src="images/Wireflow-7.png" alt="Productos de alta demanda" style="width: 20;"></img>
+
 ### 4.4.2. Web Applications Mock-ups
+
+<img src="images/MockUp-1.png" alt="MockUp-1" style="width: 20;"></img>
+
+<img src="images/MockUp-2.png" alt="MockUp-2" style="width: 20;"></img>
+
+<img src="images/MockUp-3.png" alt="MockUp-3" style="width: 20;"></img>
+
+<img src="images/MockUp-4.png" alt="MockUp-4" style="width: 20;"></img>
+
+<img src="images/MockUp-5.png" alt="MockUp-5" style="width: 20;"></img>
+
+<img src="images/MockUp-6.png" alt="MockUp-6" style="width: 20;"></img>
+
+<img src="images/MockUp-7.png" alt="MockUp-7" style="width: 20;"></img>
+
 ### 4.4.3. Web Applications User Flow Diagrams
+
+<img src="images/Flow-1.png" alt="Flow-1" style="width: 20;"></img>
+
+<img src="images/Flow-2.png" alt="Flow-2" style="width: 20;"></img>
+
+<img src="images/Flow-3.png" alt="Flow-3" style="width: 20;"></img>
+
+<img src="images/Flow-4.png" alt="Flow-4" style="width: 20;"></img>
+
+<img src="images/Flow-5.png" alt="Flow-5" style="width: 20;"></img>
+
 ## 4.5. Web Applications Prototyping
+
+Web Applications Prototyping es una metodología esencial en el desarrollo de aplicaciones web, que implica la creación de representaciones visuales o modelos preliminares de una aplicación antes de su implementación completa. Este proceso permite a los diseñadores y desarrolladores experimentar con diferentes diseños, funcionalidades y flujos de usuario, con el objetivo de visualizar y probar la usabilidad y la experiencia del usuario de manera efectiva.
+
+Los prototipos de aplicaciones web pueden variar en complejidad, desde simples bocetos de diseño hasta prototipos interactivos totalmente funcionales. Estos prototipos actúan como una herramienta invaluable para identificar y abordar problemas de diseño y funcionalidad en las etapas iniciales del desarrollo, lo que ayuda a reducir los costos y el tiempo asociados con cambios significativos más adelante en el proceso.
+
+Al crear prototipos de aplicaciones web, los equipos de desarrollo pueden obtener comentarios tempranos de los interesados ​​y usuarios finales, lo que les permite realizar ajustes y mejoras antes de la implementación final. Además, los prototipos son una forma efectiva de comunicar la visión del producto a todas las partes interesadas, lo que ayuda a alinear las expectativas y garantizar que todos estén en la misma página durante el proceso de desarrollo.
+
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Software Architecture Context Diagram
 
@@ -917,42 +981,65 @@ El sistema central de navegacion vendria a ser la barra de navegacion ya que med
 ### 4.8.1. Database Diagram
 ![DatabaseDiagram](/./images/DatabaseDiagram.png)
 
+# Capítulo V: Product Implementation, Validation & Deployment.
+## 5.1. Software Configuration Management.
+### 5.1.1. Software Development Environment Configuration.
+Project Management:
+GitHub es una plataforma en línea que facilita la gestión colaborativa del código entre los miembros del equipo. Utilizando la tecnología de control de versiones Git, permite el seguimiento de modificaciones y versiones del código, mejorando así la organización y el control del trabajo conjunto.
 
-## 5.2. Landing Page, Services \& Applications Implementation.
-### 5.2.1. Sprint 1.
-#### 5.2.1.1. Sprint Planning 1.
+https://github.com/
 
-| Sprint 1                         | Implementación de funcionalidades y diseño de la aplicación.                                                                                                          |
-| -------------------------------- |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Sprint Planning Background       |
-| Date                             | 05/04/2024                                                                                                                                                            |
-| Time                             | 18:00 horas (GMT-5)                                                                                                                                                   |
-| Location                         | Reunión realizada mediante Discord                                                                                                                                    |
-| Prepared By                      | Morales Montalvo, Omar Andrew                                                                                                                                         |
-| PAttendees (to planning meeting) | <li>Chamorro Acero, Salvador Edward</li>	 <li>Jorge Arévalo, Ramón Alejandro</li> <li>Morales Montalvo, Omar Andrew</li> <li>Palomino Fano, Cristhofer Sebastian</li> |
-|Sprint n -1 Review|
-|Resumen| Se creará la organización de RecyTech en Github, se crea las ramas, se separa los trabajos a realizar como entrevistas, wireframe y mock-up                           |
-|Sprint n -1 Retrospective|
-|Resumen| Se implemento para el landing se ha realizado mediante html css y js.                                                                                                 |
-| **Sprint Goal & User Stories**   |
-| Sprint 1 Velocity                | 21 points                                                                                                                                                             |
-| Sum of Story Points              | 21 points                                                                                                                                                             |
+Requirements Management:
+Miro es una herramienta de gestión de requisitos que permite a los equipos visualizar, colaborar y organizar los requisitos del proyecto de manera efectiva. Facilita la creación de diagramas, mapas mentales y tableros que ayudan a definir y mantener los requisitos del proyecto de manera clara y accesible para todos los miembros del equipo.
 
-#### 5.2.1.2. Sprint Backlog 1.
+https://miro.com/
 
-| id   | Title               | Id  | Title                                               | Description                                                                                                   | Estimations(Hours) | Assigned To | Status(To-do /InProcess/ToReview/Done) |
-| ---- |---------------------| --- |-----------------------------------------------------|---------------------------------------------------------------------------------------------------------------|--------------------|-------------|---------------------------------------|
-| US01 | Seccion descargar   | UT01 | Sección "descargar"(Desarrollado en HTML y CSS)     | Desarrollo e implementación de los estilos que corresponden a la sección de descargar. Debe ser responsive.   | 3                  | Jorge Arévalo, Ramón Alejandro         | Done                                  |
-| US02 | Seccion Nosotros    | UT02 | Sección "Nosotros"(Desarrollado en HTML y CSS)      | Desarrollo e implementación de los estilos que corresponden a la sección de nosotros. Debe ser responsive.    | 2                  | Chamorro Acero, Salvador Edward         | Done                                  |
-| US03 | Seccion Beneficios  | UT03 | Sección "Beneficios"(Desarrollado en HTML y CSS)    | Desarrollo e implementación de los estilos que corresponden a la sección de beneficios. Debe ser responsive.  | 3                  | Jorge Arévalo, Ramón Alejandro         | Done                                  |
-| US04 | Suscripcion         | UT04 | Sección "Suscripcion  "(Desarrollado en HTML y CSS) | Desarrollo e implementación de los estilos que corresponden a la sección de suscripcion. Debe ser responsive. | 2                  | Morales Montalvo, Omar Andrew        | Done                                  |
-| US05 | Seccion contactenos | UT05 | Sección "Contacto"(Desarrollado en HTML y CSS)      | Desarrollo e implementación de los estilos que corresponden a la sección de contactenos. Debe ser responsive. | 3                  | Chamorro Acero, Salvador Edward         | Done                                  |
-| US06 | Barra header        | UT06 | Header responsivos (Desarrollado en HTML y CSS).    | Desarrollo e implementación de los estilos que corresponden al encabezado (Header). Debe ser responsive.      | 3                  | Morales Montalvo, Omar Andrew        | Done                                  |
-| US07 | Footer              | UT07 | Footer responsivos (Desarrollado en HTML y CSS).    | Desarrollo e implementación de los estilos que corresponden al pie de página (Footer). Debe ser responsive.   | 3                  | Palomino Fano, Cristhofer Sebastian         | Done                                  |
-| US08 | Seccion registro    | UT08 | Sección "Registro"(Desarrollado en HTML y CSS)      | Desarrollo e implementación de un formulario para el registro.                                                | 2                  | Palomino Fano, Cristhofer Sebastian         | Done                                  |
+Product UX/UI Design:
+Figma proporciona una plataforma para el diseño de interfaces, permitiendo trabajar en aspectos visuales como colores, imágenes y formas para crear aplicaciones. Además, facilita la creación de prototipos interactivos que simulan la experiencia del usuario, contribuyendo al desarrollo y refinamiento del proyecto.
 
+https://www.figma.com/
+
+Software Development:
+HTML y CSS son tecnologías fundamentales en el desarrollo web. HTML se encarga de definir la estructura y organización del contenido en las páginas web, mientras que CSS se utiliza para dar estilo y presentación a ese contenido. Juntos, aseguran que el contenido esté bien organizado y visualmente atractivo en la web.
+
+https://es.wikipedia.org/wiki/HTML
+https://es.wikipedia.org/wiki/CSS
+
+Software Testing:
+En el proceso de testing de software, herramientas como Selenium, Appium y Cypress son útiles para la automatización de pruebas de aplicaciones web y móviles. Estas herramientas permiten realizar pruebas exhaustivas que garantizan la calidad y el rendimiento del producto final.
+
+https://es.wikipedia.org/wiki/Selenium
+
+Software Deployment:
+Para el despliegue de software, herramientas como Docker, Kubernetes y Terraform son útiles para automatizar la instalación y configuración de aplicaciones en diferentes entornos. Estas herramientas facilitan el despliegue rápido y confiable de software en entornos locales, en la nube o en servidores dedicados.
+
+https://es.wikipedia.org/wiki/Docker_(software)
+
+Software Documentation:
+Markdown es una opción versátil y efectiva para la documentación de software, que permite escribir manuales de usuario, guías de instalación y documentación técnica de manera clara y concisa. Con su sintaxis sencilla y legible, Markdown facilita la creación de documentos bien estructurados y fácilmente legibles para desarrolladores y usuarios finales.
+
+https://es.wikipedia.org/wiki/Markdown
+
+
+### 5.1.2. Source Code Management.
+Explicaremos nuestra estrategia de gestión de código fuente para el proyecto, crucial para rastrear y controlar cambios hechos por el equipo. Hemos optado por crear un repositorio en GitHub para este propósito, tanto para el informe como para la landing page. Esto asegura la coherencia del proyecto y facilita la colaboración entre los miembros del equipo, aprovechando las herramientas y funcionalidades ofrecidas por GitHub para una gestión eficiente del proyecto.
+
+https://github.com/RecyTech/Informe-RecyTec
+
+### 5.1.3. Source Code Style Guide & Conventions.
+En nuestra Landing Page, hemos integrado elementos HTML y estilos CSS siguiendo las mejores prácticas de diseño. Para estructurar el contenido, utilizamos etiquetas de encabezado HTML como h1 para los títulos principales y p para los párrafos. Además, hemos empleado atributos como HTML Style para personalizar el aspecto visual, definiendo propiedades como color, tamaño de fuente y tipo de letra.
+
+Para resaltar elementos importantes, hemos aplicado HTML Text Formatting, incluyendo etiquetas como b para negrita, strong para resaltado y del para mostrar cambios de precios. En cuanto a la navegación, hemos implementado una barra de navegación horizontal utilizando CSS para mejorar la experiencia del usuario al explorar el contenido.
+
+Los formularios, creados con CSS, permiten a los usuarios ingresar información relevante, como detalles de inicio de sesión, información de pago y dirección de envío. Para añadir interactividad, hemos agregado botones con efectos hover utilizando CSS y paginación CSS para facilitar la navegación entre las diferentes páginas de productos.
+
+Finalmente, en el footer, hemos incluido enlaces a las redes sociales de la organización para brindar a los usuarios una forma adicional de conectarse y seguir nuestras actualizaciones
+
+### 5.1.4. Software Deployment Configuration.
+Utilizaremos GitHub Pages para alojar nuestra Landing Page. Para lograrlo, subiremos los archivos esenciales (HTML, CSS, etc.) a un repositorio público en GitHub. De esta manera, nuestra página estará disponible en línea y accesible para todos los usuarios.
 
 # Bibliografía
+
 
 
 Alvarado, J. (8 de diciembre de 2021). _Conoce RAECO, la app que impulsa el reciclaje de residuos electrónicos_. TecnoEmpresa. https://tecnoempresa.mx/index.php/2021/12/08/raeco-la-app-que-impulsa-el-reciclaje-de-residuos-electronicos/
