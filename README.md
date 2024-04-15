@@ -239,9 +239,9 @@ En RecyTech, creemos en el poder de la tecnología para generar un impacto posit
       <h2>Morales Montalvo, Omar Andrew</h2>
       <p>Código: U202212383</p>
       <p>Descripcion: <br>
-      Soy Omar Andrew Morales Montalvo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas, estoy cursando en quinto ciclo y   actualmente tengo 18 años, soy colaborativo, responsable y proactivo, tratando de ayudar a los demás en lo que mi alcance me lo permita. Por ello, actuare de igual manera con mi grupo apoyando en lo más que pueda en los trabajos futuros.</p>
+      Soy Omar Andrew Morales Montalvo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas, estoy cursando en quinto ciclo y   actualmente tengo 18 años, soy colaborativo, responsable y proactivo, tratando de ayudar a los           demás en lo que mi alcance me lo permita. Por ello, actuare de igual manera con mi grupo apoyando en lo más que pueda en los trabajos futuros.</p>
     </td>
-    <td></td>
+    <td><img src="images/Omar.jpeg"alt=" " width="50%";"></img></td>
   </tr>
   <tr>
     <td>
@@ -512,12 +512,12 @@ Para poder destacar en el mercado, debemos enfrentar las fortalezas de nuestros 
 - **Nombre:** Ivan Huallpartupa
 - **Edad:** 23 años
 - **Localidad:** Lima
-
+- **Entrevista a Ivan:** timing 11:49 - 24:58 min
+  
 <div style="text-align: center;">
   <img src="images/EntrevistaIvan.PNG" alt="EntrevistaIvan" width="500px">
 </div>
 
-- **Enlace:** https://youtu.be/17_O_7ctTqw
 
 - **Resumen:** En esta entrevista, tenemos a un estudiante universitario del 3er ciclo en la Universidad Tecnológica del Perú en la carrera de Ingeniería Electrónica. Durante la entrevista, se le dio una breve explicacion al entrevistado sobre el servicio de remanufacturacion que ofreceremos en el aplicativo. Al entender la idea, el entrevistado nos explica que le podria interesar la idea para poder conseguir materiales u objetos que necesita para sus proyecto universitarios como personales. En la cual destaca la necesidad de una cocina para su casa, ya que considera que los precios actualmentes son demasiado alevados por motivos de la marca, entre otras rasones. Nos comenta que la aplicacion le podria ser util para conseguir los materiales que solicita. Ademas, bajo sus experiencias previas en linea, nos comenta que al momento de realisar una compra, usualmente le pide consejos a sus amigos para saber si el vendedor es de confiansa y procura no ser estafado bajo otra paginas maliciosas. Para resumir, le parece excelente la idea de nuestra aplicacion y le recomendaria a sus amigos sobre el mismo para apoyar en la idea de reciclaje que estamos abordando.
 
@@ -527,12 +527,12 @@ Para poder destacar en el mercado, debemos enfrentar las fortalezas de nuestros 
 - **Nombre:** Paola Huallpartupa
 - **Edad:** 16 años
 - **Localidad:** Cercado de Lima
+- **Entrevista a Paola:** timing 24:58 - 34:03 min
 
 <div style="text-align: center;">
   <img src="images/EntrevistaPaola.PNG" alt="Entrevista Paola" width="500px">
 </div>
 
-- **Enlace:** https://youtu.be/rgY-aWwnfco?si=gaEih7vGOZAjugb8
 
 - **Resumen:** En esta entrevista, tenemos a un escolar de secundaria que tiene familiares que ejercen el servicio de reparación de objetos. Nos comenta que sus padres al realizar estas reparaciones tienen varios aparatos electrónicos alrededor de su casa debido a algunos clientes anteriores que tuvo y no recogieron sus productos reparados. Es por ello que al entrevistado le entusiasma la idea de contar con esta aplicación para deshacerse de estos aparatos electrónicos malogrados y recibir algun beneficio monetario con ello. Además de poder sacar de su casa de estos productos que no usa. Hasta el momento no cuenta con experiencia en venta de productos en linea, pero igualmente le satisface la idea y lo comentará cono todos sus amigos.
 
@@ -542,6 +542,7 @@ Para poder destacar en el mercado, debemos enfrentar las fortalezas de nuestros 
 - **Nombre:** Alessandro Rey
 - **Edad:** 20 años
 - **Localidad:** Jesús María
+- **Entrevista a Alessandro:** timing 07:03 - 11:49 min
 
 <div style="text-align: center;">
   <img src="images/img-entrevista-rey.png" alt="Entrevista Rey" width="500px">
@@ -555,7 +556,8 @@ Para poder destacar en el mercado, debemos enfrentar las fortalezas de nuestros 
 - **Nombre:** Mauricio Rojas
 - **Edad:** 18 años
 - **Localidad:** La Victoria
-
+- **Entrevista a Mauricio:** timing 34:03 - 39:20 min
+  
 <div style="text-align: center;">
   <img src="images/Mauricio.png" alt="Entrevista Mauricio" width="500px">
 </div>
@@ -568,6 +570,7 @@ Para poder destacar en el mercado, debemos enfrentar las fortalezas de nuestros 
 - **Nombre:** Diego Cisneros
 - **Edad:** 21 años
 - **Localidad:** Surco
+- **Entrevista a Diego:** timing 00:00 - 07:03 min
 
 <div style="text-align: center;">
   <img src="entrevistasalvador.png" alt="Entrevista Diego" width="500px">
