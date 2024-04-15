@@ -1151,7 +1151,7 @@ Utilizaremos GitHub Pages para alojar nuestra Landing Page. Para lograrlo, subir
 
 **Commits realizados al landing page**
 
-![Evidence](Images/Evidence.png)
+![Evidence](images/Evidence.PNG)
 
 #### **5.2.1.4. Testing Suite Evidence for Sprint Review.**
 
@@ -1170,37 +1170,24 @@ Los archivos .feature desempeñan un papel esencial en las prácticas de desarro
 | Testing-RecyTech      | main   | b566ff8fb603509d28f47b3dea40390e7bc76fda | Implementación del feature 9  | -                   | 14 de abril de 2024     |
 | Testing-RecyTech      | main   | b566ff8fb603509d28f47b3dea40390e7bc76fda | Implementación del feature 10 | -                   | 14 de abril de 2024     |
 
-![Feature](Images/Feature.png)
+![Feature](images/Feature.PNG)
 
 #### **5.2.1.5. Execution Evidence for Sprint Review.**
 
-En esta entrega, nos centramos en el desarrollo completo de la Landing Page para nuestra plataforma de educación en línea. Nuestro objetivo es desplegar una página web atractiva y efectiva que actúe como el punto de entrada para futuros estudiantes y tutores. La Landing Page se diseñará para comunicar claramente cómo nuestra plataforma revolucionará la forma en que se accede y se imparte la educación universitaria.
+En esta entrega, nos centramos en el desarrollo completo de la Landing Page para nuestra plataforma de educación en línea. Nuestro objetivo es desplegar una página web atractiva y efectiva que actúe como el punto de entrada para nuestros usuarios. La Landing Page se diseñará para comunicar claramente cómo nuestra plataforma revolucionará la forma de reciclaje.
  
  Al inicio hubo algunos incovenientes en el desarrollo, ya que originalmente lo haciamos en solo un repositorio todo el trabajo. Asi que tuvimos que migrar todo el trabajo a una organisacion. Esto puede llegar a modificar los Insight del proyecto. Es por ello que se comparte las evidencias de ambos repositorios para corroborar el trabajo hecho por cada uno de los participantes.
 
-![Alt text](Images/image.png)
+![Alt text](images/image.PNG)
 
-![Alt text](Images/image-1.png)
+![Alt text](images/image-1.PNG)
 
-![Alt text](Images/image-2.png)
+![Alt text](images/image-2.PNG)
 
-![Alt text](Images/image-3.png)
+![Alt text](images/image-3.png)
 
-![Alt text](Images/image-4.png)
+![Alt text](images/image-4.png)
 
-#### **5.2.1.5. Execution Evidence for Sprint Review.**
-
-En esta entrega, nos centramos en el desarrollo completo de la Landing Page para nuestra plataforma de educación en línea. Nuestro objetivo es desplegar una página web atractiva y efectiva que actúe como el punto de entrada para futuros estudiantes y tutores. La Landing Page se diseñará para comunicar claramente cómo nuestra plataforma revolucionará la forma en que se accede y se imparte la educación universitaria.
-
-![Alt text](Images/image.png)
-
-![Alt text](Images/image-1.png)
-
-![Alt text](Images/image-2.png)
-
-![Alt text](Images/image-3.png)
-
-![Alt text](Images/image-4.png)
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
 Para esta primera entrega no hubo implementación de APIs, pues solo se realizó la Landing Page.
