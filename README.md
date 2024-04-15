@@ -1134,9 +1134,38 @@ Utilizaremos GitHub Pages para alojar nuestra Landing Page. Para lograrlo, subir
 | US06 | Barra header        | UT06 | Header responsivos (Desarrollado en HTML y CSS).    | Desarrollo e implementación de los estilos que corresponden al encabezado (Header). Debe ser responsive.      | 3                  | Morales Montalvo, Omar Andrew        | Done                                  |
 | US07 | Footer              | UT07 | Footer responsivos (Desarrollado en HTML y CSS).    | Desarrollo e implementación de los estilos que corresponden al pie de página (Footer). Debe ser responsive.   | 3                  | Palomino Fano, Cristhofer Sebastian         | Done                                  |
 | US08 | Seccion registro    | UT08 | Sección "Registro"(Desarrollado en HTML y CSS)      | Desarrollo e implementación de un formulario para el registro.                                                | 2                  | Palomino Fano, Cristhofer Sebastian         | Done                                  |
+#### 5.2.1.3. Development Evidence for Sprint Review
+#### 5.2.1.4. Testing Suite Evidence for Sprint Review
+#### 5.2.1.5. Execution Evidence for Sprint Review
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+Para esta primera entrega no hubo implementación de APIs, pues solo se realizó la Landing Page.
+
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+El objetivo del primer Sprint fue el desarrollo e implementación de la Landing Page. Para eso, utilizamos GitHub y GitHub Pages. El proceso del desarrollo fue el siguiente:
+
+1. Se creó una organización en GitHub y, dentro de ella, se crearon dos repositorios. Uno para el informe del trabajo y otro para la Landing Page.
+
+<img src="images/organization.png" alt="Organization" style="width: 20;"></img>
+
+2. Luego, a través de los commits, el equipo fue editando los archivos index.html y styles.css, además de ir añadiendo imágenes a utilizar en el directorio images.
+
+<img src="images/commits-landing.png" alt="Commits" style="width: 20;"></img>
+
+3. Finalmente, se implementó GitHub Pages en el repositorio de GitHub y se desplegó la Landing Page, la que se puede visitar en el siguiente link: [https://recytech.github.io/LandingPage-RecyTech/](https://recytech.github.io/LandingPage-RecyTech/)  
+
+<img src="images/landing-page.png" alt="Landing Page" style="width: 20;"></img>
+
+#### 5.2.1.8. Team Collaboration Insights during Sprint
+
+A continuación, se muestran las capturas de los insights de los repositorios del informe y de la Landing Page para evidenciar la participación de todos los miembros del grupo:
+
+<img src="images/insights-1.png" alt="Insights-1" style="width: 20;"></img>
+
+<img src="images/insights-2.png" alt="Insights-2" style="width: 20;"></img>
 
 # Bibliografía
-
 
 
 Alvarado, J. (8 de diciembre de 2021). _Conoce RAECO, la app que impulsa el reciclaje de residuos electrónicos_. TecnoEmpresa. https://tecnoempresa.mx/index.php/2021/12/08/raeco-la-app-que-impulsa-el-reciclaje-de-residuos-electronicos/
