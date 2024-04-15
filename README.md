@@ -578,6 +578,9 @@ Para poder destacar en el mercado, debemos enfrentar las fortalezas de nuestros 
 
 - **Resumen:** El interesado en la compra de artefactos electronicos nos menciona que es un usario activo en el mundo de la tecnologia y que siempre ha tenido el inconveniente con los precios por lo que ha buscando formas de ahorrar dinero pero que realmente no ha encontrado alguna fuente confiable y segura. Por lo que se encuentra emocionado con la propuesta de RecyTech.
 
+- **Enlace de las entrevistas**
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/ESU5NVW3N5hKrtlE6iwV8gABFflMTBMusCDkAC9-0KjITQ?e=bbRHcF
+
 ### 2.2.3. Analisis de entrevistas
 
 En la primera entrevista tenemos a un estudiante universitario que nos comenta que podria usarlo para conseguir materiales tecnologicos para sus proyecto univeristarios. Esto nos podria beneficiar para ampliar nuestro segmento empresarial hacia universitarios o hacia talleres locales que solicitan de estos materiales a un precio asequible. Con esto, estariamos tambien maximizando nuestra idea del reciclaje y sostener nuestro producto en el mercado.
@@ -992,6 +995,10 @@ Los prototipos de aplicaciones web pueden variar en complejidad, desde simples b
 
 Al crear prototipos de aplicaciones web, los equipos de desarrollo pueden obtener comentarios tempranos de los interesados ​​y usuarios finales, lo que les permite realizar ajustes y mejoras antes de la implementación final. Además, los prototipos son una forma efectiva de comunicar la visión del producto a todas las partes interesadas, lo que ayuda a alinear las expectativas y garantizar que todos estén en la misma página durante el proceso de desarrollo.
 
+-**Enlace de los prototipos**
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/ESU5NVW3N5hKrtlE6iwV8gABFflMTBMusCDkAC9-0KjITQ?e=bbRHcF
+
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Software Architecture Context Diagram
 
@@ -1139,3 +1146,14 @@ Espinoza, A. (18 de agosto de 2023). _Vehículos viejos y transporte público ca
 Romero, V., Salazar, L., Solís, A. & Solís, J. (2022). Congestión Vehicular y Contaminación Ambiental en Lima Metropolitana. _Revista Lasallista de Investigación_, _19_(1), 152-164.
 
 Stakeholders. (28 de setiembre de 2023). _La idea de la micromovilidad es ahorrar tiempo en el tráfico y colaborar con el cuidado del medio ambiente_. https://stakeholders.com.pe/ciencia-innovacion-y-tecnologia/innovacion-y-emprendimientos/la-idea-de-la-micromovilidad-es-ahorrar-tiempo-en-el-trafico-y-colaborar-con-el-cuidado-del-medio-ambiente/
+
+# Anexos
+
+Vídeo de los prototipos
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/EQzgoVbWumBPq6hIGdMbuecBIfNE25Z7kx_hbWX_fqrbZg?e=PAVnbU
+
+Vídeo de las entrevistas
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/ESU5NVW3N5hKrtlE6iwV8gABFflMTBMusCDkAC9-0KjITQ?e=bbRHcF 
+
