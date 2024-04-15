@@ -895,7 +895,13 @@ El sistema central de navegacion vendria a ser la barra de navegacion ya que med
 
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
+
+<img src="images/Landing-Page-Wireframe.png" alt="Landing Mock-up"></img>
+
 ### 4.3.2. Landing Page Mock-up
+
+<img src="images/Landing-Page-Mock-up.png" alt="Landing Mock-up"></img>
+
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
 
@@ -1102,6 +1108,9 @@ Finalmente, en el footer, hemos incluido enlaces a las redes sociales de la orga
 ### 5.1.4. Software Deployment Configuration.
 Utilizaremos GitHub Pages para alojar nuestra Landing Page. Para lograrlo, subiremos los archivos esenciales (HTML, CSS, etc.) a un repositorio público en GitHub. De esta manera, nuestra página estará disponible en línea y accesible para todos los usuarios.
 
+<img src="images/informe.png" alt="informe" style="width: 20;"></img>
+
+
 ## 5.2. Landing Page, Services \& Applications Implementation.
 ### 5.2.1. Sprint 1.
 #### 5.2.1.1. Sprint Planning 1.
@@ -1185,4 +1194,14 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/EQzgoVbW
 Vídeo de las entrevistas
 
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/ESU5NVW3N5hKrtlE6iwV8gABFflMTBMusCDkAC9-0KjITQ?e=bbRHcF 
+
+Figma wireframes
+
+https://www.figma.com/file/EJAgLo3fBGD7oj3UgPzpLQ/Wireframes?type=design&node-id=0%3A1&mode=design&t=T4D5mbVL1XTpOcfN-1
+
+Figma Mock-ups
+
+https://www.figma.com/file/VflT7e3ho8zhA4P3QTcgro/Untitled?type=design&node-id=0%3A1&mode=design&t=kUgm40syJh7RsQtw-1
+
+
 
