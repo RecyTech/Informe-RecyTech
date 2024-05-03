@@ -573,7 +573,7 @@ Para poder destacar en el mercado, debemos enfrentar las fortalezas de nuestros 
 - **Entrevista a Diego:** timing 00:00 - 07:03 min
 
 <div style="text-align: center;">
-  <img src="entrevistasalvador.png" alt="Entrevista Diego" width="500px">
+  <img src="images/entrevistasalvador.png" alt="Entrevista Diego" width="500px">
 </div>
 
 - **Resumen:** El interesado en la compra de artefactos electronicos nos menciona que es un usario activo en el mundo de la tecnologia y que siempre ha tenido el inconveniente con los precios por lo que ha buscando formas de ahorrar dinero pero que realmente no ha encontrado alguna fuente confiable y segura. Por lo que se encuentra emocionado con la propuesta de RecyTech.
@@ -1183,10 +1183,6 @@ En esta entrega, nos centramos en el desarrollo completo de la Landing Page para
 ![Alt text](images/image-1.PNG)
 
 ![Alt text](images/image-2.PNG)
-
-![Alt text](images/image-3.png)
-
-![Alt text](images/image-4.png)
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
