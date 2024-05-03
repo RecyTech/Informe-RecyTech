@@ -1,0 +1,2142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>README.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<p><strong>Universidad Peruana de Ciencias Aplicadas</strong></p>
+<p><strong>Ingeniería de Software</strong></p>
+<p><strong>Ciclo 2024-01</strong></p>
+<h1 id="course-project">COURSE PROJECT</h1>
+<h3 id="profesor-hugo-allan-mori-paiva">Profesor: Hugo Allan Mori Paiva</h3>
+<h3 id="curso-desarrollo-de-aplicaciones-open-source">Curso: Desarrollo de Aplicaciones Open Source</h3>
+<h1 id="final-report">FINAL REPORT</h1>
+<h2 id="startup">Startup:</h2>
+<h2 id="propuesta">Propuesta:</h2>
+<p><strong>Team Members</strong></p>
+<ul>
+<li>Chamorro Acero, Salvador Edward</li>
+<li>Jorge Arévalo, Ramón Alejandro</li>
+<li>Morales Montalvo, Omar Andrew</li>
+<li>Palomino Fano, Cristhofer Sebastian</li>
+</ul>
+<p><strong>Marzo 2024</strong></p>
+<hr>
+<h2 id="registro-de-versiones-del-informe">Registro de Versiones del Informe</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Versión</th>
+      <th>Fecha</th>
+      <th>Autor</th>
+      <th>Descripción de modificación</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1era</td>
+      <td>20/03/2024</td>
+      <td>
+        - Chamorro Acero, Salvador Edward <br>   
+        - Palomino Fano, Cristhofer Sebastian <br>
+        - Morales Montalvo, Omar Andrew <br>
+      </td>
+      <td>
+        Capítulo I: Introducción <br>
+        1.1. Startup Profile <br>
+        1.1.1. Descripción de la Startup <br>
+        1.1.2. Perfiles de integrantes del equipo <br>
+        1.2. Solution Profile <br>
+        1.2.1 Antecedentes y problemática <br>
+        1.2.2 Lean UX Process. <br>
+        1.2.2.1. Lean UX Problem Statements. <br>
+        1.2.2.2. Lean UX Assumptions. <br>
+        1.2.2.3. Lean UX Hypothesis Statements. <br>
+        1.2.2.4. Lean UX Canvas. <br>
+        1.3. Segmentos objetivo. <br>
+        <br>
+        Capítulo II: Requirements Elicitation & Analysis <br>
+        2.1. Competidores. <br>
+        2.1.1. Análisis competitivo. <br>
+        2.1.2. Estrategias y tácticas frente a competidores. <br>
+        2.2. Entrevistas. <br>
+        2.2.1. Diseño de entrevistas. <br>
+        2.2.2. Registro de entrevistas. <br>
+        2.2.3. Análisis de entrevistas. <br>
+        2.3. Needfinding. <br>
+        2.3.1. User Personas. <br>
+        2.3.2. User Task Matrix. <br>
+        2.3.3. User Journey Mapping. <br>
+        2.3.4. Empathy Mapping. <br>
+        2.3.5. As-is Scenario Mapping. <br>
+        2.4. Ubiquitous Language. <br>
+        <br>
+        Capítulo III: Requirements Specification <br>
+        3.1. To-Be Scenario Mapping. <br>
+        3.2. User Stories. <br>
+        3.3. Impact Mapping. <br>
+        3.4. Product Backlog. <br>
+        <br>
+        Capítulo IV: Product Design <br>
+        4.1. Style Guidelines. <br>
+        4.1.1. General Style Guidelines. <br>
+        4.1.2. Web Style Guidelines. <br>
+        4.2. Information Architecture. <br>
+        4.2.1. Organization Systems. <br>
+        4.2.2. Labeling Systems. <br>
+        4.2.3. SEO Tags and Meta Tags <br>
+        4.2.4. Searching Systems. <br>
+        4.2.5. Navigation Systems. <br>
+        4.3. Landing Page UI Design. <br>
+        4.3.1. Landing Page Wireframe. <br>
+        4.3.2. Landing Page Mock-up. <br>
+        4.4. Web Applications UX/UI Design. <br>
+        4.4.1. Web Applications Wireframes. <br>
+        4.4.2. Web Applications Wireflow Diagrams. <br>
+        4.4.2. Web Applications Mock-ups. <br>
+        4.4.3. Web Applications User Flow Diagrams. <br>
+        4.5. Web Applications Prototyping. <br>
+        4.6. Domain-Driven Software Architecture. <br>
+        4.6.1. Software Architecture Context Diagram. <br>
+        4.6.2. Software Architecture Container Diagrams. <br>
+        4.6.3. Software Architecture Components Diagrams. <br>
+        4.7. Software Object-Oriented Design. <br>
+        4.7.1. Class Diagrams. <br>
+        4.7.2. Class Dictionary. <br>
+        4.8. Database Design. <br>
+        4.8.1. Database Diagram. <br>
+        <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<h2 id="project-report-collaboration-insights">Project Report Collaboration Insights</h2>
+<h2 id="contenido">Contenido</h2>
+<p><strong>Tabla de contenidos</strong></p>
+<table>
+<thead>
+<tr>
+<th>Tabla de contenidos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#cap%C3%ADtulo-i-introducci%C3%B3n">Capítulo I: Introducción</a></td>
+</tr>
+<tr>
+<td><a href="#11-startup-profile">1.1. Startup Profile</a></td>
+</tr>
+<tr>
+<td><a href="#111-descripci%C3%B3n-de-la-startup">1.1.1. Descripción de la Startup</a></td>
+</tr>
+<tr>
+<td><a href="#112-perfiles-de-integrantes-del-equipo">1.1.2. Perfiles de integrantes del equipo</a></td>
+</tr>
+<tr>
+<td><a href="#12-solution-profile">1.2. Solution Profile</a></td>
+</tr>
+<tr>
+<td><a href="#121-antecedentes-y-problem%C3%A1tica">1.2.1 Antecedentes y problemática</a></td>
+</tr>
+<tr>
+<td><a href="#122-lean-ux-process">1.2.2. Lean UX Process</a></td>
+</tr>
+<tr>
+<td><a href="#1221-lean-ux-problem-statements">1.2.2.1. Lean UX Problem Statements</a></td>
+</tr>
+<tr>
+<td><a href="#1222-lean-ux-assumptions">1.2.2.2. Lean UX Assumptions</a></td>
+</tr>
+<tr>
+<td><a href="#1223-lean-ux-hypothesis-statements">1.2.2.3. Lean UX Hypothesis Statements</a></td>
+</tr>
+<tr>
+<td><a href="#1224-lean-ux-canvas">1.2.2.4. Lean UX Canvas</a></td>
+</tr>
+<tr>
+<td><a href="#13-segmentos-objetivo">1.3. Segmentos objetivo</a></td>
+</tr>
+<tr>
+<td><a href="#cap%C3%ADtulo-ii-requirements-elicitation--analysis">Capítulo II: Requirements Elicitation &amp; Analysis</a></td>
+</tr>
+<tr>
+<td><a href="#21-competidores">2.1. Competidores</a></td>
+</tr>
+<tr>
+<td><a href="#211-an%C3%A1lisis-competitivo">2.1.1. Análisis competitivo</a></td>
+</tr>
+<tr>
+<td><a href="#212-estrategias-y-t%C3%A1cticas-frente-a-competidores">2.1.2. Estrategias y tácticas frente a competidores</a></td>
+</tr>
+<tr>
+<td><a href="#22-entrevistas">2.2. Entrevistas</a></td>
+</tr>
+<tr>
+<td><a href="#221-dise%C3%B1o-de-entrevistas">2.2.1. Diseño de entrevistas</a></td>
+</tr>
+<tr>
+<td><a href="#222-registro-de-entrevistas">2.2.2. Registro de entrevistas</a></td>
+</tr>
+<tr>
+<td><a href="#223-an%C3%A1lisis-de-entrevistas">2.2.3. Análisis de entrevistas</a></td>
+</tr>
+<tr>
+<td><a href="#23-needfinding">2.3. Needfinding</a></td>
+</tr>
+<tr>
+<td><a href="#231-user-personas">2.3.1. User Personas</a></td>
+</tr>
+<tr>
+<td><a href="#232-user-task-matrix">2.3.2. User Task Matrix</a></td>
+</tr>
+<tr>
+<td><a href="#233-user-journey-mapping">2.3.3. User Journey Mapping</a></td>
+</tr>
+<tr>
+<td><a href="#234-empathy-mapping">2.3.4. Empathy Mapping</a></td>
+</tr>
+<tr>
+<td><a href="#235-as-is-scenario-mapping">2.3.5. As-is Scenario Mapping</a></td>
+</tr>
+<tr>
+<td><a href="#24-ubiquitous-language">2.4. Ubiquitous Language</a></td>
+</tr>
+<tr>
+<td><a href="#cap%C3%ADtulo-iii-requirements-specification">Capítulo III: Requirements Specification</a></td>
+</tr>
+<tr>
+<td><a href="#31-to-be-scenario-mapping">3.1. To-Be Scenario Mapping</a></td>
+</tr>
+<tr>
+<td><a href="#32-user-stories">3.2. User Stories</a></td>
+</tr>
+<tr>
+<td><a href="#33-impact-mapping">3.3. Impact Mapping</a></td>
+</tr>
+<tr>
+<td><a href="#34-product-backlog">3.4. Product Backlog</a></td>
+</tr>
+<tr>
+<td><a href="#cap%C3%ADtulo-iv-product-design">Capítulo IV: Product Design</a></td>
+</tr>
+<tr>
+<td><a href="#41-style-guidelines">4.1. Style Guidelines</a></td>
+</tr>
+<tr>
+<td><a href="#411-general-style-guidelines">4.1.1. General Style Guidelines</a></td>
+</tr>
+<tr>
+<td><a href="#412-web-style-guidelines">4.1.2. Web Style Guidelines</a></td>
+</tr>
+<tr>
+<td><a href="#42-information-architecture">4.2. Information Architecture</a></td>
+</tr>
+<tr>
+<td><a href="#421-organization-systems">4.2.1. Organization Systems</a></td>
+</tr>
+<tr>
+<td><a href="#422-labeling-systems">4.2.2. Labeling Systems</a></td>
+</tr>
+<tr>
+<td><a href="#423-seo-tags-and-meta-tags">4.2.3. SEO Tags and Meta Tags</a></td>
+</tr>
+<tr>
+<td><a href="#424-searching-systems">4.2.4. Searching Systems</a></td>
+</tr>
+<tr>
+<td><a href="#425-navigation-systems">4.2.5. Navigation Systems</a></td>
+</tr>
+<tr>
+<td><a href="#43-landing-page-ui-design">4.3. Landing Page UI Design</a></td>
+</tr>
+<tr>
+<td><a href="#431-landing-page-wireframe">4.3.1. Landing Page Wireframe</a></td>
+</tr>
+<tr>
+<td><a href="#432-landing-page-mock-up">4.3.2. Landing Page Mock-up</a></td>
+</tr>
+<tr>
+<td><a href="#44-web-applications-uxui-design">4.4. Web Applications UX/UI Design</a></td>
+</tr>
+<tr>
+<td><a href="#441-web-applications-wireframes">4.4.1. Web Applications Wireframes</a></td>
+</tr>
+<tr>
+<td><a href="#442-web-applications-wireflow-diagrams">4.4.2. Web Applications Wireflow Diagrams</a></td>
+</tr>
+<tr>
+<td><a href="#443-web-applications-mock-ups">4.4.3. Web Applications Mock-ups</a></td>
+</tr>
+<tr>
+<td><a href="#444-web-applications-user-flow-diagrams">4.4.4. Web Applications User Flow Diagrams</a></td>
+</tr>
+<tr>
+<td><a href="#45-web-applications-prototyping">4.5. Web Applications Prototyping</a></td>
+</tr>
+<tr>
+<td><a href="#46-domain-driven-software-architecture">4.6. Domain-Driven Software Architecture</a></td>
+</tr>
+<tr>
+<td><a href="#461-software-architecture-context-diagram">4.6.1. Software Architecture Context Diagram</a></td>
+</tr>
+<tr>
+<td><a href="#462-software-architecture-container-diagrams">4.6.2. Software Architecture Container Diagrams</a></td>
+</tr>
+<tr>
+<td><a href="#463-software-architecture-components-diagrams">4.6.3. Software Architecture Components Diagrams</a></td>
+</tr>
+<tr>
+<td><a href="#47-software-object-oriented-design">4.7. Software Object-Oriented Design</a></td>
+</tr>
+<tr>
+<td><a href="#471-class-diagrams">4.7.1. Class Diagrams</a></td>
+</tr>
+<tr>
+<td><a href="#472-class-dictionary">4.7.2. Class Dictionary</a></td>
+</tr>
+<tr>
+<td><a href="#48-database-design">4.8. Database Design</a></td>
+</tr>
+<tr>
+<td><a href="#481-database-diagram">4.8.1. Database Diagram</a></td>
+</tr>
+<tr>
+<td><a href="#bibliograf%C3%ADa">Bibliografía</a></td>
+</tr>
+</tbody>
+</table>
+<h1 id="student-outcome">Student Outcome</h1>
+<p><strong>ABET – EAC – Student Outcome 5</strong></p>
+<p>Criterio: <em>La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.</em></p>
+<p>En el siguiente cuadro se describen las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC – Student Outcome 5.</p>
+<table>
+  <thead>
+    <tr>
+      <th>Criterio específico</th>
+      <th>Acciones realizadas</th>
+      <th>Conclusiones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Participa en equipos multidisciplinarios con eficacia, eficiencia y objetividad, en el marco de un proyecto en soluciones de ingeniería de software.</td>
+      <td></td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td>Conoce al menos un sector empresarial o dominio de aplicación de soluciones de software.</td>
+      <td></td>
+      <td>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<h1 id="cap%C3%ADtulo-i-introducci%C3%B3n">Capítulo I: Introducción</h1>
+<h2 id="11-startup-profile">1.1. Startup Profile</h2>
+<h3 id="111-descripci%C3%B3n-de-la-startup">1.1.1 Descripción de la Startup</h3>
+<p>RecyTech es una plataforma digital que aborda el desafío de la gestión ineficiente de desechos electrónicos. En un mundo donde la tecnología avanza rápidamente, la obsolescencia de dispositivos electrónicos es común, lo que genera una acumulación significativa de residuos. Nuestra plataforma proporciona una solución integral al permitir a los usuarios donar, vender y comprar componentes electrónicos reacondicionados, promoviendo así la reutilización y el reciclaje.</p>
+<p>Nos comprometemos a ofrecer una alternativa sostenible y accesible para personas de todos los niveles socioeconómicos. Desde personas de bajos recursos económicos hasta consumidores conscientes del medio ambiente, nuestra plataforma ofrece una oportunidad para contribuir activamente al cuidado del medio ambiente mientras se accede a tecnología a precios más asequibles. Trabajamos en estrecha colaboración con organizaciones ambientales y educativas para promover la conciencia sobre la importancia del reciclaje y la reutilización de dispositivos electrónicos.</p>
+<p>En RecyTech, creemos en el poder de la tecnología para generar un impacto positivo en el mundo. Estamos decididos a liderar el cambio hacia una gestión más responsable de los desechos electrónicos y a construir un futuro más sostenible y equitativo para todos. Juntos, podemos trabajar hacia un futuro donde la tecnología se utilice de manera consciente y sostenible, beneficiando a las generaciones presentes y futuras.</p>
+<table>
+<thead>
+<tr>
+<th>Misión</th>
+<th>Visión</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nuestra misión en RecyTech es transformar la forma en que se gestionan los desechos electrónicos al ofrecer una solución inclusiva y sostenible que mejore el acceso a la tecnología y proteja el medio ambiente. Nos comprometemos a proporcionar una plataforma segura y fácil de usar que empodere a las comunidades para contribuir activamente al reciclaje y la reutilización de dispositivos electrónicos, promoviendo un futuro más verde y equitativo para todos.</td>
+<td>En RecyTech, visualizamos un mundo donde la tecnología se utiliza de manera responsable y sostenible, donde cada dispositivo electrónico tiene una segunda vida y donde el acceso a la tecnología no está limitado por barreras económicas. Nos esforzamos por ser líderes en la industria de gestión de desechos electrónicos, creando un impacto positivo en las comunidades al fomentar la economía circular y reducir el impacto ambiental de la tecnología obsoleta.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="112-perfiles-de-integrantes-del-equipo">1.1.2. Perfiles de integrantes del equipo</h3>
+<table>
+  <tr>
+    <th>Información</th>
+    <th>Foto</th>
+  </tr>
+  <tr>
+    <td>
+      <h2>Morales Montalvo, Omar Andrew</h2>
+      <p>Código: U202212383</p>
+      <p>Descripcion: <br>
+      Soy Omar Andrew Morales Montalvo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas, estoy cursando en quinto ciclo y   actualmente tengo 18 años, soy colaborativo, responsable y proactivo, tratando de ayudar a los           demás en lo que mi alcance me lo permita. Por ello, actuare de igual manera con mi grupo apoyando en lo más que pueda en los trabajos futuros.</p>
+    </td>
+    <td><img src="images/Omar.jpeg"alt=" " width="50%";"></img></td>
+  </tr>
+  <tr>
+    <td>
+      <h2>Palomino Fano, Cristhofer Sebastian</h2>
+      <p>Código: U20191B600</p>
+      <p>Descripción: <br>
+        Actualmente estudio la carrera de Ingeniería de Software en la universidad UPC. Me comprometo a apoyar y dar todo de mis capacidades a mi equipo y a cumplir con mis deberes en la construcción del proyecto. Tengo conocimientos aprendidos antecesoras a este curso como C++, C#, Python, Java junto a desarrollo de Apis con base de datos con SQL y aprendizaje autónomo sobre ciberseguridad.</p>
+    </td>
+   <td><img src="images/Cristhofer.jpg" alt=" " width="50%";"></img></td>
+  </tr>
+  <tr>
+    <td>
+      <h2>Ramón Alejandro Jorge Arévalo</h2>
+      <p>Código: U20221D126</p>
+      <p>Descripción: <br>
+        Mi nombre es Ramón Alejandro Jorge Arévalo y tengo 21 años. Actualmente estoy cursando el quinto ciclo de la carrera de Ingeniería de Software en la UPC. Tengo conocimiento en programación estructurada, patrones de software, programación orientada a objetos y algoritmos. Manejo de estructuras de datos, diseños de patrones y algoritmos complejos en C++, Python, HTML, CSS y JavaScript.</p>
+    </td>
+<td><img src="images/img-Ramon.png" alt=" " width="50%";"></img></td>
+  </tr>
+ <tr>
+    <td>
+      <h2>Salvador Edward Chamorro Acero</h2>
+      <p>Código: U201914367</p>
+      <p>Descripción: <br>
+        Mi nombre es Salvador Chamorro. Tengo 21 años y soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Tengo conocimientos en programación e ingeniería de software. Me considero una persona bastante empática y creativa. Considero que mi perfil tiene todo lo necesario para aportar al grupo de trabajo.</p>
+    </td>
+<td><img src="images/salvadorfoto.jpg" alt=" " width="50%";"></img></td>
+  </tr>
+</table>
+<h2 id="12-solution-profile">1.2. Solution Profile</h2>
+<h3 id="121-antecedentes-y-problem%C3%A1tica">1.2.1	Antecedentes y problemática</h3>
+<p>En los últimos años, el Perú ha experimentado un notable aumento en la adopción de tecnología y dispositivos electrónicos, lo que ha resultado en un incremento en la cantidad de desechos electrónicos generados. Sin embargo, hasta hace poco, el país carecía de una regulación efectiva para gestionar adecuadamente estos residuos, lo que ha llevado a una disposición inapropiada y ha contribuido a la contaminación ambiental. Una parte significativa de la gestión de estos desechos se ha realizado en el sector informal, donde trabajadores recolectan, desmontan y reciclan estos dispositivos sin tomar las precauciones ambientales y de seguridad necesarias, agravando los problemas ambientales y de salud pública. Es crucial señalar que en lugar de desechar completamente algunos dispositivos, es posible reacondicionar ciertas partes para su uso en nuevos productos, fomentando así la reutilización y reduciendo la cantidad de desechos electrónicos generados.</p>
+<p>El mercado de productos electrónicos en Perú experimentó un notable crecimiento durante un período de 15 años, desde 1995 hasta 2010. Se proyectó un aumento significativo en la generación de residuos electrónicos, con una estimación de 37,828 toneladas para 2010 y un aumento previsto del 32% para 2011. En cuanto a los teléfonos celulares, se observó un aumento constante en el número de líneas activas desde 2002, con una estimación de 2,900 toneladas de celulares listos para su disposición final en 2010, y se esperaba una reducción del 30% para 2011 debido a avances tecnológicos.</p>
+<p>Los equipos electrónicos obsoletos pueden ser almacenados temporalmente antes de decidir qué hacer con ellos. Las opciones incluyen descartarlos, venderlos, donarlos o reutilizarlos. Si se descartan, pueden desmantelarse para recuperar componentes como repuestos o reciclarse adecuadamente.</p>
+<p><strong>Problemática:</strong></p>
+<table>
+<thead>
+<tr>
+<th><!-- --></th>
+<th><!-- --></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>What (Qué):<br>¿Cuál es el problema?</td>
+<td>El Perú ha experimentado un notable aumento en la adopción de tecnología y dispositivos electrónicos en los últimos años, lo que ha generado un incremento en la cantidad de desechos electrónicos.</td>
+</tr>
+<tr>
+<td>When (Cuándo):<br>¿Cuándo sucede el problema?</td>
+<td>Este aumento en la generación de desechos electrónicos se ha registrado durante un período de al menos 15 años, desde 1995 hasta 2010, con proyecciones para los años siguientes.</td>
+</tr>
+<tr>
+<td>Where (Dónde):<br>¿Dónde se presenta el problema de negocio?</td>
+<td>Principalmente en el territorio peruano, donde se ha observado un crecimiento en la generación de desechos electrónicos.</td>
+</tr>
+<tr>
+<td>Who (Quienes):<br>¿Quiénes están involucrados?</td>
+<td>La población peruana, así como también empresas y organizaciones que utilizan dispositivos electrónicos.</td>
+</tr>
+<tr>
+<td>Why (Por qué):<br>¿Por qué se origina el problema?</td>
+<td>La falta de una regulación efectiva en la gestión de estos residuos ha llevado a una disposición inapropiada, contribuyendo a la contaminación ambiental y exacerbando problemas de salud pública. Además, parte de la gestión de estos desechos se realiza en el sector informal, sin las precauciones necesarias.</td>
+</tr>
+<tr>
+<td>How (Cómo):<br>¿Cómo afecta este problema a las personas involucradas?</td>
+<td>Los equipos electrónicos obsoletos pueden ser almacenados temporalmente antes de ser descartados, vendidos, donados o reutilizados. En caso de descarte, pueden desmantelarse para recuperar componentes útiles o reciclarse adecuadamente.</td>
+</tr>
+<tr>
+<td>How much (Cuánto):<br>¿Cuánto impacto genera el problema en la sociedad?</td>
+<td>Aunque no se especifica un número exacto de desechos electrónicos generados, se menciona un notable aumento en la cantidad, especialmente proyectando cifras para el año 2010.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="122-lean-ux-process">1.2.2 Lean UX Process</h3>
+<h4 id="1221-lean-ux-problem-statement">1.2.2.1 Lean UX Problem Statement</h4>
+<p>El Perú enfrenta un desafío significativo en la gestión de desechos electrónicos debido al aumento en la adopción de tecnología y dispositivos electrónicos en los últimos años. La falta de regulación sólida ha resultado en una disposición inadecuada de estos desechos, contribuyendo a la contaminación ambiental y problemas de salud pública. Es crucial desarrollar políticas y prácticas efectivas de gestión de desechos electrónicos que promuevan la reutilización, el reciclaje y la disposición adecuada para proteger el medio ambiente y la salud de la población peruana.</p>
+<p>Ante esta situación, surge nuestra pregunta de negocio: ¿Como podemos ayudar a las personas para que accedan a tecnologia contribuyendo asi al medio ambiente?</p>
+<h4 id="1222-lean-ux-assumptions">1.2.2.2 Lean UX Assumptions</h4>
+<ul>
+<li>Business Assumptions:</li>
+</ul>
+<ol>
+<li>
+<p>Demanda del mercado: Suponemos que existe una demanda suficiente de componentes electrónicos usados y nuevos para justificar la creación de una plataforma de compraventa especializada.</p>
+</li>
+<li>
+<p>Atracción de vendedores: Suponemos que los vendedores estarán interesados en utilizar nuestra plataforma, especialmente si les ofrecemos un servicio de garantía de recompra y la posibilidad de llegar a una audiencia más amplia.</p>
+</li>
+<li>
+<p>Sostenibilidad económica: Suponemos que el modelo de negocio basado en suscripciones y comisiones por ventas nos permitirá generar suficientes ingresos para mantener la plataforma y ofrecer los servicios adicionales prometidos.</p>
+</li>
+</ol>
+<ul>
+<li>Business Outcomes:</li>
+</ul>
+<ol>
+<li>
+<p>Generación de ingresos: Esperamos generar ingresos consistentes a través de las suscripciones de los vendedores y las comisiones por las ventas realizadas en la plataforma.</p>
+</li>
+<li>
+<p>Crecimiento de la base de usuarios: Esperamos atraer y retener a un número creciente de usuarios, tanto vendedores como compradores, a medida que nuestra plataforma se convierta en un destino popular para la compraventa de componentes electrónicos.</p>
+</li>
+<li>
+<p>Construcción de marca: Esperamos establecer nuestra marca como una autoridad en el mercado de componentes electrónicos usados y nuevos, asociada con la confiabilidad y la equidad en las transacciones.</p>
+</li>
+</ol>
+<ul>
+<li>User Benefits:</li>
+</ul>
+<ol>
+<li>
+<p>Acceso a tecnología asequible: Los usuarios de bajos recursos podrán acceder a componentes electrónicos a precios más bajos, lo que les permitirá participar en proyectos y actividades que de otra manera no podrían permitirse.</p>
+</li>
+<li>
+<p>Facilidad de transacción: Tanto los compradores como los vendedores se beneficiarán de una plataforma fácil de usar que simplifica el proceso de compraventa de componentes electrónicos y ofrece garantías adicionales para las transacciones.</p>
+</li>
+<li>
+<p>Oportunidad de ingresos: Los vendedores tendrán la oportunidad de ganar dinero vendiendo componentes electrónicos no deseados o excedentes, con la garantía de que recibirán un retorno, ya sea a través de la venta del producto o mediante el reembolso completo si no se vende.</p>
+</li>
+</ol>
+<h4 id="1223-lean-ux-hypothesis-statements">1.2.2.3. Lean UX Hypothesis Statements</h4>
+<ul>
+<li>
+<p><strong>Creemos que</strong> al proporcionar acceso a componentes electrónicos a precios más bajos, especialmente para usuarios de bajos recursos. <strong>Sabremos que</strong> hemos tenido exito, <strong>cuando</strong> observemos un aumento en la participación de este grupo demográfico en nuestra plataforma y recibamos comentarios positivos sobre la asequibilidad de nuestros productos.</p>
+</li>
+<li>
+<p><strong>Creemos que</strong> al implementar un sistema de suscripción para los vendedores que incluya una garantía de recompra y la opción de establecer deadlines para la venta de productos. <strong>Sabremos que</strong> hemos tenido exito <strong>cuando</strong> veamos un incremento significativo en el número de suscripciones activas y una mayor frecuencia de listado de productos por parte de los vendedores.</p>
+</li>
+<li>
+<p><strong>Creemos que</strong> al mejorar la experiencia del usuario mediante la simplificación del proceso de compraventa de componentes electrónicos y la inclusión de garantías adicionales para las transacciones. <strong>Sabremos que</strong> hemos tenido exito <strong>cuando</strong>  observemos una disminución en las tasas de abandono del carrito de compras y una mayor frecuencia de retorno de los usuarios a nuestra plataforma.</p>
+</li>
+</ul>
+<h4 id="1224-lean-ux-canvas">1.2.2.4. Lean UX Canvas</h4>
+<h3 id="business-problem">Business Problem :</h3>
+<ul>
+<li>La gestión ineficiente de los desechos electrónicos debido a la falta de regulación y disposición inapropiada está generando contaminación ambiental y problemas de salud pública y creación de oportunidades para personas de bajos recursos.</li>
+</ul>
+<h3 id="users--customers">Users &amp; Customers :</h3>
+<ul>
+<li>Personas que deseen adquirir componentes a un precio accesible.</li>
+<li>Personas donantes que deseen deshacerse de componentes en desuso.</li>
+</ul>
+<h3 id="hypotheses">Hypotheses :</h3>
+<ul>
+<li>Creemos que al proporcionar una plataforma donde los usuarios puedan donar o vender componentes electrónicos, y otros puedan comprarlos a precios accesibles, podremos satisfacer las necesidades de personas de recursos limitados y diferenciarnos en el mercado.</li>
+</ul>
+<h3 id="solution-ideas">Solution ideas :</h3>
+<ul>
+<li>Desarrollar una aplicación móvil y una plataforma web donde los usuarios puedan donar o vender componentes electrónicos.</li>
+<li>Implementar un sistema de verificación de calidad para garantizar que los componentes reacondicionados sean funcionales y seguros para su uso.</li>
+<li>Ofrecer precios accesibles para los componentes electrónicos, especialmente dirigidos a personas de recursos limitados.</li>
+</ul>
+<h3 id="whats-the-most-important-thing-we-need-to-learn-first">What's the most important thing we need to learn  first? :</h3>
+<ul>
+<li>Necesitamos entender las necesidades y preferencias de las personas de recursos limitados con respecto a la compra de componentes electrónicos reacondicionados, así como también comprender los desafíos y preocupaciones de los vendedores y donantes potenciales.</li>
+</ul>
+<h3 id="business-outcomes">Business Outcomes :</h3>
+<ul>
+<li>Mejora de la reputación y responsabilidad social corporativa.</li>
+<li>Aumento de la accesibilidad económica a componentes electrónicos para personas de recursos limitados.</li>
+<li>Reducción de la cantidad de desechos electrónicos mediante la reutilización de componentes funcionales.</li>
+</ul>
+<h3 id="user-benefits">User Benefits :</h3>
+<ul>
+<li>Acceso a componentes electrónicos funcionales a precios más bajos.</li>
+<li>Oportunidad de contribuir al cuidado del medio ambiente al reciclar y reutilizar componentes electrónicos.</li>
+<li>Mayor acceso a la tecnología para personas de recursos limitados.</li>
+</ul>
+<h3 id="whats-the-least-amount-of-work-we-need-to-do-learn-the-next-most-important-thing">What's the least amount of work we need to do learn the next most important thing? :</h3>
+<ul>
+<li>Realizar encuestas y entrevistas con personas de recursos limitados para comprender sus necesidades y preferencias con respecto a la compra de componentes electrónicos reacondicionados, así como también entrevistar a posibles vendedores y donantes para comprender sus motivaciones y preocupaciones.</li>
+</ul>
+<h4 id="13-segmentos-objetivos">1.3. Segmentos Objetivos</h4>
+<ul>
+<li>Nuestros segmentos objetivos incluyen a personas de bajos recursos económicos, entre 19 y 60 años de edad, que buscan acceso a componentes electrónicos reacondicionados a precios más asequibles, consumidores conscientes del medio ambiente interesados en contribuir al reciclaje y reutilización de dispositivos electrónicos, así como vendedores o donantes que desean deshacerse de sus dispositivos de manera responsable y ética. Estamos comprometidos en ofrecer una plataforma que satisfaga las necesidades de estos segmentos al proporcionar una solución accesible, sostenible y socialmente responsable para la gestión de desechos electrónicos.</li>
+</ul>
+<h1 id="cap%C3%ADtulo-ii-requirements-elicitation--analysis">Capítulo II: Requirements Elicitation &amp; Analysis</h1>
+<h2 id="21-competidores">2.1. Competidores</h2>
+<h3 id="211-an%C3%A1lisis-competitivo">2.1.1. Análisis competitivo</h3>
+<table>
+    <thead>
+    <tr>
+    <th colspan= 6>Competitive Analysis Landscape</th>
+    </tr>
+        <tr>
+    <th colspan= 6>El objetivo del análisis fue investigar y evaluar a los posibles competidores para identificar sus estrategias de mercado y aprender qué estrategias nos podrían funcionar y cómo podríamos destacar en dicho mercado.</th>
+    </tr>
+        <tr>
+    <th colspan= 6>¿Cuáles podrían ser las estrategias efectivas para diferenciar y destacar nuestra aplicación 'RecyTech' en el mercado de manera que promueva el reciclaje y la reutilización de los dispositivos y componentes electrónicos? </th>
+    </tr>
+        <tr>
+            <th colspan= 2></th>
+            <th>ElectronicsMarketplace</th>
+            <th>Slang・Buy & Sell Electronics</th>
+            <th>Swappa</th>
+            <th>RAECO</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=2 align="center">Perfil</td>
+            <td align="center">Overview</td>
+            <td align="center">Electronics MarketPlace es una aplicación móvil orientada a la compra y venta de artículos y dispositivos electrónicos de segunda mano. Los usuarios pueden tanto poner en venta sus aparatos electrónicos como buscar dispositivos que deseen y negociar con usuarios que los tengan a la venta.</td>
+            <td  align="center">Slang・Buy & Sell Electronics es una aplicación móvil para iOs que permite a los usuarios vender y comprar artículos electrónicos de segunda mano. Tiene además la posibilidad de buscar por marcas, tipo de dispositivo, años de uso, etc.</td>
+            <td  align="center">Swappa es una plataforma web en la cual los usuarios pueden tanto comprar dispositivos nuevos como de segunda mano. Además, pueden vender sus dispositivos directamente a la empresa dueña de la aplicación, la cual se encargará de revenderlos.</td>
+            <td align="center">RAECO es una aplicación móvil cuyo objetivo es promover el reciclaje de dispositivos y componentes electrónicos que ya no se utilicen. La aplicación los ayuda a encontrar lugares a los cuales llevar sus residuos electrónicos y, mediante videos, juegos y retos, concientiza acerca de la importancia del reciclaje electrónico. Además, ofrece recompensas mediante un sistema de puntos que se obtienen reciclando y completando actividades en la app.</td>
+        </tr>
+        <tr>
+            <td align="center">Ventaja competitiva ¿Qué valor ofrece a los clientes?</td>
+            <td align="center">Ofrece un canal directo de comunicación entre el vendedor y comprador de artículos electrónicos, una interfaz intuitiva y amigable y le ofrece beneficios a los vendedores y descuentos a los compradores según su actividad en la app.</td>
+            <td align="center">Tiene una interfaz rápida y fácil de usar y ofrece funciones de búsqueda de dispositivos según la marca, tiempo de uso, tipo, etc. Además, ofrece la posibilidad de revisar la fiabilidad e historial del vendedor.</td>
+            <td align="center">Ofrece la posibilidad de comprar dispositivos sin necesidad de registrarse, le da facilidades a los donadores de dispositivos electrónicos dentro de la aplicación y los usuarios tienen la posibilidad de comprar dispositivos tanto nuevos como de segunda mano, con un precio adecuado para cada uno. Además, la aplicación colabora con marcas tecnológicas y electrónicas.</td>
+            <td align="center"> La aplicación contiene las localizaciones de lugares de reciclaje y los dase de datos acerca de dichos centros de reciclaje de electrónicos. Por otro lado, contiene un sistema de puntos que se ganan realizando actividades en la app tales como retos, juegos y vídeos, que luego se pueden canjear por recompensas dentro de la aplicación. Además, el usuario puede realizar un seguimiento del impacto ambiental personal y es posible recibir información sobre eventos ambientales locales.</td>
+        </tr>
+        <tr>
+            <td rowspan= 5 align="center">Perfil de Marketing</td>
+            <td align="center">Mercado Objetivo</td>
+                        <td align="center">Hemos identificado tres segmentos objetivo: Las personas que deseen vender sus dispositivos y componentes electrónicos, las personas que deseen adquirir dispositivos de segunda mano a menor precio y las personas comprometidas con el cuidado del medio ambiente.</td>
+            <td align="center">Hemos identificado tres segmentos objetivo: Las personas que deseen vender sus dispositivos y componentes electrónicos, las personas que deseen adquirir dispositivos de segunda mano a menor precio y las personas comprometidas con el cuidado del medio ambiente.</td>
+            <td align="center">Hemos identificado dos segmentos objetivo: Las personas que deseen adquirir dispositivos y aparatos electrónicos a un menor precio y las personas que quieran donar sus artefactos y componentes electrónicos y, de preferencia, recibir una pequeña comisión a cambio.</td>
+            <td align="center">Hemos identificado tres segmentos objetivo: Las personas comprometidas con el cuidado del medio ambiente, los niños y jóvenes que busquen aprender y aportar al reciclaje y las personas que deseen donar o desechar sus residuos electrónicos de una forma ecológica.</td>
+        </tr>
+        <tr>
+                    <td align="center">Estrategias de Marketing</td>
+            <td align="center">Principalmente realizan su publicidad mediante redes sociales y contienen una pequeña descripción en su página de información en Google Play Store.</td>
+            <td align="center">Principalmente realizan su publicidad mediante redes sociales y contienen una pequeña descripción en su página de información en la App Store de iOs.</td>
+            <td align="center">Principalmente realizan su publicidad en línea y en redes sociales, además de una Landing Page informativa en la cual detallan más profundamente las funcionalidades de la plataforma web. Además, publicitan su producto mediante su colaboración con marcas y empresas tecnológicas.</td>
+            <td align="center">Principalmente realizan su publicidad mediante redes sociales y contienen una pequeña descripción en su página de información en Google Play Store. Además, realizan vídeos y publicaciones informativas acerca de la misión y visión de la empresa.</td>
+        </tr>
+        <tr>
+                    <td align="center">Productos & servicios</td>
+            <td align="center">Producto: Aplicación móvil. Servicio: Ofrecer a los usuarios un servicio de compra y venta de dispositivos y componentes electrónicos, permitiendo una comunicación directa entre comprador y vendedor a través de la aplicación.</td>
+            <td align="center">Producto: Aplicación móvil. Servicio: Ofrecer a los usuarios un servicio de compra y venta de dispositivos y componentes electrónicos, facilitando servicios de búsqueda por tipo de dispositivo, marca, tiempo de uso, etc. y visualización de perfiles de vendedores.</td>
+            <td align="center">Producto: Sitio web y plataforma en línea. Servicio: Ofrecer a los usuarios un servicio para vender sus dispositivos y componentes electrónicos a un precio adecuado y la posibilidad de también comprar dispositivos tanto nuevos como de segunda mano a un menor precio.</td>
+            <td align="center">Producto: Aplicación móvil. Servicio: Ofrecer a  los usuarios un servicio de aprendizaje acerca de reciclaje electrónico, además de indicar centros de reciclaje electrónico y demostrar buenas prácticas para cuidar el medio ambiente, con un sistema de puntos por completas actividades en la app que se pueden cambiar por recompensas.</td>
+        </tr>
+                <tr>
+                    <td align="center">Precios & Costos</td>
+            <td align="center">Gratis.</td>
+            <td align="center">Gratis.</td>
+            <td align="center">Gratis.</td>
+            <td align="center">Gratis.</td>
+        </tr>
+                <tr>
+                    <td align="center">Canales de distribución (Web y/o móvil)</td>
+            <td align="center">Tiendas de Aplicaciones (App Store, Google Play Store).</td>
+            <td align="center">App Store de iOs.</td>
+            <td align="center">Página Web Oficial.</td>
+            <td align="center">Tiendas de Aplicaciones (App Store, Google Play Store).</td>
+        </tr>
+                <tr>
+            <td rowspan= 4 align="center">Análisis SWOT</td>
+            <td align="center">Fortalezas</td>
+                        <td align="center">Cuenta con una interfaz intuitiva y atractiva. Ofrece un servicio novedoso que cubre un segmento objetivo específico. Brinda facilidad en la comunicación entre vendedor y comprador y facilidad en la compra.</td>
+            <td align="center">Cuenta con una interfaz fácil de usar. Ofrece un servicio novedoso que cubre un segmento objetivo específico. Brinda funciones de búsqueda rápidas, satisfactorias y variadas.</td>
+            <td align="center">Tiene colaboraciones con marcas y empresas tecnológicas. Ofrece una amplia variedad de productos. Cuenta con la posibilidad de comprar artículos tanto nuevos como de segunda mano, según las necesidades y presupuesto del usuario. Para los compradores, no hay necesidad de registrarse, por lo que el proceso es más rápido.</td>
+            <td align="center">Ofrece una gran variedad de actividades, vídeos, juegos y recursos para aprender acerca del reciclaje electrónico. Indica centros de reciclaje electrónicos a los que pueden llevar sus productos obsoletos. Cuenta con un sistema de canje de puntos a cambio de recompensas.</td>
+        </tr>
+                    <td align="center">Debilidades</td>
+                        <td align="center">Otras aplicaciones y páginas de compra venta en general son más utilizadas y conocidas. La empresa ha hecho poco marketing al producto.</td>
+            <td align="center">Otras aplicaciones y páginas de compra venta en general son más utilizadas y conocidas. La empresa ha hecho poco marketing al producto.</td>
+            <td align="center">Muchas veces la gente no se siente lo suficientemente informada o motivada a vender o donar sus dispositivos obsoletos. La empresa ha hecho poco marketing al producto.</td>
+            <td align="center">Hay pocas personas verdaderamente interesadas en el reciclaje electrónico como para usar constantemente el producto. Existe una necesidad de actualizar a menudo el sistema de recompensas para mantener la motivación de los usuarios.
+</td>
+        </tr>
+                <td align="center">Oportunidades</td>
+                        <td align="center">Aprovechar que el mercado al que va dirigido es muy específico para convertirse en la app de referencia.</td>
+            <td align="center">Aprovechar que el mercado al que va dirigido es muy específico para convertirse en la app de referencia.</td>
+            <td align="center">Pueden utilizar sus colaboraciones con marcas para promover su producto. Tienen la posibilidad de expandir su mercado a otros segmentos objetivos.</td>
+            <td align="center">Aprovechar el movimiento ecológico de los últimos años para publicitarse. Siempre y cuendo estén a su alcance, pueden ofrecer cada vez mejores recompensas en su sistema de puntos.</td>
+        </tr>
+                    <td align="center">Amenazas</td>
+                        <td align="center">Si aparece una nueva aplicación de referencia puede llevarse su mercado específico.</td>
+            <td align="center">Si aparece una nueva aplicación de referencia puede llevarse su mercado específico.</td>
+            <td align="center">Depende de que los usuarios vendan sus productos usando la aplicación para sostenerse. Si hay poco movimiento, no tendrán artefactos de segunda mano qué vender, que es una de las principales novedades de la aplicación.</td>
+            <td align="center">Depende de qué tan concientizada esté la gente acerca del problema ecológico y qué tan dispuestos estén a involucrarse. Una persona promedio no suele estar lo suficientemente interesada como para participar de proyectos ecológicos sin una mayor motivación.</td>
+        </tr>
+</table>
+<h3 id="212-estrategias-y-t%C3%A1cticas-frente-a-competidores">2.1.2. Estrategias y tácticas frente a competidores</h3>
+<h1 id="estrategias-y-t%C3%A1cticas-para-recytech">Estrategias y Tácticas para RecyTech</h1>
+<p>Para poder destacar en el mercado, debemos enfrentar las fortalezas de nuestros competidores y aprovecharnos de sus debilidades. Nuestra startup buscará convertirse en la aplicación de referencia en el mercado de compra y venta de dispositivos y componentes electrónicos. En primer lugar, debemos innovar en la forma de captar potenciales clientes, realizando estrategias de marketing que lleguen al mercado objetivo y atraigan su atención. Podemos hacer esto mediante publicidad en redes sociales y en páginas web. Por otro lado, también es importante establecer alianzas estratégicas con marcas tecnológicas conocidas, lo cual ayudaría tanto a la publicidad de nuestro producto como en el prestigio de nuestra startup, dándole una imagen mucho más seria y profesional. Es esencial también ofrecerle al usuario una experiencia satisfactoria con nuestra aplicación. Las principales estrategias para ello serían desarrollar una interfaz atractiva, fácil de usar, intuitiva y agradable a la vista; además de implementar funcionalidades adicionales para que el usuario se sienta más cómodo utilizando el producto. Entre estas funcionalidades podrían estar los filtros de búsqueda, la posibilidad de revisar las condiciones del dispositivo o componente que se va a comprar, notificaciones y recomendaciones, etc. Finalmente, también es importante ofrecerle una experiencia sobretodo segura y fiable al usuario. Asegurándonos de que los productos que compren lleguen en buenas condiciones y en  las fechas previstas, además de proteger los datos y los medios de pago que los usuarios podrían guardar dentro de la aplicación para realizar las compras más rápidamente.</p>
+<h2 id="22-entrevistas">2.2. Entrevistas</h2>
+<h3 id="221-dise%C3%B1o-de-entrevistas">2.2.1. Diseño de entrevistas:</h3>
+<h3 id="preguntas-para-solicitantes">Preguntas para solicitantes:</h3>
+<ol>
+<li>¿Qué te parecen los precios que ofertan los aparatos electrónicos actualmente? ¿Por qué?</li>
+<li>¿Qué medidas crees que podrían implementarse para hacer que los aparatos electrónicos sean más accesibles en términos de precios?</li>
+<li>¿Qué opinas sobre el reciclaje de aparatos electrónicos? ¿Apoyas la idea? ¿Por qué?</li>
+<li>¿Comprarías productos reciclados en buen estado para darle algún uso? si ¿Que objetos serían? no ¿Le recomendarías a algún amigo?</li>
+<li>¿Has usado antes alguna aplicación de venta de productos usados o de segunda mano? Si es así, ¿cuál fue tu experiencia?</li>
+<li>¿Qué preocupaciones o dudas tienes al comprar aparatos electrónicos usados a través de una aplicación?</li>
+<li>¿Consideras importante la reputación del vendedor al comprar aparatos electrónicos usados? ¿Qué elementos valoras al evaluar la confiabilidad de un vendedor?</li>
+<li>¿Qué medidas de seguridad o garantías te gustaría que ofreciera una aplicación de reventa de aparatos electrónicos para garantizar la calidad y el funcionamiento de los productos?</li>
+<li>¿Cómo crees que el reciclaje de aparatos electrónicos podría contribuir a la reducción de residuos electrónicos?</li>
+<li>¿Consideras que la compra de productos reciclados es una forma efectiva de reducir el impacto ambiental de nuestros consumos?</li>
+</ol>
+<h3 id="preguntas-para-donantes">Preguntas para donantes:</h3>
+<ol>
+<li>¿Tienes algún aparato electrónico dañado o descontinuado en casa al que no le des ningún uso? (si tienes) ¿cuales son? (no tiene) ¿conoces a alguien que tenga?</li>
+<li>¿Crees que los aparatos obsoletos o descontinuados puedan tener algún uso en el presente o en el futuro? (si tiene) ¿Que usó crees que se le puedan dar? (no tiene) (ofrecerle la respuesta con la siguiente pregunta)</li>
+<li>¿Has considerado alguna vez la posibilidad de reparar esos aparatos dañados en lugar de desecharlos?</li>
+<li>¿Crees que la falta de información sobre opciones de reciclaje contribuye a que la gente no recicle sus aparatos electrónicos?</li>
+<li>¿Qué tipo de incentivos crees que podrían motivar a más personas a reciclar sus aparatos electrónicos?</li>
+<li>¿Te tomarías el tiempo de buscar y ofrecer aparatos o componentes electrónicos que no utilices a cambio de una comisión adecuada?</li>
+<li>¿Qué aspectos consideras importantes al elegir una plataforma o aplicación para vender tus aparatos electrónicos usados?</li>
+<li>¿Has utilizado alguna vez aplicaciones o plataformas de reventa de productos electrónicos antes? ¿Qué experiencia tuviste?</li>
+<li>¿Qué te parecería sobre una app que tiene como intención reciclar sus aparatos electrónicos dañados, además de ganar una comisión por su reciclaje en línea?</li>
+<li>¿Qué funcionalidades te gustaría que tenga dicha aplicación, además de la posibilidad de ofrecer tus dispositivos y componentes electrónicos a cambio de una comisión?</li>
+</ol>
+<h3 id="222-registro-de-entrevistas">2.2.2. Registro de entrevistas</h3>
+<p><strong>Entrevista 1:</strong></p>
+<ul>
+<li><strong>Segmento:</strong> Solicitante</li>
+<li><strong>Nombre:</strong> Ivan Huallpartupa</li>
+<li><strong>Edad:</strong> 23 años</li>
+<li><strong>Localidad:</strong> Lima</li>
+<li><strong>Entrevista a Ivan:</strong> timing 11:49 - 24:58 min</li>
+</ul>
+<div style="text-align: center;">
+  <img src="images/EntrevistaIvan.PNG" alt="EntrevistaIvan" width="500px">
+</div>
+<ul>
+<li><strong>Resumen:</strong> En esta entrevista, tenemos a un estudiante universitario del 3er ciclo en la Universidad Tecnológica del Perú en la carrera de Ingeniería Electrónica. Durante la entrevista, se le dio una breve explicacion al entrevistado sobre el servicio de remanufacturacion que ofreceremos en el aplicativo. Al entender la idea, el entrevistado nos explica que le podria interesar la idea para poder conseguir materiales u objetos que necesita para sus proyecto universitarios como personales. En la cual destaca la necesidad de una cocina para su casa, ya que considera que los precios actualmentes son demasiado alevados por motivos de la marca, entre otras rasones. Nos comenta que la aplicacion le podria ser util para conseguir los materiales que solicita. Ademas, bajo sus experiencias previas en linea, nos comenta que al momento de realisar una compra, usualmente le pide consejos a sus amigos para saber si el vendedor es de confiansa y procura no ser estafado bajo otra paginas maliciosas. Para resumir, le parece excelente la idea de nuestra aplicacion y le recomendaria a sus amigos sobre el mismo para apoyar en la idea de reciclaje que estamos abordando.</li>
+</ul>
+<p><strong>Entrevista 2:</strong></p>
+<ul>
+<li><strong>Segmento:</strong> Donante</li>
+<li><strong>Nombre:</strong> Paola Huallpartupa</li>
+<li><strong>Edad:</strong> 16 años</li>
+<li><strong>Localidad:</strong> Cercado de Lima</li>
+<li><strong>Entrevista a Paola:</strong> timing 24:58 - 34:03 min</li>
+</ul>
+<div style="text-align: center;">
+  <img src="images/EntrevistaPaola.PNG" alt="Entrevista Paola" width="500px">
+</div>
+<ul>
+<li><strong>Resumen:</strong> En esta entrevista, tenemos a un escolar de secundaria que tiene familiares que ejercen el servicio de reparación de objetos. Nos comenta que sus padres al realizar estas reparaciones tienen varios aparatos electrónicos alrededor de su casa debido a algunos clientes anteriores que tuvo y no recogieron sus productos reparados. Es por ello que al entrevistado le entusiasma la idea de contar con esta aplicación para deshacerse de estos aparatos electrónicos malogrados y recibir algun beneficio monetario con ello. Además de poder sacar de su casa de estos productos que no usa. Hasta el momento no cuenta con experiencia en venta de productos en linea, pero igualmente le satisface la idea y lo comentará cono todos sus amigos.</li>
+</ul>
+<p><strong>Entrevista 3:</strong></p>
+<ul>
+<li><strong>Segmento:</strong> Donante</li>
+<li><strong>Nombre:</strong> Alessandro Rey</li>
+<li><strong>Edad:</strong> 20 años</li>
+<li><strong>Localidad:</strong> Jesús María</li>
+<li><strong>Entrevista a Alessandro:</strong> timing 07:03 - 11:49 min</li>
+</ul>
+<div style="text-align: center;">
+  <img src="images/img-entrevista-rey.png" alt="Entrevista Rey" width="500px">
+</div>
+<ul>
+<li><strong>Resumen:</strong> Se entrevistó a un joven estudiante acerca de lo que solía hacer con sus dispositivos electrónicos obsoletos, usados o viejos. Él explica que a menudo los desecha o los regala y que, las veces que ha querido venderlos, ha tenido problemas encontrando compradores. Alessandro indica que la idea de una aplicación o plataforma en la cual pueda subir fotos e información de los dispositivos que deseaba vender le interesaría mucho, pues se le haría mucho más fácil deshacerse de los electrónicos que ya no usa. Comenta también que tiene poca experiencia con la venta de productos en línea, pero podría sin problemas adaptarse si la plataforma es intuitiva, dinámica y sencilla de utilizar. Concluye mencionando que la idea de nuestro proyecto le parece muy buena, y que seguramente la utilizaría a menudo si llegara a realizarse de verdad.</li>
+</ul>
+<p><strong>Entrevista 4:</strong></p>
+<ul>
+<li><strong>Segmento:</strong> Donante</li>
+<li><strong>Nombre:</strong> Mauricio Rojas</li>
+<li><strong>Edad:</strong> 18 años</li>
+<li><strong>Localidad:</strong> La Victoria</li>
+<li><strong>Entrevista a Mauricio:</strong> timing 34:03 - 39:20 min</li>
+</ul>
+<div style="text-align: center;">
+  <img src="images/Mauricio.png" alt="Entrevista Mauricio" width="500px">
+</div>
+<ul>
+<li><strong>Resumen:</strong> En la entrevista, Mauricio, un estudiante universitario con un espíritu emprendedor, comparte una fascinante idea que ha estado desarrollando: una aplicación destinada a reciclar componentes electrónicos. Su inspiración proviene de su observación de que muchas personas tienen dispositivos electrónicos que ya no utilizan, ya sea porque están obsoletos o simplemente porque han sido reemplazados por modelos más nuevos. Mauricio ve esta situación como una oportunidad para crear una solución innovadora que no solo aborde el problema del desperdicio electrónico, sino que también fomente la reutilización de estos dispositivos.</li>
+</ul>
+<p><strong>Entrevista 5:</strong></p>
+<ul>
+<li><strong>Segmento:</strong> Solicitante</li>
+<li><strong>Nombre:</strong> Diego Cisneros</li>
+<li><strong>Edad:</strong> 21 años</li>
+<li><strong>Localidad:</strong> Surco</li>
+<li><strong>Entrevista a Diego:</strong> timing 00:00 - 07:03 min</li>
+</ul>
+<div style="text-align: center;">
+  <img src="images/entrevistasalvador.png" alt="Entrevista Diego" width="500px">
+</div>
+<ul>
+<li>
+<p><strong>Resumen:</strong> El interesado en la compra de artefactos electronicos nos menciona que es un usario activo en el mundo de la tecnologia y que siempre ha tenido el inconveniente con los precios por lo que ha buscando formas de ahorrar dinero pero que realmente no ha encontrado alguna fuente confiable y segura. Por lo que se encuentra emocionado con la propuesta de RecyTech.</p>
+</li>
+<li>
+<p><strong>Enlace de las entrevistas</strong>
+https://upcedupe-my.sharepoint.com/<img class="emoji" alt="v" src="data:image/png;base64,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" />/g/personal/u202212383_upc_edu_pe/ESU5NVW3N5hKrtlE6iwV8gABFflMTBMusCDkAC9-0KjITQ?e=bbRHcF</p>
+</li>
+</ul>
+<h3 id="223-analisis-de-entrevistas">2.2.3. Analisis de entrevistas</h3>
+<p>En la primera entrevista tenemos a un estudiante universitario que nos comenta que podria usarlo para conseguir materiales tecnologicos para sus proyecto univeristarios. Esto nos podria beneficiar para ampliar nuestro segmento empresarial hacia universitarios o hacia talleres locales que solicitan de estos materiales a un precio asequible. Con esto, estariamos tambien maximizando nuestra idea del reciclaje y sostener nuestro producto en el mercado.</p>
+<p>En la segunda entrevista tenemos a un estudiante con familiares técnicos que ofrecen el servicio de reparación de productos. La parte interesante de la entrevista es cuando nos comenta sobre la cantidad de productos que tienen guardados en su casa que no les son de utilidad y desea desecharlos, pero tiene la preocupación de tirar sus objetos y dañar el medio ambiente. Además, por el beneficio que puede conseguir, le parece que nuestra aplicación podría ayudar mucho y estará esperando con ansias el uso de la misma.</p>
+<p>En la tercera entrevista tenemos a un estudiante universitario que comenta que le gustaría poder vender sus electrónicos usados con facilidad, pues siempre que desea hacerlo, se le dificulta encontrar compradores. Al mencionarle nuestra idea de negocio, se mostró interesado y expresó que sí estaría dispuesto a utilizarla siempre y cuando la interfaz sea intuitiva y fácil de usar. Con esta entrevista podemos darnos cuenta que el sector de la gente joven y adulta es uno de los que más potencial tienen, pues casi todos tienen aparatos electrónicos que ya no utilizan y que estarían dispuestos a vender por un precio adecuado. Además, aprendemos que una de las principales características que debe tener nuestra aplicación es la de sencillez y facilidad de uso.</p>
+<h2 id="23-needfinding">2.3. Needfinding</h2>
+<h3 id="231-user-personas">2.3.1. User Personas</h3>
+<p>A partir de la información obtenida mediante las entrevistas realizadas y el análisis realizado, se han determinado las principales características de cada segmento objetivo entrevistado. Con estos datos, se han realizado los User Persona para cada uno de dichos segmentos objetivos, para entender mejor la situación, objetivos, motivaciones, frustraciones y perfil en general de cada uno de ellos.
+Para la elaboración de tales User Persona, se ha utilizado la plataforma UXPressia de manera colaborativa.</p>
+<p><img src="images/user-persona-1.png" alt="User Persona 1" style="width: 65;"></img></p>
+<p><img src="images/user-persona-2.png" alt="User Persona 2" style="width: 65;"></img></p>
+<h3 id="232-user-task-matrix">2.3.2. User Task Matrix</h3>
+<table>
+    <thead>
+        <tr>
+            <td rowspan=2 align="center">User Task</td>
+            <td align="center" colspan= 2>User Solicitante</td>
+            <td align="center" colspan= 2>User Donante</td>
+        </tr>
+        <tr>
+            <td align="center">Frecuencia</td>
+            <td align="center">Requerido</td>
+            <td align="center">Frecuencia</td>
+            <td align="center">Requerido</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center">Investigar cómo reciclar dispositivos electrónicos en su comunidad.</td>
+            <td align="center">Alta</td>
+            <td align="center">Alta</td>
+            <td  align="center">Baja</td>
+            <td  align="center">Media</td>
+        </tr>
+        <tr>
+            <td align="center">Clasificar y separar los dispositivos electrónicos no utilizados en su hogar.</td>
+            <td align="center">Media</td>
+            <td align="center">Alta</td>
+            <td  align="center">Media</td>
+            <td  align="center">Baja</td>
+        </tr>
+        <tr>
+             <td align="center">Encontrar puntos de recolección de dispositivos electrónicos en su área.</td>
+            <td align="center">Media</td>
+            <td align="center">Alta</td>
+            <td  align="center">Alta</td>
+            <td  align="center">Alta</td>
+        </tr>
+        <tr>
+            <td align="center">Aprender sobre los materiales valiosos que se pueden recuperar del reciclaje de dispositivos electrónicos.</td>
+            <td align="center">Alta</td>
+            <td align="center">Media</td>
+            <td  align="center">Alta</td>
+            <td  align="center">Alta</td>
+        </tr>
+        <tr>
+            <td align="center">Comprender la importancia de reciclar dispositivos electrónicos para reducir desechos electrónicos.</td>
+            <td align="center">Alta</td>
+            <td align="center">Alta</td>
+            <td  align="center">Media</td>
+            <td  align="center">Alta</td>
+        </tr>
+                <tr>
+            <td align="center">Identificar los dispositivos electrónicos que son reciclables y los que no lo son.</td>
+            <td align="center">Media</td>
+            <td align="center">Media</td>
+            <td  align="center">Media</td>
+            <td  align="center">Alta</td>
+        </tr>
+                <tr>
+            <td align="center">Conocer las regulaciones locales sobre el reciclaje de dispositivos electrónicos.</td>
+            <td align="center">Media</td>
+            <td align="center">Alta</td>
+            <td  align="center">Alta</td>
+            <td  align="center">Media</td>
+        </tr>
+                <tr>
+            <td align="center">Investigar cómo eliminar de manera segura la información personal de los dispositivos antes del reciclaje.</td>
+            <td align="center">Media</td>
+            <td align="center">Alta</td>
+            <td  align="center">Baja</td>
+            <td  align="center">Baja</td>
+        </tr>
+                <tr>
+            <td align="center">Donar dispositivos electrónicos funcionales a organizaciones benéficas en lugar de desecharlos.</td>
+            <td align="center">Media</td>
+            <td align="center">Alta</td>
+            <td  align="center">Baja</td>
+            <td  align="center">Alta</td>
+        </tr>
+                <tr>
+            <td align="center">Recopilar información sobre los programas de recompensas por reciclaje de dispositivos electrónicos.</td>
+            <td align="center">Media</td>
+            <td align="center">Alta</td>
+            <td  align="center">Baja</td>
+            <td  align="center">Media</td>
+        </tr>
+                <tr>
+            <td align="center">Participar en una campaña de concientización sobre el reciclaje de dispositivos electrónicos.</td>
+            <td align="center">Media</td>
+            <td align="center">Media</td>
+            <td  align="center">Media</td>
+            <td  align="center">Alta</td>
+        </tr>
+                <tr>
+            <td align="center">Investigar cómo se reacondicionan y reutilizan los dispositivos electrónicos reciclados.</td>
+            <td align="center">Media</td>
+            <td align="center">Alta</td>
+            <td  align="center">Media</td>
+            <td  align="center">Alta</td>
+        </tr>
+                <tr>
+            <td align="center">Asistir a charlas educativas sobre el impacto del reciclaje de dispositivos electrónicos.</td>
+            <td align="center">Baja</td>
+            <td align="center">Alta</td>
+            <td  align="center">Baja</td>
+            <td  align="center">Media</td>
+        </tr>
+</table>
+<h3 id="233-user-journey-mapping">2.3.3. User Journey Mapping</h3>
+<p><img src="images/JouneyMap.PNG" alt="JouneyMap" style="width: 65;"></img></p>
+<h3 id="234-empathy-mapping">2.3.4. Empathy Mapping</h3>
+<h4 id="2341-empathy-mapping-donante">2.3.4.1 Empathy Mapping Donante</h4>
+<p><img src="images/EmphatyDonante.PNG" alt="EmphatyDonante" style="width: 65;"></img></p>
+<h4 id="2342-empathy-mapping-solicitante">2.3.4.2 Empathy Mapping Solicitante</h4>
+<p><img src="images/EmphatySolicitante.PNG" alt="EmphatySolicitante" style="width: 65;"></img></p>
+<h3 id="235-as-is-scenario-mapping">2.3.5. As-is Scenario Mapping</h3>
+<h4 id="2351-as-is-scenario-mapping-donante">2.3.5.1 As-is Scenario Mapping Donante</h4>
+<p><img src="images/As-isDonante.PNG" alt="As-isDonante" style="width: 65;"></img></p>
+<h4 id="2352-as-is-scenario-mapping-solicitante">2.3.5.2 As-is Scenario Mapping Solicitante</h4>
+<p><img src="images/As-isSolicitante.PNG" alt="As-isSolicitante" style="width: 65;"></img></p>
+<h1 id="cap%C3%ADtulo-iii-requirements-specification"><a href="#cap%C3%ADtulo-iii-requirements-specification">Capítulo III: Requirements Specification.</a></h1>
+<h2 id="31-to-be-scenario-mapping"><a href="#to-be-scenario-mapping">3.1. To-Be Scenario Mapping.</a></h2>
+<h4 id="311-to-be-scenario-mapping-donante">3.1.1 To-Be Scenario Mapping Donante</h4>
+<p><img src="images/to-be-mapping-donante.jpg" alt="to-be-mapping-donante" style="width: 65;"></img></p>
+<h4 id="312-to-be-scenario-mapping-solicitante">3.1.2 To-Be Scenario Mapping Solicitante</h4>
+<p><img src="images/to-be-mapping-solicitante.jpg" alt="to-be-mapping-solicitante" style="width: 65;"></img></p>
+<h2 id="32-user-stories"><a href="#user-stories">3.2. User Stories.</a></h2>
+<table>
+<thead>
+<tr>
+<th>Epic/Story ID</th>
+<th>Titulo</th>
+<th>Descripción</th>
+<th>Criterios de aceptación</th>
+<th>Relacionado con (Epic ID)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ES01</td>
+<td>Gestión de cuentas en la aplicación</td>
+<td>Como usuario comprador / vendedor Quiero poder registrarme, iniciar sesión, cerrar sesión y modificar mis datos personales de mi perfil Para poder tener un control total de mi cuenta.</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>ES02</td>
+<td>Venta o donación de artefactos</td>
+<td>Venta o donación de artefactos	Como usuario vendedor Quiero tener control de todas las fases de la venta o donación de algún artefacto Para tener un seguimiento total en la aplicación.</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>ES03</td>
+<td>Compra de artefactos</td>
+<td>Como usuario comprador Quiero tener control de todas las fases de la compra de algún artefacto Para tener un seguimiento tota en el proceso de compra</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>US01</td>
+<td>Registro de cuenta de usuario</td>
+<td>Como usuario comprador / vendedor no identificado en el sistema Quiero poder registrarme Para hacer uso de la aplicación.</td>
+<td>Dado que el usuario quiere registrarse en la aplicación, cuando ingresa sus datos y una contraseña válida y hace clic en “Crear cuenta” entonces su cuenta es creada satisfactoriamente.</td>
+<td>EP01</td>
+</tr>
+<tr>
+<td>US02</td>
+<td>Iniciar sesión</td>
+<td>Como usuario comprador / vendedor Quiero poder iniciar sesión para acceder a todas las funcionalidades de la aplicación.</td>
+<td>Dado que el usuario quiere iniciar sesión en la aplicación cuando ingresa su ID y su contraseña y  hace clic en “Crear cuenta” y las credenciales son validadas entonces el inicio de sesión es satisfactorio.</td>
+<td>EP01</td>
+</tr>
+<tr>
+<td>US03</td>
+<td>Cerrar sesión</td>
+<td>Como usuario comprador / vendedor Quiero poder cerrar mi sesión para mantener la seguridad de mi cuenta.</td>
+<td>Dado que el usuario quiere cerrar sesión en la aplicación cuando hace click en la opción de cerrar sesión entonces su sesión finalizara satisfactoriamente.</td>
+<td>EP01</td>
+</tr>
+<tr>
+<td>US04</td>
+<td>Actualizar Perfil</td>
+<td>Como usuario comprador / vendedor Quiero poder actualizar los datos de mi perfil Para mantener mis datos personales siempre actualizados.</td>
+<td>Dado que el usuario quiere actualizar los datos de su perfil cuando hace click en la opción de Actualizar Perfil y cambia sus datos y luego hace click en aceptar cambios entonces los datos de su perfil se actualizarán satisfactoriamente.</td>
+<td>EP01</td>
+</tr>
+<tr>
+<td>US05</td>
+<td>Agregar cuenta bancaria</td>
+<td>Como usuario vendedor Quiero poder agregar cuentas bancarias Para poder recibir el pago de los productos.</td>
+<td>Dado que el usuario quiere recibir el dinero de la venta de su artefacto en su cuenta bancaria cuando hace click en la opción agregar cuenta bancaria y digita los datos de su cuenta bancaria y luego hace click en la opción guardar cuenta bancaria entonces su cuenta bancaria se habrá guardado en su cuenta de la aplicación.</td>
+<td>EP01</td>
+</tr>
+<tr>
+<td>US06</td>
+<td>Visualizar estado e información del producto</td>
+<td>Como usuario vendedor Quiero visualizar el estado e información de los artefactos que di Para poder hacerles seguimiento.</td>
+<td>Dado que el usuario quiere ver la información de su producto y el estado en el que se encuentra cuando va al historial de sus artefactos y selecciona alguno de sus artefactos entonces visualizara la información y el estado de ese artefacto.</td>
+<td>EP02</td>
+</tr>
+<tr>
+<td>US07</td>
+<td>Notificaciones en caso de venta de productos</td>
+<td>Como usuario vendedor Quiero recibir notificaciones cada vez que algún artefacto que di se haya vendido Para estar informado en todo momento.</td>
+<td>Dado que el usuario quiere recibir alguna notificación cuando su artefacto se haya vendido entonces cada vez que el estado de alguno de sus artefactos cambie, le llegara una notificación en sección de notificaciones de la aplicación.</td>
+<td>EP02</td>
+</tr>
+<tr>
+<td>US08</td>
+<td>Opción de vender Producto</td>
+<td>Como usuario vendedor Quiero tener disponible la opción de venta de artefactos Para poder solicitar la venta de mi artefacto electrónico.</td>
+<td>Dado que el usuario quiere vender algún artefacto cuando hace click en la opción de venta de artefactos y llena el formulario y hace click en vender entonces su venta será agendada en el sistema.</td>
+<td>EP02</td>
+</tr>
+<tr>
+<td>US09</td>
+<td>Opción de donar Producto</td>
+<td>Como usuario comprador / vendedor Quiero tener disponible la opción de donación de artefactos Para poder solicitar la donación de mi artefacto electrónico.</td>
+<td>Dado que el usuario quiere donar algún artefacto cuando hace click en la opción de donación de artefactos y llena el formulario y  hace click en donar entonces su donación será agendada en el sistema.</td>
+<td>EP02</td>
+</tr>
+<tr>
+<td>US010</td>
+<td>Opción de suscripción</td>
+<td>Como usuario comprador Quiero tener la opción de suscribirme Para tener acceso a todas las funcionalidades de un usuario vendedor.</td>
+<td>Dado que el usuario quiere suscribirse para poder realizar ventas cuando ingresa en la sección de suscripciones y hace click en la opción de suscribirse y realice el proceso de suscripción satisfactoriamente entonces la suscripción se verra reflejada en su perfil y tendrá acceso a todas las funcionalidades de suscripción.</td>
+<td>EP01</td>
+</tr>
+<tr>
+<td>US011</td>
+<td>Cancelar suscripcion</td>
+<td>Como usuario vendedor Quiero tener la opción de cancelar suscripción Para evitar el cobro en mi tarjeta en caso de que deje de utilizar la aplicación.</td>
+<td>Dado que el usuario quiere cancelar su suscripción cuando ingresa en la sección de suscripciones y hace click en la opción de cancelar suscripción entonces la suscripción se cancelará y la suscripción se vera reflejada en el perfil hasta que termine el tiempo programado de la ultima suscripción.</td>
+<td>EP01</td>
+</tr>
+<tr>
+<td>US012</td>
+<td>Visualizar historial de artefactos electrónicos</td>
+<td>Como usuario vendedor / comprador Quiero tener la opción de visualizar un historial con todos los artefactos electrónicos que vendí o done Para tener conocimientos sobre todos los artefactos que he dado a la plataforma.</td>
+<td>Dado que el usuario quiere ver el historial de artefactos electrónicos que dono o vendió cuando selecciona la sección de historial de artefactos entonces se trasladará a dicha sección donde podrá visualizar todos los artefactos electrónicos donados o vendidos.</td>
+<td>EP02</td>
+</tr>
+<tr>
+<td>US013</td>
+<td>Servicio al cliente</td>
+<td>Como usuario comprador / vendedor Quiero tener disponible la opción de comunicarme con soporte Para poder resolver cualquier duda e inconveniente.</td>
+<td>Dado que el usuario presenta la necesidad de comunicarse con el área de soporte y servicio técnico cuando selecciona la opción de servicio al cliente entonces podrá visualizar correo y números telefónicos a los cuales podrá contactar.</td>
+<td>EP01</td>
+</tr>
+<tr>
+<td>US014</td>
+<td>Visualizar catálogo de artefactos</td>
+<td>Como usuario comprador Quiero tener disponible un catálogo de productos Para revisar los productos disponibles en venta.</td>
+<td>Dado que el usuario quiere ver el catálogo de artefactos disponibles cuando selecciona la sección de catálogo de artefactos entonces se trasladará a dicha sección donde podrá visualizar todos los artefactos electrónicos en venta.</td>
+<td>EP03</td>
+</tr>
+<tr>
+<td>US015</td>
+<td>Ver historial de reservas de viaje</td>
+<td>Como usuario comprador Quiero tener disponible un carrito de compras donde podre ver los productos en los que estoy interesado Para poder calcular los precios.</td>
+<td>Dado que el usuario esta seleccionando los productos que desea comprar cuando hace click en la opción añadir al carrito que esta en cada artefacto del catálogo entonces dicho artefacto se agregara al carrito de compras.</td>
+<td>EP03</td>
+</tr>
+<tr>
+<td>US016</td>
+<td>Comprar producto</td>
+<td>Como usuario comprador Quiero tener disponible la opción de comprar los productos en mi carrito Para poder adquirirlos.</td>
+<td>Dado que el usuario ya definió los productos que desea comprar cuando se dirige a su carrito y da clic en comprar productos y completa satisfactoriamente el proceso de compra entonces la compra de dicho artefacto se habrá realizado correctamente.</td>
+<td>EP03</td>
+</tr>
+<tr>
+<td>US017</td>
+<td>Sección de productos en demanda</td>
+<td>Como usuario vendedor Quiero tener disponible una sección de productos en demanda Para poder revisar si tengo alguno y venderlo.</td>
+<td>Dado que el usuario quiere ver cuales son los productos que más se están solicitando para su compra cuando selecciona la sección de productos en demanda entonces se trasladará a dicha sección donde podrá visualizar todos los artefactos electrónicos que mas buscados.</td>
+<td>EP02</td>
+</tr>
+</tbody>
+</table>
+<h2 id="33-impact-mapping"><a href="#impact-mapping">3.3. Impact Mapping.</a></h2>
+<p><img src="images/impactmapping.png" alt="impactmapping" style="width: 65;"></img></p>
+<h2 id="34-product-backlog"><a href="#product-backlog">3.4. Product Backlog.</a></h2>
+<table>
+<thead>
+<tr>
+<th>Orden</th>
+<th>User Story ID</th>
+<th>Título</th>
+<th>Descripción</th>
+<th>Story Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>US06</td>
+<td>Visualizar estado e información del producto</td>
+<td>Como usuario vendedor Quiero visualizar el estado e información de los artefactos que di Para poder hacerles seguimiento.</td>
+<td>1</td>
+</tr>
+<tr>
+<td>2</td>
+<td>US012</td>
+<td>Visualizar historial de artefactos electrónicos</td>
+<td>Como usuario vendedor / comprador Quiero tener la opción de visualizar un historial con todos los artefactos electrónicos que vendí o done Para tener conocimientos sobre todos los artefactos que he dado a la plataforma.</td>
+<td>1</td>
+</tr>
+<tr>
+<td>3</td>
+<td>US08</td>
+<td>Opción de vender Producto</td>
+<td>Como usuario vendedor Quiero tener disponible la opción de venta de artefactos Para poder solicitar la venta de mi artefacto electrónico.</td>
+<td>1</td>
+</tr>
+<tr>
+<td>4</td>
+<td>US09</td>
+<td>Opción de donar Producto</td>
+<td>Como usuario comprador / vendedor Quiero tener disponible la opción de donación de artefactos Para poder solicitar la donación de mi artefacto electrónico.</td>
+<td>1</td>
+</tr>
+<tr>
+<td>5</td>
+<td>US014</td>
+<td>Visualizar catálogo de artefactos</td>
+<td>Como usuario comprador Quiero tener disponible un catálogo de productos Para revisar los productos disponibles en venta.</td>
+<td>1</td>
+</tr>
+<tr>
+<td>6</td>
+<td>US015</td>
+<td>Ver historial de reservas de viaje</td>
+<td>Como usuario comprador Quiero tener disponible un carrito de compras donde podre ver los productos en los que estoy interesado Para poder calcular los precios.</td>
+<td>1</td>
+</tr>
+<tr>
+<td>7</td>
+<td>US016</td>
+<td>Comprar producto</td>
+<td>Como usuario comprador Quiero tener disponible la opción de comprar los productos en mi carrito Para poder adquirirlos.</td>
+<td>1</td>
+</tr>
+<tr>
+<td>8</td>
+<td>US07</td>
+<td>Notificaciones en caso de venta de productos</td>
+<td>Como usuario vendedor Quiero recibir notificaciones cada vez que algún artefacto que di se haya vendido Para estar informado en todo momento.</td>
+<td>1</td>
+</tr>
+<tr>
+<td>9</td>
+<td>US017</td>
+<td>Sección de productos en demanda</td>
+<td>Como usuario vendedor Quiero tener disponible una sección de productos en demanda Para poder revisar si tengo alguno y venderlo.</td>
+<td>1</td>
+</tr>
+<tr>
+<td>10</td>
+<td>US01</td>
+<td>Registro de cuenta de usuario</td>
+<td>Como usuario comprador / vendedor no identificado en el sistema Quiero poder registrarme Para hacer uso de la aplicación.</td>
+<td>1</td>
+</tr>
+<tr>
+<td>11</td>
+<td>US02</td>
+<td>Iniciar sesión</td>
+<td>Como usuario comprador / vendedor Quiero poder iniciar sesión para acceder a todas las funcionalidades de la aplicación.</td>
+<td>1</td>
+</tr>
+<tr>
+<td>12</td>
+<td>US03</td>
+<td>Cerrar sesión</td>
+<td>Como usuario comprador / vendedor Quiero poder cerrar mi sesión para mantener la seguridad de mi cuenta.</td>
+<td>1</td>
+</tr>
+<tr>
+<td>13</td>
+<td>US04</td>
+<td>Actualizar Perfil</td>
+<td>Como usuario comprador / vendedor Quiero poder actualizar los datos de mi perfil Para mantener mis datos personales siempre actualizados.</td>
+<td>1</td>
+</tr>
+<tr>
+<td>14</td>
+<td>US05</td>
+<td>Agregar cuenta bancaria</td>
+<td>Como usuario vendedor Quiero poder agregar cuentas bancarias Para poder recibir el pago de los productos.</td>
+<td>1</td>
+</tr>
+<tr>
+<td>15</td>
+<td>US010</td>
+<td>Opción de suscripción</td>
+<td>Como usuario comprador Quiero tener la opción de suscribirme Para tener acceso a todas las funcionalidades de un usuario vendedor.</td>
+<td>1</td>
+</tr>
+<tr>
+<td>16</td>
+<td>US011</td>
+<td>Cancelar suscripcion</td>
+<td>Como usuario vendedor Quiero tener la opción de cancelar suscripción Para evitar el cobro en mi tarjeta en caso de que deje de utilizar la aplicación.</td>
+<td>1</td>
+</tr>
+<tr>
+<td>17</td>
+<td>US013</td>
+<td>Servicio al cliente</td>
+<td>Como usuario comprador / vendedor Quiero tener disponible la opción de comunicarme con soporte Para poder resolver cualquier duda e inconveniente.</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h1 id="cap%C3%ADtulo-iv-product-design">Capítulo IV: Product Design</h1>
+<h2 id="41-style-guidelines">4.1. Style Guidelines</h2>
+<h3 id="411-general-style-guidelines">4.1.1. General Style Guidelines</h3>
+<p>Branding:</p>
+<p>El nombre del proyecto es RecyTech. Esto surge de la combinación de dos palabras en inglés ya que es nuestra forma de mostrarnos como una empresa abierta a todo tipo de público. Las palabras son recycling y technology que al juntarlas se crea RecyTech que podría interpretarse como reciclador de tecnología, lo que le da sentido al concepto de la aplicación ya que tenemos como finalidad de alguna manera la reutilización de artefactos electrónicos.</p>
+<p>Typography:</p>
+<p>La tipografía que se usará es “Inter” en estilos medium y normal tanto para el heading como para el texto respectivamente.</p>
+<p><img src="images/typography.png" alt="typography" style="width: 65;"></img></p>
+<p>Colors:</p>
+<p>Se tienen como colores principales el verde y el marrón, ya que ambos colores representan protección al medio ambiente que es el principal enfoque que tiene nuestra aplicación. En cuanto a los colores secundarios, se utilizarán distintos tonos de los colores primarios para poder conseguir una armonía en la aplicación y no saturar visualmente al usuario.</p>
+<p><img src="images/Colors.png" alt="Colors" style="width: 65;"></img></p>
+<p>Spacing:</p>
+<p><img src="images/spacing.png" alt="spacing" style="width: 65;"></img></p>
+<p>Tono de comunicación y lenguaje aplicado:</p>
+<p>RecyTech tiene un enfoque serio, formal, respetuoso y sereno. Esto se debe a que al ser una aplicación orientada a ventas y con un enfoque de cuidado al medio ambiente es importante para nosotros que nuestros clientes se sientan cómodos y tengan la confianza de que están usando una aplicación totalmente seria.</p>
+<h3 id="412-web-style-guidelines">4.1.2. Web Style Guidelines</h3>
+<h2 id="42-information-architecture">4.2. Information Architecture</h2>
+<h3 id="421-organization-systems">4.2.1. Organization Systems</h3>
+<p>Para la landing page se ha optado por una estructura jerárquica en ambos segmentos objetivos, ya que se tiene una barra de navegación en la parte superior la cual nos llevará a diferentes secciones donde cada una de ellas encapsula información que se relaciona.</p>
+<p>Para realizar un inicio de sesión o una creación de cuenta se utiliza una organización lineal, ya que mientras se van llenando los datos , se avanza linealmente hasta concluir dicha funcionalidad.</p>
+<p>Dentro de la aplicación, se utiliza una organización jerárquica en una primera instancia ya que es necesario separar y encapsular diferentes funcionalidades. Esto aplica para ambos segmentos objetivos , ya que a pesar de que ambos utilizan funcionalidades diferentes el enfoque en la organización de la aplicación es la misma.</p>
+<p>Vendedor:</p>
+<p>En los vendedores la principal funcionalidad es la de vender artefactos electrónicos, por lo que se maneja una organización jerárquica ya que de esta forma se encapsulan diferentes sub funcionalidades que al final están relacionadas con el enfoque principal que es la venta. Se tienen diferentes secciones que en conjunto conforman el proceso de venta, como la sección de vender producto, la sección de ver el historial de productos y la sección de notificaciones.</p>
+<p>Comprador:</p>
+<p>En los compradores se utilizan dos tipos de organización, tanto la organización jerárquica como la organización lineal. Al inicio se utiliza una organización jerárquica, ya que el proceso de compra inicia con un catálogo donde se podrá navegar dependiendo de las secciones y se hará uso de un carrito de compras. Una vez seleccionados los productos se procede con una organización lineal para el pago, ya que a partir de este momento se procederá a utilizar formularios de manera secuencial hasta llegar con el pago del artefacto.</p>
+<p>Finalmente, en caso de que el usuario quiera realizar otra funcionalidades en común, como por ejemplo editar el perfil, donar producto o cerrar sesión, se mantendrá la organización jerárquica ya que todas esas funciones están debidamente segmentadas.</p>
+<h3 id="422-labeling-systems">4.2.2. Labeling Systems</h3>
+<p>Para el sistema de encabezados se han seleccionado palabras claves que vayan a atraer la atencion del publico y que ademas puedan resumir perfectamente el contenido al que representan. Si nos dirimos a la barra de navegacion en la superior podremos ver una serie de encabezos que representan perfectamente este sistema.</p>
+<h3 id="423-seo-tags-and-meta-tags">4.2.3. SEO Tags and Meta Tags</h3>
+<p><strong>Titulo:</strong></p>
+<pre class="hljs"><code><div>&lt;Title&gt;RecyTech&lt;/Title&gt;
+</div></code></pre>
+<p><strong>Codificación de carácteres:</strong></p>
+<pre class="hljs"><code><div>&lt;meta charset=&quot;utf-8&quot;&gt;
+</div></code></pre>
+<p><strong>Descripción:</strong></p>
+<pre class="hljs"><code><div>&lt;meta name=&quot;description&quot; content=&quot;UniRider is a web application focused on the retail of rewashed products.&quot;/&gt;
+</div></code></pre>
+<p><strong>Autor y Derechos de Autor:</strong></p>
+<pre class="hljs"><code><div>&lt;meta name=&quot;author&quot; content=&quot;RecyTechr&quot;/&gt;
+
+&lt;meta name=&quot;copyright&quot; content=&quot;Copyright RecyTech team&quot; /&gt;
+
+</div></code></pre>
+<h3 id="424-searching-systems">4.2.4. Searching Systems</h3>
+<p>El sistema de búsqueda para los compradores funcionará de dos formas mediante diferentes filtros que serán marcados antes de realizar alguna búsqueda y mediante el tipeo de algún producto en específico. Como los productos se verán reflejados mediante un catálogo se tomó la decisión de colocar filtros que harán que en el catálogo se muestran solamente los productos en los que el usuario esté interesado, además en caso de no usar los filtros el usuario también podrá tipear algún artefacto en particular y se verá reflejado en el catálogo siempre y cuando el artefacto se encuentre disponible.</p>
+<h3 id="425-navigation-systems">4.2.5. Navigation Systems</h3>
+<p>El sistema central de navegacion vendria a ser la barra de navegacion ya que mediante esta podremos interactuar y dirigirnos a las diferentes secciones en la pagina web. Lo mismo vendria a ser en el caso del Footer ya que mediante su interacciones podremos navegar en diferentes secciones de la pagina web.</p>
+<h2 id="43-landing-page-ui-design">4.3. Landing Page UI Design</h2>
+<h3 id="431-landing-page-wireframe">4.3.1. Landing Page Wireframe</h3>
+<p><img src="images/Landing-Page-Wireframe.png" alt="Landing Mock-up"></img></p>
+<h3 id="432-landing-page-mock-up">4.3.2. Landing Page Mock-up</h3>
+<p><img src="images/Landing-Page-Mock-up.png" alt="Landing Mock-up"></img></p>
+<h2 id="44-web-applications-uxui-design">4.4. Web Applications UX/UI Design</h2>
+<h3 id="441-web-applications-wireframes">4.4.1. Web Applications Wireframes</h3>
+<h3 id="dise%C3%B1o-para-visualizar-la-donaci%C3%B3n-y-la-venta-de-dispositivos">Diseño para visualizar la donación y la venta de dispositivos..</h3>
+<p><img src="images/registroylogin.png" alt="Registro y login"></img></p>
+<h3 id="dise%C3%B1o-para-visualizar-el-historial-de-dispositivos-compradosdonadosvendidos-y-el-estado-del-dispositivo-que-se-encuentra-en-venta">Diseño para visualizar el historial de dispositivos comprados/donados/vendidos y el estado del dispositivo que se encuentra en venta.</h3>
+<p><img src="images/Historial-y-estado.png" alt="Historial y estado" style="width: 20;"></img></p>
+<h3 id="dise%C3%B1o-de-la-alta-demanda-en-dispositivos-electr%C3%B3nicos">Diseño de la alta demanda en dispositivos electrónicos.</h3>
+<p><img src="images/Demanda.png" alt="alta demanda" style="width: 20;"></img></p>
+<h3 id="dise%C3%B1o-de-la-visualizaci%C3%B3n-para-la-donaci%C3%B3n-y-la-venta-de-dispositivos">Diseño de la visualización para la donación y la venta de dispositivos.</h3>
+<p><img src="images/Donar-y-comprar.png" alt="Donación y compra" style="width: 20;"></img></p>
+<h3 id="dise%C3%B1o-para-visualizar-la-fase-de-compra-de-los-dispositivos">Diseño para visualizar la fase de compra de los dispositivos.</h3>
+<p><img src="images/Fase-de-compra.png" alt="Fase de compra" style="width: 20;"></img></p>
+<h3 id="dise%C3%B1o-para-visualizar-la-suscripci%C3%B3n-actual-y-los-tipos-de-esta-que-existen">Diseño para visualizar la suscripción actual y los tipos de esta que existen.</h3>
+<p><img src="images/Suscripcion.png" alt="System Context" style="width: 20;"></img></p>
+<h3 id="dise%C3%B1o-para-visualizar-el-soporte-que-brinda-la-p%C3%A1gina">Diseño para visualizar el soporte que brinda la página.</h3>
+<p><img src="images/Soporte.png" alt="System Context" style="width: 20;"></img></p>
+<h3 id="442-web-applications-wireflow-diagrams">4.4.2. Web Applications Wireflow Diagrams</h3>
+<p>Los diagramas de flujo de alambre, conocidos como Wireflow Diagrams, desempeñan un papel fundamental en el proceso de diseño y desarrollo de aplicaciones móviles. Permiten una planificación y comunicación efectiva de la estructura y funcionalidad de la aplicación, lo que conduce a una experiencia de usuario más eficiente y satisfactoria. Esta herramienta beneficia tanto a diseñadores como a desarrolladores al facilitar la creación de aplicaciones móviles efectivas y atractivas.</p>
+<h3 id="diagrama-de-interacci%C3%B3n-de-registroinicio-de-sesi%C3%B3n-de-usuario">Diagrama de interacción de registro/inicio de sesión de usuario.</h3>
+<p><img src="images/Wireflow-1.png" alt="Inicio de sesión" style="width: 20;"></img></p>
+<h3 id="diagrama-de-interacci%C3%B3n-de-recepci%C3%B3n-de-mensaje-acerca-de-la-venta-de-un-dispositivo">Diagrama de interacción de recepción de mensaje acerca de la venta de un dispositivo</h3>
+<p><img src="images/Wireflow-2.png" alt="Mensaje de venta" style="width: 20;"></img></p>
+<h3 id="diagrama-de-interacci%C3%B3n-de-venta-de-dispositivos">Diagrama de interacción de venta de dispositivos</h3>
+<p><img src="images/Wireflow-3.png" alt="Venta de dispositivos" style="width: 20;"></img></p>
+<h3 id="diagrama-de-interacci%C3%B3n-de-historial-de-actividad-del-usuario-y-estados-de-dispositivos">Diagrama de interacción de historial de actividad del usuario y estados de dispositivos</h3>
+<p><img src="images/Wireflow-4.png" alt="Historial/estados de dispositivos" style="width: 20;"></img></p>
+<h3 id="diagrama-de-interacci%C3%B3n-del-carrito-de-compra">Diagrama de interacción del carrito de compra</h3>
+<p><img src="images/Wireflow-5.png" alt="Carrito de compra" style="width: 20;"></img></p>
+<h3 id="diagrama-de-interacci%C3%B3n-del-proceso-de-compra">Diagrama de interacción del proceso de compra</h3>
+<p><img src="images/Wireflow-6.png" alt="Proceso de compra" style="width: 20;"></img></p>
+<h3 id="diagrama-de-interacci%C3%B3n-de-productos-de-alta-demanda">Diagrama de interacción de productos de alta demanda</h3>
+<p><img src="images/Wireflow-7.png" alt="Productos de alta demanda" style="width: 20;"></img></p>
+<h3 id="442-web-applications-mock-ups">4.4.2. Web Applications Mock-ups</h3>
+<p><img src="images/MockUp-1.png" alt="MockUp-1" style="width: 20;"></img></p>
+<p><img src="images/MockUp-2.png" alt="MockUp-2" style="width: 20;"></img></p>
+<p><img src="images/MockUp-3.png" alt="MockUp-3" style="width: 20;"></img></p>
+<p><img src="images/MockUp-4.png" alt="MockUp-4" style="width: 20;"></img></p>
+<p><img src="images/MockUp-5.png" alt="MockUp-5" style="width: 20;"></img></p>
+<p><img src="images/MockUp-6.png" alt="MockUp-6" style="width: 20;"></img></p>
+<p><img src="images/MockUp-7.png" alt="MockUp-7" style="width: 20;"></img></p>
+<h3 id="443-web-applications-user-flow-diagrams">4.4.3. Web Applications User Flow Diagrams</h3>
+<p><img src="images/Flow-1.png" alt="Flow-1" style="width: 20;"></img></p>
+<p><img src="images/Flow-2.png" alt="Flow-2" style="width: 20;"></img></p>
+<p><img src="images/Flow-3.png" alt="Flow-3" style="width: 20;"></img></p>
+<p><img src="images/Flow-4.png" alt="Flow-4" style="width: 20;"></img></p>
+<p><img src="images/Flow-5.png" alt="Flow-5" style="width: 20;"></img></p>
+<h2 id="45-web-applications-prototyping">4.5. Web Applications Prototyping</h2>
+<p>Web Applications Prototyping es una metodología esencial en el desarrollo de aplicaciones web, que implica la creación de representaciones visuales o modelos preliminares de una aplicación antes de su implementación completa. Este proceso permite a los diseñadores y desarrolladores experimentar con diferentes diseños, funcionalidades y flujos de usuario, con el objetivo de visualizar y probar la usabilidad y la experiencia del usuario de manera efectiva.</p>
+<p>Los prototipos de aplicaciones web pueden variar en complejidad, desde simples bocetos de diseño hasta prototipos interactivos totalmente funcionales. Estos prototipos actúan como una herramienta invaluable para identificar y abordar problemas de diseño y funcionalidad en las etapas iniciales del desarrollo, lo que ayuda a reducir los costos y el tiempo asociados con cambios significativos más adelante en el proceso.</p>
+<p>Al crear prototipos de aplicaciones web, los equipos de desarrollo pueden obtener comentarios tempranos de los interesados ​​y usuarios finales, lo que les permite realizar ajustes y mejoras antes de la implementación final. Además, los prototipos son una forma efectiva de comunicar la visión del producto a todas las partes interesadas, lo que ayuda a alinear las expectativas y garantizar que todos estén en la misma página durante el proceso de desarrollo.</p>
+<p>-<strong>Enlace de los prototipos</strong></p>
+<p>https://upcedupe-my.sharepoint.com/<img class="emoji" alt="v" src="data:image/png;base64,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" />/g/personal/u202212383_upc_edu_pe/ESU5NVW3N5hKrtlE6iwV8gABFflMTBMusCDkAC9-0KjITQ?e=bbRHcF</p>
+<h2 id="46-domain-driven-software-architecture">4.6. Domain-Driven Software Architecture</h2>
+<h3 id="461-software-architecture-context-diagram">4.6.1. Software Architecture Context Diagram</h3>
+<p><img src="images/img-system-context.png" alt="System Context" style="width: 65;"></img></p>
+<h3 id="462-software-architecture-container-diagrams">4.6.2. Software Architecture Container Diagrams</h3>
+<p><img src="images/img-container.png" alt="Container Diagram" style="width: 65;"></img></p>
+<h3 id="463-software-architecture-components-diagrams">4.6.3. Software Architecture Components Diagrams</h3>
+<p><img src="images/img-register-component.png" alt="Register Component" style="width: 65;"></img></p>
+<p><img src="images/img-sell-component.png" alt="Sells Component" style="width: 65;"></img></p>
+<p><img src="images/img-subscription-component.png" alt="Subscription Component" style="width: 65;"></img></p>
+<p><img src="images/img-search-component.png" alt="Search Component" style="width: 65;"></img></p>
+<p><img src="images/img-buy=component.png" alt="Buy Component" style="width: 65;"></img></p>
+<p><img src="images/img-validation-component.png" alt="Validation Component" style="width: 65;"></img></p>
+<h2 id="47-software-object-oriented-design">4.7. Software Object-Oriented Design</h2>
+<h3 id="471-class-diagrams">4.7.1. Class Diagrams</h3>
+<p><img src="images/ClassDiagram.PNG" alt="ClassDiagram" style="width: 65;"></img></p>
+<h3 id="472-class-dictionary">4.7.2. Class Dictionary</h3>
+<table>
+<thead>
+<tr>
+<th>Clase</th>
+<th>Tipo</th>
+<th>Descripcion</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RecyTech</td>
+<td>Entidad</td>
+<td>Ejecuta la aplicación y sus funcionalidades con acciones iniciales como creación de cuenta e inició de sesión.</td>
+</tr>
+<tr>
+<td>Usuario</td>
+<td>Entidad</td>
+<td>Crea un usuario y le asigna a cada uno un tipo para que pueda realizar las acciones que le corresponden.</td>
+</tr>
+<tr>
+<td>Cliente</td>
+<td>Interfaz</td>
+<td>Llama a funciones para que el cliente use la aplicación</td>
+</tr>
+<tr>
+<td>Administrador</td>
+<td>Interfaz</td>
+<td>Llama a funciones para que el administrador use la aplicación</td>
+</tr>
+<tr>
+<td>Formulario</td>
+<td>Entidad</td>
+<td>Valoracion que tiene cada cliente con suscripcion para crear un formularios de los productos que desea reciclar</td>
+</tr>
+<tr>
+<td>Contrato</td>
+<td>Entidad</td>
+<td>Valoracion que tiene el administrador para visualisar los formularios y aceptar o declinar cada uno el mismo</td>
+</tr>
+<tr>
+<td>Pedido</td>
+<td>Entidad</td>
+<td>Valoracion que tiene cada cliente sin necesidad de suscripcion para solictar algun producto</td>
+</tr>
+<tr>
+<td>Producto</td>
+<td>Entidad</td>
+<td>El objeto que es publicado en base al contrato por el administrador y puede ser pedido por los clientes</td>
+</tr>
+<tr>
+<td>Suscripcion</td>
+<td>Entidad</td>
+<td>Valoracion que tiene cada clientes para solicitar mas funciones para el uso de la aplicacion</td>
+</tr>
+<tr>
+<td>Pago</td>
+<td>Entidad</td>
+<td>El pago que tendra que reaisar por cada pedido y suscripciones en la aplicacion</td>
+</tr>
+<tr>
+<td>MetodoPago</td>
+<td>Entidad</td>
+<td>Metodo de pago que tendra cada pago</td>
+</tr>
+</tbody>
+</table>
+<h2 id="48-database-design">4.8. Database Design</h2>
+<h3 id="481-database-diagram">4.8.1. Database Diagram</h3>
+<p><img src="images/DatabaseDiagram.png" alt="DatabaseDiagram" style="width: 65;"></img></p>
+<h1 id="cap%C3%ADtulo-v-product-implementation-validation--deployment">Capítulo V: Product Implementation, Validation &amp; Deployment.</h1>
+<h2 id="51-software-configuration-management">5.1. Software Configuration Management.</h2>
+<h3 id="511-software-development-environment-configuration">5.1.1. Software Development Environment Configuration.</h3>
+<p>Project Management:
+GitHub es una plataforma en línea que facilita la gestión colaborativa del código entre los miembros del equipo. Utilizando la tecnología de control de versiones Git, permite el seguimiento de modificaciones y versiones del código, mejorando así la organización y el control del trabajo conjunto.</p>
+<p>https://github.com/</p>
+<p>Requirements Management:
+Miro es una herramienta de gestión de requisitos que permite a los equipos visualizar, colaborar y organizar los requisitos del proyecto de manera efectiva. Facilita la creación de diagramas, mapas mentales y tableros que ayudan a definir y mantener los requisitos del proyecto de manera clara y accesible para todos los miembros del equipo.</p>
+<p>https://miro.com/</p>
+<p>Product UX/UI Design:
+Figma proporciona una plataforma para el diseño de interfaces, permitiendo trabajar en aspectos visuales como colores, imágenes y formas para crear aplicaciones. Además, facilita la creación de prototipos interactivos que simulan la experiencia del usuario, contribuyendo al desarrollo y refinamiento del proyecto.</p>
+<p>https://www.figma.com/</p>
+<p>Software Development:
+HTML y CSS son tecnologías fundamentales en el desarrollo web. HTML se encarga de definir la estructura y organización del contenido en las páginas web, mientras que CSS se utiliza para dar estilo y presentación a ese contenido. Juntos, aseguran que el contenido esté bien organizado y visualmente atractivo en la web.</p>
+<p>https://es.wikipedia.org/wiki/HTML
+https://es.wikipedia.org/wiki/CSS</p>
+<p>Software Testing:
+En el proceso de testing de software, herramientas como Selenium, Appium y Cypress son útiles para la automatización de pruebas de aplicaciones web y móviles. Estas herramientas permiten realizar pruebas exhaustivas que garantizan la calidad y el rendimiento del producto final.</p>
+<p>https://es.wikipedia.org/wiki/Selenium</p>
+<p>Software Deployment:
+Para el despliegue de software, herramientas como Docker, Kubernetes y Terraform son útiles para automatizar la instalación y configuración de aplicaciones en diferentes entornos. Estas herramientas facilitan el despliegue rápido y confiable de software en entornos locales, en la nube o en servidores dedicados.</p>
+<p>https://es.wikipedia.org/wiki/Docker_(software)</p>
+<p>Software Documentation:
+Markdown es una opción versátil y efectiva para la documentación de software, que permite escribir manuales de usuario, guías de instalación y documentación técnica de manera clara y concisa. Con su sintaxis sencilla y legible, Markdown facilita la creación de documentos bien estructurados y fácilmente legibles para desarrolladores y usuarios finales.</p>
+<p>https://es.wikipedia.org/wiki/Markdown</p>
+<h3 id="512-source-code-management">5.1.2. Source Code Management.</h3>
+<p>Explicaremos nuestra estrategia de gestión de código fuente para el proyecto, crucial para rastrear y controlar cambios hechos por el equipo. Hemos optado por crear un repositorio en GitHub para este propósito, tanto para el informe como para la landing page. Esto asegura la coherencia del proyecto y facilita la colaboración entre los miembros del equipo, aprovechando las herramientas y funcionalidades ofrecidas por GitHub para una gestión eficiente del proyecto.</p>
+<p>https://github.com/RecyTech/Informe-RecyTec</p>
+<h3 id="513-source-code-style-guide--conventions">5.1.3. Source Code Style Guide &amp; Conventions.</h3>
+<p>En nuestra Landing Page, hemos integrado elementos HTML y estilos CSS siguiendo las mejores prácticas de diseño. Para estructurar el contenido, utilizamos etiquetas de encabezado HTML como h1 para los títulos principales y p para los párrafos. Además, hemos empleado atributos como HTML Style para personalizar el aspecto visual, definiendo propiedades como color, tamaño de fuente y tipo de letra.</p>
+<p>Para resaltar elementos importantes, hemos aplicado HTML Text Formatting, incluyendo etiquetas como b para negrita, strong para resaltado y del para mostrar cambios de precios. En cuanto a la navegación, hemos implementado una barra de navegación horizontal utilizando CSS para mejorar la experiencia del usuario al explorar el contenido.</p>
+<p>Los formularios, creados con CSS, permiten a los usuarios ingresar información relevante, como detalles de inicio de sesión, información de pago y dirección de envío. Para añadir interactividad, hemos agregado botones con efectos hover utilizando CSS y paginación CSS para facilitar la navegación entre las diferentes páginas de productos.</p>
+<p>Finalmente, en el footer, hemos incluido enlaces a las redes sociales de la organización para brindar a los usuarios una forma adicional de conectarse y seguir nuestras actualizaciones</p>
+<h3 id="514-software-deployment-configuration">5.1.4. Software Deployment Configuration.</h3>
+<p>Utilizaremos GitHub Pages para alojar nuestra Landing Page. Para lograrlo, subiremos los archivos esenciales (HTML, CSS, etc.) a un repositorio público en GitHub. De esta manera, nuestra página estará disponible en línea y accesible para todos los usuarios.</p>
+<p><img src="images/informe.png" alt="informe" style="width: 20;"></img></p>
+<h2 id="52-landing-page-services--applications-implementation">5.2. Landing Page, Services &amp; Applications Implementation.</h2>
+<h3 id="521-sprint-1">5.2.1. Sprint 1.</h3>
+<h4 id="5211-sprint-planning-1">5.2.1.1. Sprint Planning 1.</h4>
+<table>
+<thead>
+<tr>
+<th>Sprint 1</th>
+<th>Implementación de funcionalidades y diseño de la aplicación.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sprint Planning Background</td>
+<td></td>
+</tr>
+<tr>
+<td>Date</td>
+<td>05/04/2024</td>
+</tr>
+<tr>
+<td>Time</td>
+<td>18:00 horas (GMT-5)</td>
+</tr>
+<tr>
+<td>Location</td>
+<td>Reunión realizada mediante Discord</td>
+</tr>
+<tr>
+<td>Prepared By</td>
+<td>Morales Montalvo, Omar Andrew</td>
+</tr>
+<tr>
+<td>PAttendees (to planning meeting)</td>
+<td><li>Chamorro Acero, Salvador Edward</li>	 <li>Jorge Arévalo, Ramón Alejandro</li> <li>Morales Montalvo, Omar Andrew</li> <li>Palomino Fano, Cristhofer Sebastian</li></td>
+</tr>
+<tr>
+<td>Sprint n -1 Review</td>
+<td></td>
+</tr>
+<tr>
+<td>Resumen</td>
+<td>Se creará la organización de RecyTech en Github, se crea las ramas, se separa los trabajos a realizar como entrevistas, wireframe y mock-up</td>
+</tr>
+<tr>
+<td>Sprint n -1 Retrospective</td>
+<td></td>
+</tr>
+<tr>
+<td>Resumen</td>
+<td>Se implemento para el landing se ha realizado mediante html css y js.</td>
+</tr>
+<tr>
+<td><strong>Sprint Goal &amp; User Stories</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Sprint 1 Velocity</td>
+<td>21 points</td>
+</tr>
+<tr>
+<td>Sum of Story Points</td>
+<td>21 points</td>
+</tr>
+</tbody>
+</table>
+<h4 id="5212-sprint-backlog-1">5.2.1.2. Sprint Backlog 1.</h4>
+<table>
+<thead>
+<tr>
+<th>id</th>
+<th>Title</th>
+<th>Id</th>
+<th>Title</th>
+<th>Description</th>
+<th>Estimations(Hours)</th>
+<th>Assigned To</th>
+<th>Status(To-do /InProcess/ToReview/Done)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US01</td>
+<td>Seccion descargar</td>
+<td>UT01</td>
+<td>Sección &quot;descargar&quot;(Desarrollado en HTML y CSS)</td>
+<td>Desarrollo e implementación de los estilos que corresponden a la sección de descargar. Debe ser responsive.</td>
+<td>3</td>
+<td>Jorge Arévalo, Ramón Alejandro</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US02</td>
+<td>Seccion Nosotros</td>
+<td>UT02</td>
+<td>Sección &quot;Nosotros&quot;(Desarrollado en HTML y CSS)</td>
+<td>Desarrollo e implementación de los estilos que corresponden a la sección de nosotros. Debe ser responsive.</td>
+<td>2</td>
+<td>Chamorro Acero, Salvador Edward</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US03</td>
+<td>Seccion Beneficios</td>
+<td>UT03</td>
+<td>Sección &quot;Beneficios&quot;(Desarrollado en HTML y CSS)</td>
+<td>Desarrollo e implementación de los estilos que corresponden a la sección de beneficios. Debe ser responsive.</td>
+<td>3</td>
+<td>Jorge Arévalo, Ramón Alejandro</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US04</td>
+<td>Suscripcion</td>
+<td>UT04</td>
+<td>Sección &quot;Suscripcion  &quot;(Desarrollado en HTML y CSS)</td>
+<td>Desarrollo e implementación de los estilos que corresponden a la sección de suscripcion. Debe ser responsive.</td>
+<td>2</td>
+<td>Morales Montalvo, Omar Andrew</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US05</td>
+<td>Seccion contactenos</td>
+<td>UT05</td>
+<td>Sección &quot;Contacto&quot;(Desarrollado en HTML y CSS)</td>
+<td>Desarrollo e implementación de los estilos que corresponden a la sección de contactenos. Debe ser responsive.</td>
+<td>3</td>
+<td>Chamorro Acero, Salvador Edward</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US06</td>
+<td>Barra header</td>
+<td>UT06</td>
+<td>Header responsivos (Desarrollado en HTML y CSS).</td>
+<td>Desarrollo e implementación de los estilos que corresponden al encabezado (Header). Debe ser responsive.</td>
+<td>3</td>
+<td>Morales Montalvo, Omar Andrew</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US07</td>
+<td>Footer</td>
+<td>UT07</td>
+<td>Footer responsivos (Desarrollado en HTML y CSS).</td>
+<td>Desarrollo e implementación de los estilos que corresponden al pie de página (Footer). Debe ser responsive.</td>
+<td>3</td>
+<td>Palomino Fano, Cristhofer Sebastian</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US08</td>
+<td>Seccion registro</td>
+<td>UT08</td>
+<td>Sección &quot;Registro&quot;(Desarrollado en HTML y CSS)</td>
+<td>Desarrollo e implementación de un formulario para el registro.</td>
+<td>2</td>
+<td>Palomino Fano, Cristhofer Sebastian</td>
+<td>Done</td>
+</tr>
+</tbody>
+</table>
+<h4 id="5213-development-evidence-for-sprint-review"><strong>5.2.1.3. Development Evidence for Sprint Review.</strong></h4>
+<h4 id="5213-development-evidence-for-sprint-review"><strong>5.2.1.3. Development Evidence for Sprint Review.</strong></h4>
+<table>
+<thead>
+<tr>
+<th>Repository</th>
+<th>Branch</th>
+<th>Commit ID</th>
+<th>Commit Message</th>
+<th>Commit Message Body</th>
+<th>Committed on Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Landing-Page-RecyTech</td>
+<td>rama-Omar</td>
+<td>4379ed02d02b14ecf56222fb5228628ac7f6447b</td>
+<td>Implementación de la sección de Inicio.</td>
+<td>-</td>
+<td>14 de abril de 2024</td>
+</tr>
+<tr>
+<td>Landing-Page-RecyTech</td>
+<td>rama-Sebas</td>
+<td>4379ed02d02b14ecf56222fb5228628ac7f6447b</td>
+<td>Implementación de la sección Nosotros.</td>
+<td>-</td>
+<td>14 de abril de 2024</td>
+</tr>
+<tr>
+<td>Landing-Page-RecyTech</td>
+<td>rama-Salavador</td>
+<td>4379ed02d02b14ecf56222fb5228628ac7f6447b</td>
+<td>Implementación de la sección de Docentes.</td>
+<td>-</td>
+<td>14 de abril de 2024</td>
+</tr>
+<tr>
+<td>Landing-Page-RecyTech</td>
+<td>rama-Ramon</td>
+<td>4379ed02d02b14ecf56222fb5228628ac7f6447b</td>
+<td>Implementación de la sección Reseñas.</td>
+<td>-</td>
+<td>14 de abril de 2024</td>
+</tr>
+<tr>
+<td>Landing-Page-RecyTech</td>
+<td>rama-Sebas</td>
+<td>4379ed02d02b14ecf56222fb5228628ac7f6447b</td>
+<td>Implementación de la sección de Suscripci</td>
+<td>-</td>
+<td>14 de abril de 2024</td>
+</tr>
+<tr>
+<td>Landing-Page-RecyTech</td>
+<td>rama-Omar</td>
+<td>4379ed02d02b14ecf56222fb5228628ac7f6447b</td>
+<td>Implementación de la sección de Login</td>
+<td>-</td>
+<td>14 de abril de 2024</td>
+</tr>
+<tr>
+<td>Landing-Page-RecyTech</td>
+<td>rama-Ramon</td>
+<td>4379ed02d02b14ecf56222fb5228628ac7f6447b</td>
+<td>Implementación de la sección de Register</td>
+<td>-</td>
+<td>14 de abril de 2024</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Commits realizados al landing page</strong></p>
+<p><img src="images/Evidence.PNG" alt="Evidence" style="width: 65;"></img></p>
+<h4 id="5214-testing-suite-evidence-for-sprint-review"><strong>5.2.1.4. Testing Suite Evidence for Sprint Review.</strong></h4>
+<p>Los archivos .feature desempeñan un papel esencial en las prácticas de desarrollo de software orientadas al comportamiento, como el Desarrollo Guiado por Comportamiento (BDD). En este contexto, tienen la función de transmitir y automatizar las especificaciones que se encuentran en las historias de usuario. Para el Sprint 1 se aboradaron 10 historias de Usuarios para el Landing Page</p>
+<table>
+<thead>
+<tr>
+<th>Repository</th>
+<th>Branch</th>
+<th>Commit ID</th>
+<th>Commit Message</th>
+<th>Commit Message Body</th>
+<th>Committed on Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Testing-RecyTech</td>
+<td>main</td>
+<td>b566ff8fb603509d28f47b3dea40390e7bc76fda</td>
+<td>Implementación del feature 1</td>
+<td>-</td>
+<td>14 de abril de 2024</td>
+</tr>
+<tr>
+<td>Testing-RecyTech</td>
+<td>main</td>
+<td>b566ff8fb603509d28f47b3dea40390e7bc76fda</td>
+<td>Implementación del feature 2</td>
+<td>-</td>
+<td>14 de abril de 2024</td>
+</tr>
+<tr>
+<td>Testing-RecyTech</td>
+<td>main</td>
+<td>b566ff8fb603509d28f47b3dea40390e7bc76fda</td>
+<td>Implementación del feature 3</td>
+<td>-</td>
+<td>14 de abril de 2024</td>
+</tr>
+<tr>
+<td>Testing-RecyTech</td>
+<td>main</td>
+<td>b566ff8fb603509d28f47b3dea40390e7bc76fda</td>
+<td>Implementación del feature 4</td>
+<td>-</td>
+<td>14 de abril de 2024</td>
+</tr>
+<tr>
+<td>Testing-RecyTech</td>
+<td>main</td>
+<td>b566ff8fb603509d28f47b3dea40390e7bc76fda</td>
+<td>Implementación del feature 5</td>
+<td>-</td>
+<td>14 de abril de 2024</td>
+</tr>
+<tr>
+<td>Testing-RecyTech</td>
+<td>main</td>
+<td>b566ff8fb603509d28f47b3dea40390e7bc76fda</td>
+<td>Implementación del feature 6</td>
+<td>-</td>
+<td>14 de abril de 2024</td>
+</tr>
+<tr>
+<td>Testing-RecyTech</td>
+<td>main</td>
+<td>b566ff8fb603509d28f47b3dea40390e7bc76fda</td>
+<td>Implementación del feature 7</td>
+<td>-</td>
+<td>14 de abril de 2024</td>
+</tr>
+<tr>
+<td>Testing-RecyTech</td>
+<td>main</td>
+<td>b566ff8fb603509d28f47b3dea40390e7bc76fda</td>
+<td>Implementación del feature 8</td>
+<td>-</td>
+<td>14 de abril de 2024</td>
+</tr>
+<tr>
+<td>Testing-RecyTech</td>
+<td>main</td>
+<td>b566ff8fb603509d28f47b3dea40390e7bc76fda</td>
+<td>Implementación del feature 9</td>
+<td>-</td>
+<td>14 de abril de 2024</td>
+</tr>
+<tr>
+<td>Testing-RecyTech</td>
+<td>main</td>
+<td>b566ff8fb603509d28f47b3dea40390e7bc76fda</td>
+<td>Implementación del feature 10</td>
+<td>-</td>
+<td>14 de abril de 2024</td>
+</tr>
+</tbody>
+</table>
+<p><img src="images/Feature.PNG" alt="Feature" style="width: 65;"></img></p>
+<h4 id="5215-execution-evidence-for-sprint-review"><strong>5.2.1.5. Execution Evidence for Sprint Review.</strong></h4>
+<p>En esta entrega, nos centramos en el desarrollo completo de la Landing Page para nuestra plataforma de educación en línea. Nuestro objetivo es desplegar una página web atractiva y efectiva que actúe como el punto de entrada para nuestros usuarios. La Landing Page se diseñará para comunicar claramente cómo nuestra plataforma revolucionará la forma de reciclaje.</p>
+<p>Al inicio hubo algunos incovenientes en el desarrollo, ya que originalmente lo haciamos en solo un repositorio todo el trabajo. Asi que tuvimos que migrar todo el trabajo a una organisacion. Esto puede llegar a modificar los Insight del proyecto. Es por ello que se comparte las evidencias de ambos repositorios para corroborar el trabajo hecho por cada uno de los participantes.</p>
+<p><img src="images/image.PNG" alt="image" style="width: 65;"></img></p>
+<p><img src="images/image-1.PNG" alt="image-1" style="width: 65;"></img></p>
+<p><img src="images/image-2.PNG" alt="image-2" style="width: 65;"></img></p>
+<h4 id="5216-services-documentation-evidence-for-sprint-review">5.2.1.6. Services Documentation Evidence for Sprint Review</h4>
+<p>Para esta primera entrega no hubo implementación de APIs, pues solo se realizó la Landing Page.</p>
+<h4 id="5217-software-deployment-evidence-for-sprint-review">5.2.1.7. Software Deployment Evidence for Sprint Review</h4>
+<p>El objetivo del primer Sprint fue el desarrollo e implementación de la Landing Page. Para eso, utilizamos GitHub y GitHub Pages. El proceso del desarrollo fue el siguiente:</p>
+<ol>
+<li>Se creó una organización en GitHub y, dentro de ella, se crearon dos repositorios. Uno para el informe del trabajo y otro para la Landing Page.</li>
+</ol>
+<p><img src="images/organization.png" alt="Organization" style="width: 20;"></img></p>
+<ol start="2">
+<li>Luego, a través de los commits, el equipo fue editando los archivos index.html y styles.css, además de ir añadiendo imágenes a utilizar en el directorio images.</li>
+</ol>
+<p><img src="images/commits-landing.png" alt="Commits" style="width: 20;"></img></p>
+<ol start="3">
+<li>Finalmente, se implementó GitHub Pages en el repositorio de GitHub y se desplegó la Landing Page, la que se puede visitar en el siguiente link: <a href="https://recytech.github.io/LandingPage-RecyTech/">https://recytech.github.io/LandingPage-RecyTech/</a></li>
+</ol>
+<p><img src="images/landing-page.png" alt="Landing Page" style="width: 20;"></img></p>
+<h4 id="5218-team-collaboration-insights-during-sprint">5.2.1.8. Team Collaboration Insights during Sprint</h4>
+<p>A continuación, se muestran las capturas de los insights de los repositorios del informe y de la Landing Page para evidenciar la participación de todos los miembros del grupo:</p>
+<p><img src="images/insights-1.png" alt="Insights-1" style="width: 20;"></img></p>
+<p><img src="images/insights-2.png" alt="Insights-2" style="width: 20;"></img></p>
+<h1 id="bibliograf%C3%ADa">Bibliografía</h1>
+<p>Alvarado, J. (8 de diciembre de 2021). <em>Conoce RAECO, la app que impulsa el reciclaje de residuos electrónicos</em>. TecnoEmpresa. https://tecnoempresa.mx/index.php/2021/12/08/raeco-la-app-que-impulsa-el-reciclaje-de-residuos-electronicos/</p>
+<p>Espinoza, A. (18 de agosto de 2023). <em>Vehículos viejos y transporte público causan el 58% de contaminación del aire en Lima</em>. Infobae. https://www.infobae.com/peru/2023/08/18/vehiculos-viejos-y-transporte-publico-causan-el-58-de-contaminacion-del-aire-en-lima/</p>
+<p>Romero, V., Salazar, L., Solís, A. &amp; Solís, J. (2022). Congestión Vehicular y Contaminación Ambiental en Lima Metropolitana. <em>Revista Lasallista de Investigación</em>, <em>19</em>(1), 152-164.</p>
+<p>Stakeholders. (28 de setiembre de 2023). <em>La idea de la micromovilidad es ahorrar tiempo en el tráfico y colaborar con el cuidado del medio ambiente</em>. https://stakeholders.com.pe/ciencia-innovacion-y-tecnologia/innovacion-y-emprendimientos/la-idea-de-la-micromovilidad-es-ahorrar-tiempo-en-el-trafico-y-colaborar-con-el-cuidado-del-medio-ambiente/</p>
+<h1 id="anexos">Anexos</h1>
+<p>Vídeo de los prototipos</p>
+<p>https://upcedupe-my.sharepoint.com/<img class="emoji" alt="v" src="data:image/png;base64,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" />/g/personal/u202212383_upc_edu_pe/EQzgoVbWumBPq6hIGdMbuecBIfNE25Z7kx_hbWX_fqrbZg?e=PAVnbU</p>
+<p>Vídeo de las entrevistas</p>
+<p>https://upcedupe-my.sharepoint.com/<img class="emoji" alt="v" src="data:image/png;base64,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" />/g/personal/u202212383_upc_edu_pe/ESU5NVW3N5hKrtlE6iwV8gABFflMTBMusCDkAC9-0KjITQ?e=bbRHcF</p>
+<p>Figma wireframes</p>
+<p>https://www.figma.com/file/EJAgLo3fBGD7oj3UgPzpLQ/Wireframes?type=design&amp;node-id=0%3A1&amp;mode=design&amp;t=T4D5mbVL1XTpOcfN-1</p>
+<p>Figma Mock-ups</p>
+<p>https://www.figma.com/file/VflT7e3ho8zhA4P3QTcgro/Untitled?type=design&amp;node-id=0%3A1&amp;mode=design&amp;t=kUgm40syJh7RsQtw-1</p>
+
+</body>
+</html>
