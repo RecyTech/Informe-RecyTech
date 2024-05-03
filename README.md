@@ -712,28 +712,27 @@ Para la elaboración de tales User Persona, se ha utilizado la plataforma UXPres
 
 ### 2.3.3. User Journey Mapping
 
-![Journey Map](/./images/JouneyMap.PNG)
-
+<img src="images/JouneyMap.PNG" alt="JouneyMap" style="width: 65;"></img>
 
 ### 2.3.4. Empathy Mapping
 
 #### 2.3.4.1 Empathy Mapping Donante
 
-![Empathy Mapping 1](/./images/EmphatyDonante.PNG)
+<img src="images/EmphatyDonante.PNG" alt="EmphatyDonante" style="width: 65;"></img>
 
 #### 2.3.4.2 Empathy Mapping Solicitante
 
-![Empathy Mapping 2](/./images/EmphatySolicitante.PNG)
+<img src="images/EmphatySolicitante.PNG" alt="EmphatySolicitante" style="width: 65;"></img>
 
 ### 2.3.5. As-is Scenario Mapping
 
 #### 2.3.5.1 As-is Scenario Mapping Donante
 
-![As-is Scenario Mapping 1](/./images/As-isDonante.PNG)
+<img src="images/As-isDonante.PNG" alt="As-isDonante" style="width: 65;"></img>
 
 #### 2.3.5.2 As-is Scenario Mapping Solicitante
 
-![As-is Scenario Mapping 2](/./images/As-isSolicitante.PNG)
+<img src="images/As-isSolicitante.PNG" alt="As-isSolicitante" style="width: 65;"></img>
 
 
 # [Capítulo III: Requirements Specification.](#capítulo-iii-requirements-specification)
@@ -741,11 +740,11 @@ Para la elaboración de tales User Persona, se ha utilizado la plataforma UXPres
 
 #### 3.1.1 To-Be Scenario Mapping Donante
 
-![Empathy Mapping 1](/./images/to-be-mapping-donante.jpg)
+<img src="images/to-be-mapping-donante.jpg" alt="to-be-mapping-donante" style="width: 65;"></img>
 
 #### 3.1.2 To-Be Scenario Mapping Solicitante
 
-![Empathy Mapping 2](/./images/to-be-mapping-solicitante.jpg)
+<img src="images/to-be-mapping-solicitante.jpg" alt="to-be-mapping-solicitante" style="width: 65;"></img>
 
 ## [3.2. User Stories.](#user-stories)
 
@@ -774,7 +773,7 @@ Para la elaboración de tales User Persona, se ha utilizado la plataforma UXPres
 
 ## [3.3. Impact Mapping.](#impact-mapping)
 
-![Impact mapping](/./images/impactmapping.png)
+<img src="images/impactmapping.png" alt="impactmapping" style="width: 65;"></img>
 
 ## [3.4. Product Backlog.](#product-backlog)
 
@@ -809,17 +808,18 @@ Typography:
 
 La tipografía que se usará es “Inter” en estilos medium y normal tanto para el heading como para el texto respectivamente.
 
-![User Persona 1](/./images/typography.png)
+<img src="images/typography.png" alt="typography" style="width: 65;"></img>
 
 Colors: 
 
 Se tienen como colores principales el verde y el marrón, ya que ambos colores representan protección al medio ambiente que es el principal enfoque que tiene nuestra aplicación. En cuanto a los colores secundarios, se utilizarán distintos tonos de los colores primarios para poder conseguir una armonía en la aplicación y no saturar visualmente al usuario.
 
-![User Persona 1](/./images/Colors.png)
+<img src="images/Colors.png" alt="Colors" style="width: 65;"></img>
+
 
 Spacing:
 
-![User Persona 1](/./images/spacing.png)
+<img src="images/spacing.png" alt="spacing" style="width: 65;"></img>
 
 Tono de comunicación y lenguaje aplicado:
 
@@ -1022,7 +1022,8 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/ESU5NVW3
 
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
-![ClassDiagram](/./images/ClassDiagram.PNG)
+
+<img src="images/ClassDiagram.PNG" alt="ClassDiagram" style="width: 65;"></img>
 ### 4.7.2. Class Dictionary
 
 | Clase         | Tipo     | Descripcion                                                                                                    |
@@ -1041,7 +1042,8 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/ESU5NVW3
 
 ## 4.8. Database Design
 ### 4.8.1. Database Diagram
-![DatabaseDiagram](/./images/DatabaseDiagram.png)
+
+<img src="images/DatabaseDiagram.png" alt="DatabaseDiagram" style="width: 65;"></img>
 
 # Capítulo V: Product Implementation, Validation & Deployment.
 ## 5.1. Software Configuration Management.
