@@ -1153,7 +1153,7 @@ Utilizaremos GitHub Pages para alojar nuestra Landing Page. Para lograrlo, subir
 
 **Commits realizados al landing page**
 
-![Evidence](images/Evidence.PNG)
+<img src="images/Evidence.PNG" alt="Evidence" style="width: 65;"></img>
 
 #### **5.2.1.4. Testing Suite Evidence for Sprint Review.**
 
@@ -1172,7 +1172,8 @@ Los archivos .feature desempeñan un papel esencial en las prácticas de desarro
 | Testing-RecyTech      | main   | b566ff8fb603509d28f47b3dea40390e7bc76fda | Implementación del feature 9  | -                   | 14 de abril de 2024     |
 | Testing-RecyTech      | main   | b566ff8fb603509d28f47b3dea40390e7bc76fda | Implementación del feature 10 | -                   | 14 de abril de 2024     |
 
-![Feature](images/Feature.PNG)
+
+<img src="images/Feature.PNG" alt="Feature" style="width: 65;"></img>
 
 #### **5.2.1.5. Execution Evidence for Sprint Review.**
 
@@ -1180,11 +1181,11 @@ En esta entrega, nos centramos en el desarrollo completo de la Landing Page para
  
  Al inicio hubo algunos incovenientes en el desarrollo, ya que originalmente lo haciamos en solo un repositorio todo el trabajo. Asi que tuvimos que migrar todo el trabajo a una organisacion. Esto puede llegar a modificar los Insight del proyecto. Es por ello que se comparte las evidencias de ambos repositorios para corroborar el trabajo hecho por cada uno de los participantes.
 
-![Alt text](images/image.PNG)
+<img src="images/image.PNG" alt="image" style="width: 65;"></img>
 
-![Alt text](images/image-1.PNG)
+<img src="images/image-1.PNG" alt="image-1" style="width: 65;"></img>
 
-![Alt text](images/image-2.PNG)
+<img src="images/image-2.PNG" alt="image-2" style="width: 65;"></img>
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
