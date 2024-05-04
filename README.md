@@ -1227,7 +1227,7 @@ A continuación, se muestran las capturas de los insights de los repositorios de
 |Sprint n -2 Review|
 |Resumen| Se creará el repositorio de la aplicacion web y se iniciara el proyecto con el uso del framework Angular. Además, se asignaran las respectivas US a cada integrante y se utilizara una arquitecturada orientada a servicios con un efonque DDD.                                                                                         |
 |Sprint n -2 Retrospective|
-|Resumen| Se utilizo el Angular para el desarrollo de la landing page y de la aplicacion we.                                                                                                 |
+|Resumen| Se utilizo el Angular para el desarrollo de la landing page y de la aplicación.                                                                                                 |
 | **Sprint Goal & User Stories**   |
 | Sprint 2 Velocity                | 24 points                                                                                                                                                             |
 | Sum of Story Points              | 24 points    
