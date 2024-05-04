@@ -1248,17 +1248,18 @@ A continuación, se muestran las capturas de los insights de los repositorios de
 
 | Repository                 | Branch         | Commit ID                                | Commit Message                            | Commit Message Body | Committed on Date   |
 | -------------------------- | -------------- | ---------------------------------------- | ----------------------------------------- | ------------------- | ------------------- |
-| Landing-Page-RecyTech      | rama-Omar      | 4379ed02d02b14ecf56222fb5228628ac7f6447b | Implementación de la sección de Inicio.   | -                   | 14 de abril de 2024 |
-| Landing-Page-RecyTech      | rama-Sebas     | 4379ed02d02b14ecf56222fb5228628ac7f6447b | Implementación de la sección Nosotros.    | -                   | 14 de abril de 2024 |
-| Landing-Page-RecyTech      | rama-Salavador | 4379ed02d02b14ecf56222fb5228628ac7f6447b | Implementación de la sección de Docentes. | -                   | 14 de abril de 2024 |
-| Landing-Page-RecyTech      | rama-Ramon     | 4379ed02d02b14ecf56222fb5228628ac7f6447b | Implementación de la sección Reseñas.     | -                   | 14 de abril de 2024 |
-| Landing-Page-RecyTech      | rama-Sebas     | 4379ed02d02b14ecf56222fb5228628ac7f6447b | Implementación de la sección de Suscripci | -                   | 14 de abril de 2024 |
-| Landing-Page-RecyTech      | rama-Omar      | 4379ed02d02b14ecf56222fb5228628ac7f6447b | Implementación de la sección de Login     | -                   | 14 de abril de 2024 |
-| Landing-Page-RecyTech      | rama-Ramon     | 4379ed02d02b14ecf56222fb5228628ac7f6447b | Implementación de la sección de Register  | -                   | 14 de abril de 2024 |
+| Landing-Page-RecyTech      | rama-Omar      | c051acc192acefdcaff1b5de2d1379506f62a166 | Implementación de header y footers.     | -                   | 30 de abril de 2024 |
+| Landing-Page-RecyTech      | rama-Salvador     | 506e6f88e9616de3fa58c9e11f554a48b13871c3 | Implementación de la sección vender productos.    | -                   | 30 de abril de 2024 |
+| Landing-Page-RecyTech      | rama-Sebas   | 5c8468b66011587fea7ace08d999d7789cad2002   | Implementación de la sección suscripcion.     | -                   | 30 de abril de 2024 |
+| Landing-Page-RecyTech      | rama-Ramon      | c2497a1fe31e9521ff0171f5613525cf861c559c| Implementación de la sección de Login     | -                   | 30 de abril de 2024 |
+| Landing-Page-RecyTech      | rama-Omar      | c051acc192acefdcaff1b5de2d1379506f62a166 | Implementación de la sección suscripcion.      | -                   | 30 de abril de 2024 |
+| Landing-Page-RecyTech      | rama-Salvador | f506424d0d547e2836f49171d53c6c21e3cfff14  | Implementación de header y footers. | -                   | 30 de abril de 2024 |
+| Landing-Page-RecyTech      | rama-Sebas     | 1b8e910a23497d0e43eaf655975ec3b92f12f076 | Implementación de la sección de vista de productos. | -                   | 30 de abril de 2024 |
+| Landing-Page-RecyTech      | rama-Ramon     | c2497a1fe31e9521ff0171f5613525cf861c559c | Implementación de la sección de Register  | -                   | 30 de abril de 2024 |
 
 **Commits realizados al landing page**
 
-<img src="images/Evidence.PNG" alt="Evidence" style="width: 65;"></img>
+<img src="images/sprint2.png" alt="sprint2" style="width: 65;"></img>
 
 #### 5.2.2.4. Testing Suite Evidence for Sprint Review.
 
