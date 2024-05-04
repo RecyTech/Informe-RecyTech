@@ -1215,6 +1215,15 @@ A continuación, se muestran las capturas de los insights de los repositorios de
 
 <img src="images/insights-2.png" alt="Insights-2" style="width: 20;"></img>
 
+### 5.2.2. Sprint 2.
+#### 5.2.2.1. Sprint Planning 2.
+#### 5.2.2.2. Sprint Backlog 2.
+#### 5.2.2.3. Development Evidence for Sprint Review.
+#### 5.2.2.4. Testing Suite Evidence for Sprint Review.
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+#### 5.2.2.8. Team Collaboration Insights during Sprint.
+
 # Bibliografía
 
 
