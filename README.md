@@ -1280,6 +1280,29 @@ En esta segunda entrega aun no se trabajo con ninguna API, ya que nos enfocamos 
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 
+El objetivo de este segundo Sprint fue el desarrollo e implementación del FrontEnd de la aplicación. Para eso, utilizamos GitHub y GitHub Pages. El proceso del desarrollo fue el siguiente:
+
+1. Se creó un repositorio más en nuestra organización de GitHub, dedicado al FrontEnd.
+
+<img src="images/img-frontend-repo.png" alt="FrontEnd Repository" style="width: 20;"></img>
+
+2. Luego, a través de los commits, el equipo fue editando el proyecto hasta tener una versión final funcional que cumpliera con los User Points de este Sprint.
+
+<img src="images/img-commits-frontend.png" alt="Commits" style="width: 20;"></img>
+
+3. Finalmente, se implementó GitHub Pages en el repositorio de GitHub y se desplegó el FrontEnd, la que se puede visitar en el siguiente link: [https://recytech.github.io/FrontEnd-RecyTech/](https://recytech.github.io/FrontEnd-RecyTech/)  
+
+<img src="images/img-deploy-ventas.png" alt="Ventas" style="width: 20;"></img>
+
+<img src="images/img-deploy-footer.png" alt="Footer" style="width: 20;"></img>
+
+<img src="images/img-deploy-signin.png" alt="Sign In" style="width: 20;"></img>
+
+<img src="images/img-deploy-signup.png" alt="Sign Up" style="width: 20;"></img>
+
+<img src="images/img-deploy-metodopago.png" alt="Metodo Pago" style="width: 20;"></img>
+
+
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
 <img src="images/insghts.png" alt="insghts" style="width: 20;"></img>
