@@ -1246,13 +1246,35 @@ A continuación, se muestran las capturas de los insights de los repositorios de
 
 #### 5.2.2.3. Development Evidence for Sprint Review.
 
+| Repository                 | Branch         | Commit ID                                | Commit Message                            | Commit Message Body | Committed on Date   |
+| -------------------------- | -------------- | ---------------------------------------- | ----------------------------------------- | ------------------- | ------------------- |
+| Landing-Page-RecyTech      | rama-Omar      | 4379ed02d02b14ecf56222fb5228628ac7f6447b | Implementación de la sección de Inicio.   | -                   | 14 de abril de 2024 |
+| Landing-Page-RecyTech      | rama-Sebas     | 4379ed02d02b14ecf56222fb5228628ac7f6447b | Implementación de la sección Nosotros.    | -                   | 14 de abril de 2024 |
+| Landing-Page-RecyTech      | rama-Salavador | 4379ed02d02b14ecf56222fb5228628ac7f6447b | Implementación de la sección de Docentes. | -                   | 14 de abril de 2024 |
+| Landing-Page-RecyTech      | rama-Ramon     | 4379ed02d02b14ecf56222fb5228628ac7f6447b | Implementación de la sección Reseñas.     | -                   | 14 de abril de 2024 |
+| Landing-Page-RecyTech      | rama-Sebas     | 4379ed02d02b14ecf56222fb5228628ac7f6447b | Implementación de la sección de Suscripci | -                   | 14 de abril de 2024 |
+| Landing-Page-RecyTech      | rama-Omar      | 4379ed02d02b14ecf56222fb5228628ac7f6447b | Implementación de la sección de Login     | -                   | 14 de abril de 2024 |
+| Landing-Page-RecyTech      | rama-Ramon     | 4379ed02d02b14ecf56222fb5228628ac7f6447b | Implementación de la sección de Register  | -                   | 14 de abril de 2024 |
+
+**Commits realizados al landing page**
+
+<img src="images/Evidence.PNG" alt="Evidence" style="width: 65;"></img>
+
 #### 5.2.2.4. Testing Suite Evidence for Sprint Review.
 
-Para el Sprint 2 no se asignaron las pruebas de la aplicacion, ya que se definio que solo se construiria el frontend y la implementacion de todo el diseño grafico.
+En esta segunda entrega, nos enfocamos en la implementacion grafica de la web , por lo que aun no poseemos pruebas de desarrollo.
+
+#### 5.2.2.5. Execution Evidence for Sprint Review.
+
+En esta segunda entrega, nos centramos en la implementacion de codigo de nuestro diseño UI/UX y despliegue mediante servicio de hosting. Nuestro objetivo es desplegar una página web atractiva y efectiva que actúe como el punto de entrada para nuestros usuarios.
+
+<img src="images/image-1.PNG" alt="image-1" style="width: 65;"></img>
+
+<img src="images/image-2.PNG" alt="image-2" style="width: 65;"></img>
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
-Para el despliegue se acordo utilizar el servicio de hosting de Firebase.
+En esta segunda entrega aun no se trabajo con ninguna API, ya que nos enfocamos en el frontend e implementacion de diseño.
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 
