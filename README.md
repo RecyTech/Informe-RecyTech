@@ -1216,6 +1216,21 @@ A continuación, se muestran las capturas de los insights de los repositorios de
 <img src="images/insights-2.png" alt="Insights-2" style="width: 20;"></img>
 
 ### 5.2.2. Sprint 2.
+
+| Sprint 2                         | Sprint Planning Backlog.                                                                                                                                              |
+| -------------------------------- |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Date                             | 20/04/2024                                                                                                                                                            |
+| Time                             | 18:00 horas (GMT-5)                                                                                                                                                   |
+| Location                         | Reunión realizada mediante Discord                                                                                                                                    |
+| Prepared By                      | Morales Montalvo, Omar Andrew                                                                                                                                         |
+| PAttendees (to planning meeting) | <li>Chamorro Acero, Salvador Edward</li>	 <li>Jorge Arévalo, Ramón Alejandro</li> <li>Morales Montalvo, Omar Andrew</li> <li>Palomino Fano, Cristhofer Sebastian</li> |
+|Sprint n -2 Review|
+|Resumen| Se creará el repositorio de la aplicacion web y se iniciara el proyecto con el uso del framework Angular. Además, se asignaran las respectivas US a cada integrante y se utilizara una arquitecturada orientada a servicios con un efonque DDD.                                                                                         |
+|Sprint n -2 Retrospective|
+|Resumen| Se utilizo el Angular para el desarrollo de la landing page y de la aplicacion we.                                                                                                 |
+| **Sprint Goal & User Stories**   |
+| Sprint 2 Velocity                | 24 points                                                                                                                                                             |
+| Sum of Story Points              | 24 points    
 #### 5.2.2.1. Sprint Planning 2.
 #### 5.2.2.2. Sprint Backlog 2.
 #### 5.2.2.3. Development Evidence for Sprint Review.
