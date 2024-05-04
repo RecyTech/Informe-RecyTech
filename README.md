@@ -1212,8 +1212,6 @@ A continuación, se muestran las capturas de los insights de los repositorios de
 
 <img src="images/insights-1.png" alt="Insights-1" style="width: 20;"></img>
 
-<img src="images/insights-2.png" alt="Insights-2" style="width: 20;"></img>
-
 ### 5.2.2. Sprint 2.
 #### 5.2.2.1. Sprint Planning 2.
 
@@ -1259,6 +1257,8 @@ Para el despliegue se acordo utilizar el servicio de hosting de Firebase.
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
+
+<img src="images/insghts.png" alt="insghts" style="width: 20;"></img>
 
 
 # Bibliografía
