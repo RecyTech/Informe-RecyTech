@@ -1137,7 +1137,6 @@ Utilizaremos GitHub Pages para alojar nuestra Landing Page. Para lograrlo, subir
 | US06 | Barra header        | UT06 | Header responsivos (Desarrollado en HTML y CSS).    | Desarrollo e implementación de los estilos que corresponden al encabezado (Header). Debe ser responsive.      | 3                  | Morales Montalvo, Omar Andrew        | Done                                  |
 | US07 | Footer              | UT07 | Footer responsivos (Desarrollado en HTML y CSS).    | Desarrollo e implementación de los estilos que corresponden al pie de página (Footer). Debe ser responsive.   | 3                  | Palomino Fano, Cristhofer Sebastian         | Done                                  |
 | US08 | Seccion registro    | UT08 | Sección "Registro"(Desarrollado en HTML y CSS)      | Desarrollo e implementación de un formulario para el registro.                                                | 2                  | Palomino Fano, Cristhofer Sebastian         | Done                                  |
-#### **5.2.1.3. Development Evidence for Sprint Review.**
 
 #### **5.2.1.3. Development Evidence for Sprint Review.**
 
@@ -1216,6 +1215,7 @@ A continuación, se muestran las capturas de los insights de los repositorios de
 <img src="images/insights-2.png" alt="Insights-2" style="width: 20;"></img>
 
 ### 5.2.2. Sprint 2.
+#### 5.2.2.1. Sprint Planning 2.
 
 | Sprint 2                         | Sprint Planning Backlog.                                                                                                                                              |
 | -------------------------------- |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -1231,13 +1231,35 @@ A continuación, se muestran las capturas de los insights de los repositorios de
 | **Sprint Goal & User Stories**   |
 | Sprint 2 Velocity                | 24 points                                                                                                                                                             |
 | Sum of Story Points              | 24 points    
-#### 5.2.2.1. Sprint Planning 2.
+
 #### 5.2.2.2. Sprint Backlog 2.
+
+| id   | Title               | Id  | Title                                               | Description                                                                                                   | Estimations(Hours) | Assigned To | Status(To-do /InProcess/ToReview/Done) |
+| ---- |---------------------| --- |-----------------------------------------------------|---------------------------------------------------------------------------------------------------------------|--------------------|-------------|---------------------------------------|
+| US01 | Registro de cuenta de usuario   | UT01 | Pantalla de Registro (Desarrollado en Angular)     | Desarrollo e Implementacion de la Interfaz y servicio para el registro de usuario.   | 3                  | Jorge Arévalo, Ramón Alejandro         | Done                                  |
+| US02 | Iniciar sesión    | UT02 | Pantalla de Inicio de sesión (Desarrollado en Angular)                  |Desarrollo e Implementacion de la Interfaz y servicio para el inicio de sesion.    | 3                  | Chamorro Acero, Salvador Edward         | Done                                  |
+| US03 | Opción de donar Producto  | UT03 | Pantalla de donacion de productros (Desarrollado en Angular)     | Desarrollo e Implementacion de la Interfaz y servicio para la donacion de productos.  | 2                  | Jorge Arévalo, Ramón Alejandro         | Done                                  |
+| US04 | Opción de suscripción         | UT04 | Pantalla de suscripcion del usuario (Desarrollado en Angular) | Desarrollo e Implementacion de la Interfaz y servicio para la suscripcion del usuario. | 2                  | Morales Montalvo, Omar Andrew        | Done                                  |
+| US05 | Cancelar suscripcion | UT05 |Pantalla de cancelacion suscripcion del usuario (Desarrollado en Angular)    | Desarrollo e Implementacion de la Interfaz y servicio para cancelar la suscripcion del usuario. | 2                  | Chamorro Acero, Salvador Edward         | Done                                  |
+| US06 | Visualizar catálogo de artefactos        | UT06 | Pantalla de los artefactos electronicos disponibles (Desarrollado en Angular).    | Desarrollo e Implementacion de la Interfaz y servicio para visualizar el catálogo de artefactos | 3                  | Morales Montalvo, Omar Andrew        | Done                                  |
+| US07 | Opción de vender Producto              | UT07 | Pantalla de venta de productros (Desarrollado en Angular)    | Desarrollo e Implementacion de la Interfaz y servicio para la venta de productos.   | 3                  | Palomino Fano, Cristhofer Sebastian         | Done    
+| US08 | Visualizar estado e información del producto              | UT07 | Visualizar estado e información del producto(Desarrollado en Angular)    | Desarrollo e Implementacion de la Interfaz y servicio para la visualizacion del estado e información del producto  | 3                  | Palomino Fano, Cristhofer Sebastian         | Done    |                                |
+
+
 #### 5.2.2.3. Development Evidence for Sprint Review.
+
 #### 5.2.2.4. Testing Suite Evidence for Sprint Review.
+
+Para el Sprint 2 no se asignaron las pruebas de la aplicacion, ya que se definio que solo se construiria el frontend y la implementacion de todo el diseño grafico.
+
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+
+Para el despliegue se acordo utilizar el servicio de hosting de Firebase.
+
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
+
 
 # Bibliografía
 
