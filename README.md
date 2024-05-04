@@ -779,14 +779,14 @@ Para la elaboración de tales User Persona, se ha utilizado la plataforma UXPres
 
 |Orden| User Story ID |Título|Descripción|Story Points|
 |-----|---------------|------|-----------|------------|
-|1| US06          |Visualizar estado e información del producto|Como usuario vendedor Quiero visualizar el estado e información de los artefactos que di Para poder hacerles seguimiento.|1|
-|2| US012         |Visualizar historial de artefactos electrónicos|Como usuario vendedor / comprador Quiero tener la opción de visualizar un historial con todos los artefactos electrónicos que vendí o done Para tener conocimientos sobre todos los artefactos que he dado a la plataforma.|1|
-|3| US08          |Opción de vender Producto|Como usuario vendedor Quiero tener disponible la opción de venta de artefactos Para poder solicitar la venta de mi artefacto electrónico.|1|
-|4| US09          |Opción de donar Producto|Como usuario comprador / vendedor Quiero tener disponible la opción de donación de artefactos Para poder solicitar la donación de mi artefacto electrónico.|1|
-|5| US014         |Visualizar catálogo de artefactos|Como usuario comprador Quiero tener disponible un catálogo de productos Para revisar los productos disponibles en venta.|1|
-|6| US015         |Ver historial de reservas de viaje|Como usuario comprador Quiero tener disponible un carrito de compras donde podre ver los productos en los que estoy interesado Para poder calcular los precios.|1|
-|7| US016         |Comprar producto|Como usuario comprador Quiero tener disponible la opción de comprar los productos en mi carrito Para poder adquirirlos.|1|
-|8| US07          |Notificaciones en caso de venta de productos|Como usuario vendedor Quiero recibir notificaciones cada vez que algún artefacto que di se haya vendido Para estar informado en todo momento.|1|
+|1| US06          |Visualizar estado e información del producto|Como usuario vendedor Quiero visualizar el estado e información de los artefactos que di Para poder hacerles seguimiento.|2|
+|2| US012         |Visualizar historial de artefactos electrónicos|Como usuario vendedor / comprador Quiero tener la opción de visualizar un historial con todos los artefactos electrónicos que vendí o done Para tener conocimientos sobre todos los artefactos que he dado a la plataforma.|5|
+|3| US08          |Opción de vender Producto|Como usuario vendedor Quiero tener disponible la opción de venta de artefactos Para poder solicitar la venta de mi artefacto electrónico.|2|
+|4| US09          |Opción de donar Producto|Como usuario comprador / vendedor Quiero tener disponible la opción de donación de artefactos Para poder solicitar la donación de mi artefacto electrónico.|2|
+|5| US014         |Visualizar catálogo de artefactos|Como usuario comprador Quiero tener disponible un catálogo de productos Para revisar los productos disponibles en venta.|3|
+|6| US015         |Ver historial de reservas de viaje|Como usuario comprador Quiero tener disponible un carrito de compras donde podre ver los productos en los que estoy interesado Para poder calcular los precios.|3|
+|7| US016         |Comprar producto|Como usuario comprador Quiero tener disponible la opción de comprar los productos en mi carrito Para poder adquirirlos.|3|
+|8| US07          |Notificaciones en caso de venta de productos|Como usuario vendedor Quiero recibir notificaciones cada vez que algún artefacto que di se haya vendido Para estar informado en todo momento.|2|
 |9| US017         |Sección de productos en demanda|Como usuario vendedor Quiero tener disponible una sección de productos en demanda Para poder revisar si tengo alguno y venderlo.|1|
 |10| US01          |Registro de cuenta de usuario|Como usuario comprador / vendedor no identificado en el sistema Quiero poder registrarme Para hacer uso de la aplicación.|1|
 |11| US02          |Iniciar sesión|Como usuario comprador / vendedor Quiero poder iniciar sesión para acceder a todas las funcionalidades de la aplicación.|1|
