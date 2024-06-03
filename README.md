@@ -199,6 +199,7 @@
 |[5.2.2.6. Services Documentation Evidence for Sprint Review.](#5226-services-documentation-evidence-for-sprint-review)|
 |[5.2.2.7. Software Deployment Evidence for Sprint Review.](#5227-software-deployment-evidence-for-sprint-review)|
 |[5.2.2.8. Team Collaboration Insights during Sprint.](#5228-team-collaboration-insights-during-sprint)|
+
 |[Bibliografía](#bibliografía)|
 
 # Student Outcome
@@ -1307,6 +1308,68 @@ El objetivo de este segundo Sprint fue el desarrollo e implementación del Front
 
 <img src="images/insghts.png" alt="insghts" style="width: 20;"></img>
 
+#### 5.2.3 Sprint 3.
+#### 5.2.2.1. Sprint Planning 2.
+    
+| Sprint 2                         | Sprint Planning Backlog.                                                                                                                                              |
+| -------------------------------- |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Date                             |                                                                                                                                                                       |
+| Time                             |                                                                                                                                                                       |
+| Location                         | Reunión realizada mediante Discord                                                                                                                                    |
+| Prepared By                      | Morales Montalvo, Omar Andrew                                                                                                                                         |
+| PAttendees (to planning meeting) | <li>Chamorro Acero, Salvador Edward</li>	 <li>Jorge Arévalo, Ramón Alejandro</li> <li>Morales Montalvo, Omar Andrew</li> <li>Palomino Fano, Cristhofer Sebastian</li> |
+|Sprint n -2 Review                                                                                                                                                                                        |
+|Resumen|                                                                                                                                                                                                  |
+|Sprint n -2 Retrospective|
+|Resumen|                                                                                                                                                                                                  |
+| **Sprint Goal & User Stories**   |
+| Sprint 2 Velocity                |                                                                                                                                                              |
+| Sum of Story Points              | 
+
+### Sprint Backlog 3.
+| id   | Title               | Id  | Title                                               | Description                                                                                                   | Estimations(Hours) | Assigned To | Status(To-do /InProcess/ToReview/Done) |
+| ---- |---------------------| --- |-----------------------------------------------------|---------------------------------------------------------------------------------------------------------------|--------------------|-------------|---------------------------------------|
+|      |                     |     |                                                     |                                                                                                               |                    |             |
+|      |                     |     |                                                     |                                                                                                               |                    |             |
+|      |                     |     |                                                     |                                                                                                               |                    |             |
+|      |                     |     |                                                     |                                                                                                               |                    |             |
+|      |                     |     |                                                     |                                                                                                               |                    |             |
+|      |                     |     |                                                     |                                                                                                               |                    |             |
+|      |                     |     |                                                     |                                                                                                               |                    |             |
+|      |                     |     |                                                     |                                                                                                               |                    |             |
+
+#### 5.2.2.3. Development Evidence for Sprint Review.
+
+| Repository                 | Branch         | Commit ID                                | Commit Message                            | Commit Message Body | Committed on Date   |
+| -------------------------- | -------------- | ---------------------------------------- | ----------------------------------------- | ------------------- | ------------------- |
+| Backend-RecyTech      | rama-      |  |     | -                   |  |
+| Backend-RecyTech      | rama-     |  |     | -                   |  |
+| Backend-RecyTech     | rama-   |    |      | -                   |  |
+| Backend-RecyTech      | rama-      | |      | -                   |  |
+| Backend-RecyTech      | rama-      |  |       | -                   |  |
+| Backend-RecyTech      | rama- |   |  | -                   |  |
+| Backend-RecyTech     | rama-     |  |  | -                   |  |
+| Backend-RecyTech      | rama-     |  |   | -                   |  |
+
+**Commits realizados en el apartado Backend**
+<img src="" alt="sprint2" style="width: 65;"></img>
+
+#### 5.2.2.4. Testing Suite Evidence for Sprint Review.
+
+Durante este tercer entregable, nuestro enfoque se ha dirigido hacia la mejora de los entregables previos y la fase inicial de implementación del backend.
+
+#### 5.2.2.5. Execution Evidence for Sprint Review.
+
+En esta fase de la entrega, hemos dedicado nuestros esfuerzos a la optimización de los entregables previos y a la implementación del backend. Adicionalmente, hemos llevado a cabo la actualización de nuestro diseño UI/UX y el despliegue mediante un servicio de hosting. Nuestro objetivo principal ha sido la creación de una página web atractiva, funcional y efectiva como punto de entrada para nuestros usuarios.
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+
+El objetivo primordial del tercer Sprint fue la concepción del backend de la aplicación. En este proceso, nos apoyamos en plataformas como GitHub. El desarrollo se llevó a cabo siguiendo los siguientes pasos:
+1.
+2.
+3.
+#### 5.2.2.8. Team Collaboration Insights during Sprint.
 
 # Bibliografía
 
