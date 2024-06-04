@@ -1313,18 +1313,18 @@ El objetivo de este segundo Sprint fue el desarrollo e implementación del Front
     
 | Sprint 2                         | Sprint Planning Backlog.                                                                                                                                              |
 | -------------------------------- |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Date                             |                                                                                                                                                                       |
-| Time                             |                                                                                                                                                                       |
+| Date                             |03-06-2024                                                                                                                                                             |
+| Time                             |17:00 horas (GMT-5)                                                                                                                                                                       |
 | Location                         | Reunión realizada mediante Discord                                                                                                                                    |
 | Prepared By                      | Morales Montalvo, Omar Andrew                                                                                                                                         |
 | PAttendees (to planning meeting) | <li>Chamorro Acero, Salvador Edward</li>	 <li>Jorge Arévalo, Ramón Alejandro</li> <li>Morales Montalvo, Omar Andrew</li> <li>Palomino Fano, Cristhofer Sebastian</li> |
 |Sprint n -2 Review                                                                                                                                                                                        |
-|Resumen|                                                                                                                                                                                                  |
+|Resumen| Se creara el repositorio del backend y se iniciara con el proyecto. Además, se asignaran Bounded Contexts respectivos a cada integrante para un optimo desarrollo                                |
 |Sprint n -2 Retrospective|
-|Resumen|                                                                                                                                                                                                  |
+|Resumen| Se utilizó el lenguaje java para la implementacion de la logica de negocio. Asimismo, se utilizo el Domain-Driven Design                                                                         |
 | **Sprint Goal & User Stories**   |
-| Sprint 2 Velocity                |                                                                                                                                                              |
-| Sum of Story Points              | 
+| Sprint 2 Velocity                | n Points                                                                                                                                                             |
+| Sum of Story Points              | n Points
 
 ### Sprint Backlog 3.
 | id   | Title               | Id  | Title                                               | Description                                                                                                   | Estimations(Hours) | Assigned To | Status(To-do /InProcess/ToReview/Done) |
