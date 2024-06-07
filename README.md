@@ -1344,7 +1344,7 @@ El objetivo de este segundo Sprint fue el desarrollo e implementación del Front
 | Backend-RecyTech      | rama-ramon          | a72d3c9e9f11bc1d233f04e8a9f6b8d7e345c2f1 | Add profile bounded context               | -                   |   05-06-2024        |
 
 **Commits realizados en el apartado Backend**
-<img src="Sprint3.png" alt="sprint3" style="width: 65;"></img>
+
 
 #### 5.2.3.4. Testing Suite Evidence for Sprint Review.
 
@@ -1381,7 +1381,7 @@ El objetivo primordial del tercer Sprint fue la concepción del backend de la ap
 
 - **Nombre:** Sergio Caycho
 - **Edad:** 19 años
-- **Localidad:** Lima
+- **Localidad:** Jesus Maria
 - **Entrevista a Sergio:** timing 00:00 - 02:04 min
   
 <div style="text-align: center;">
@@ -1402,7 +1402,20 @@ El objetivo primordial del tercer Sprint fue la concepción del backend de la ap
 </div>
 
 - **Resumen:** En la Segunda entrevista realizada a Diego, él nos menciona que encuentra muy funcional la página web pero que le gustaría algunos cambios en la parte visual. Además, nos menciona que es bastante intuitiva y fácil de manejar, por lo que no tendría problemas en volverse un usuario activo de la página web. En conclusión, recytech ha sido muy bien valorada por el entrevistado y se proyecta a ser una excelente solución al problema tratado.
+
+  **Entrevista 3:**
+
+- **Nombre:**  Alessandro Rey Contreras
+- **Edad:** 20 años
+- **Localidad:** Jesus Maria
+- **Entrevista a Sergio:** timing 06:59 - 12:06 min
   
+<div style="text-align: center;">
+  <img src="images/EntrevistaAlessandro.png" alt="EntrevistaDiego" width="500px">
+</div>
+
+- **Resumen:**  Primero, se le mostró a Alessandro nuestra Landing Page. Al preguntarle su opinión del diseño de la página expresó que le gustaba mucho cómo estaba distribuida y los colores utilizados en ella. En cuanto a lo que menos le gustó o lo que cree que se podía mejorar, consideró que la letra era muy pequeña o difícil de leer debido al contraste de colores en algunos puntos de la página. Luego, se le mostró un pequeño ejemplo de la aplicación FrontEnd. Se le preguntó por lo mismo y, acerca del diseño y la estructura, expresó una vez más que consideraba que tenía una interfaz muy fácil de entender y que no presentaría dificultades para los usuarios. Por otro lado, mencionó también que lo que menos le gustaba era que no se mostraran bien algunas imágenes en la página de inicio y que la distribución no ocupe todo el ancho de la pantalla.
+
 #### 5.3.3. Evaluaciones según heurísticas.
 1. Heurística de Usabilidad:
    - Visibilidad del estado del sistema: La aplicación mantiene a los usuarios informados sobre lo que está sucediendo mediante retroalimentación   
@@ -1423,6 +1436,11 @@ El objetivo primordial del tercer Sprint fue la concepción del backend de la ap
 
    
 #### 5.4. Video About-the-Product.
+<div style="text-align: center;">
+  <img src="images/about.png" alt="AboutTheProject" width="500px">
+</div>
+
+
 # Bibliografía
 
 
@@ -1452,5 +1470,10 @@ Figma Mock-ups
 
 https://www.figma.com/file/VflT7e3ho8zhA4P3QTcgro/Untitled?type=design&node-id=0%3A1&mode=design&t=kUgm40syJh7RsQtw-1
 
+Video de las entrevistas realizadas en el Sprint 3
 
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/ETOG7r_mIWZAnZJqQTeSfiUBRUoJcnCnUZXXMWCfuMkfww?e=nhzizH&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
 
+Video About The Product
+
+https://drive.google.com/file/d/1Qwm6hig9Hlfr3lkZIbvhEk9X6WOTw6Pr/view?usp=sharing
