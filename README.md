@@ -1309,7 +1309,7 @@ El objetivo de este segundo Sprint fue el desarrollo e implementación del Front
 <img src="images/insghts.png" alt="insghts" style="width: 20;"></img>
 
 #### 5.2.3 Sprint 3.
-#### 5.2.3.1. Sprint Planning 2.
+#### 5.2.3.1. Sprint Planning 3.
     
 | Sprint 3                         | Sprint Planning Backlog.                                                                                                                                              |
 | -------------------------------- |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -1323,36 +1323,28 @@ El objetivo de este segundo Sprint fue el desarrollo e implementación del Front
 |Sprint n -3 Retrospective|
 |Resumen| Se utilizó el lenguaje java para la implementacion de la logica de negocio. Asimismo, se utilizo el Domain-Driven Design                                                                         |
 | **Sprint Goal & User Stories**   |
-| Sprint 3 Velocity                | n Points                                                                                                                                                             |
-| Sum of Story Points              | n Points
+| Sprint 3 Velocity                | 24 Points                                                                                                                                                            |
+| Sum of Story Points              | 24 Points
 
 ### 5.2.3.2. Sprint Backlog 3.
-| id   | Title               | Id  | Title                                               | Description                                                                                                   | Estimations(Hours) | Assigned To | Status(To-do /InProcess/ToReview/Done) |
-| ---- |---------------------| --- |-----------------------------------------------------|---------------------------------------------------------------------------------------------------------------|--------------------|-------------|---------------------------------------|
-|      |                     |     |                                                     |                                                                                                               |                    |             |
-|      |                     |     |                                                     |                                                                                                               |                    |             |
-|      |                     |     |                                                     |                                                                                                               |                    |             |
-|      |                     |     |                                                     |                                                                                                               |                    |             |
-|      |                     |     |                                                     |                                                                                                               |                    |             |
-|      |                     |     |                                                     |                                                                                                               |                    |             |
-|      |                     |     |                                                     |                                                                                                               |                    |             |
-|      |                     |     |                                                     |                                                                                                               |                    |             |
+| id   | Title       | Id  | Title                | Description                                     | Estimations(Hours) | Assigned To        | Status(To-do /InProcess/ToReview/Done) |
+| ---- |-------------| --- |----------------------|-------------------------------------------------|--------------------|--------------------|---------------------------------------|
+| 1    | User        | 102 | User Management      | Handles user registration and profile updates.  |       6h           | Sebastian/Jorge Ramon|        Done                               |
+| 2    | Search      | 103 | Search Functionality | Implements search features for the platform.    |         3h           | Omar Morales       |            Done                           |
+| 3    | Validation  | 104 | Suscripción y pago   | Manages subscription and payment processes.     |          4h          | Salvador Chamorro  |                Done                       |
+
 
 #### 5.2.3.3. Development Evidence for Sprint Review.
 
 | Repository                 | Branch         | Commit ID                                | Commit Message                            | Commit Message Body | Committed on Date   |
 | -------------------------- | -------------- | ---------------------------------------- | ----------------------------------------- | ------------------- | ------------------- |
-| Backend-RecyTech      | rama-      |  |     | -                   |  |
-| Backend-RecyTech      | rama-     |  |     | -                   |  |
-| Backend-RecyTech     | rama-   |    |      | -                   |  |
-| Backend-RecyTech      | rama-      | |      | -                   |  |
-| Backend-RecyTech      | rama-      |  |       | -                   |  |
-| Backend-RecyTech      | rama- |   |  | -                   |  |
-| Backend-RecyTech     | rama-     |  |  | -                   |  |
-| Backend-RecyTech      | rama-     |  |   | -                   |  |
+| Backend-RecyTech      | rama-sebastian      |2c7f3b8e1d9a0f5e4b3c2d8e7f1b9a6c4e3f2d5b  | Add profile bounded context               | -                   | 05-06-2024          |
+| Backend-RecyTech      | rama-salvador       | e98f5a1b2c9d4e7f0a1d5b8c9e7f2d3a6b4e5c8f | Add validation bounded context            | -                   |  05-06-2024         |
+| Backend-RecyTech      | rama-omar           | 784939213d09ba1f090cfc2f8e89ebf5303940f8 | Add search bounded context                | -                   |  06-06-2024         |
+| Backend-RecyTech      | rama-ramon          | a72d3c9e9f11bc1d233f04e8a9f6b8d7e345c2f1 | Add profile bounded context               | -                   |   05-06-2024        |
 
 **Commits realizados en el apartado Backend**
-<img src="" alt="sprint2" style="width: 65;"></img>
+<img src="Sprint3.png" alt="sprint3" style="width: 65;"></img>
 
 #### 5.2.3.4. Testing Suite Evidence for Sprint Review.
 
@@ -1366,11 +1358,13 @@ En esta fase de la entrega, hemos dedicado nuestros esfuerzos a la optimización
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 
 El objetivo primordial del tercer Sprint fue la concepción del backend de la aplicación. En este proceso, nos apoyamos en plataformas como GitHub. El desarrollo se llevó a cabo siguiendo los siguientes pasos:
-1.
-2.
-3.
+1. Se creo un repositorio mas en nuestra organización, el cual va a estar enfocado al BackEnd.
+   <img src="images/img-main-backend.png" alt="Main" style="width: 20;"></img>
+2. Luego, a través de los commits, el equipo fue editando el proyecto hasta tener una versión final funcional.
+   <img src="images/img-commits-backend.png" alt="Commits-Back" style="width: 20;"></img>
+   
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
-
+<img src="images/TeamS3.png" alt="TCIDSrint3" style="width: 65;"></img>
 #### 5.3 Validation Interviews
 #### 5.3.1. Diseño de Entrevistas.
 ### Preguntas ambos segmentos objetivos:
