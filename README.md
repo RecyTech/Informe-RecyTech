@@ -1309,24 +1309,24 @@ El objetivo de este segundo Sprint fue el desarrollo e implementación del Front
 <img src="images/insghts.png" alt="insghts" style="width: 20;"></img>
 
 #### 5.2.3 Sprint 3.
-#### 5.2.2.1. Sprint Planning 2.
+#### 5.2.3.1. Sprint Planning 2.
     
-| Sprint 2                         | Sprint Planning Backlog.                                                                                                                                              |
+| Sprint 3                         | Sprint Planning Backlog.                                                                                                                                              |
 | -------------------------------- |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Date                             |03-06-2024                                                                                                                                                             |
 | Time                             |17:00 horas (GMT-5)                                                                                                                                                                       |
 | Location                         | Reunión realizada mediante Discord                                                                                                                                    |
 | Prepared By                      | Morales Montalvo, Omar Andrew                                                                                                                                         |
 | PAttendees (to planning meeting) | <li>Chamorro Acero, Salvador Edward</li>	 <li>Jorge Arévalo, Ramón Alejandro</li> <li>Morales Montalvo, Omar Andrew</li> <li>Palomino Fano, Cristhofer Sebastian</li> |
-|Sprint n -2 Review                                                                                                                                                                                        |
+|Sprint n -3 Review                                                                                                                                                                                        |
 |Resumen| Se creara el repositorio del backend y se iniciara con el proyecto. Además, se asignaran Bounded Contexts respectivos a cada integrante para un optimo desarrollo                                |
-|Sprint n -2 Retrospective|
+|Sprint n -3 Retrospective|
 |Resumen| Se utilizó el lenguaje java para la implementacion de la logica de negocio. Asimismo, se utilizo el Domain-Driven Design                                                                         |
 | **Sprint Goal & User Stories**   |
-| Sprint 2 Velocity                | n Points                                                                                                                                                             |
+| Sprint 3 Velocity                | n Points                                                                                                                                                             |
 | Sum of Story Points              | n Points
 
-### Sprint Backlog 3.
+### 5.2.3.2. Sprint Backlog 3.
 | id   | Title               | Id  | Title                                               | Description                                                                                                   | Estimations(Hours) | Assigned To | Status(To-do /InProcess/ToReview/Done) |
 | ---- |---------------------| --- |-----------------------------------------------------|---------------------------------------------------------------------------------------------------------------|--------------------|-------------|---------------------------------------|
 |      |                     |     |                                                     |                                                                                                               |                    |             |
@@ -1338,7 +1338,7 @@ El objetivo de este segundo Sprint fue el desarrollo e implementación del Front
 |      |                     |     |                                                     |                                                                                                               |                    |             |
 |      |                     |     |                                                     |                                                                                                               |                    |             |
 
-#### 5.2.2.3. Development Evidence for Sprint Review.
+#### 5.2.3.3. Development Evidence for Sprint Review.
 
 | Repository                 | Branch         | Commit ID                                | Commit Message                            | Commit Message Body | Committed on Date   |
 | -------------------------- | -------------- | ---------------------------------------- | ----------------------------------------- | ------------------- | ------------------- |
@@ -1354,16 +1354,16 @@ El objetivo de este segundo Sprint fue el desarrollo e implementación del Front
 **Commits realizados en el apartado Backend**
 <img src="" alt="sprint2" style="width: 65;"></img>
 
-#### 5.2.2.4. Testing Suite Evidence for Sprint Review.
+#### 5.2.3.4. Testing Suite Evidence for Sprint Review.
 
 Durante este tercer entregable, nuestro enfoque se ha dirigido hacia la mejora de los entregables previos y la fase inicial de implementación del backend.
 
-#### 5.2.2.5. Execution Evidence for Sprint Review.
+#### 5.2.3.5. Execution Evidence for Sprint Review.
 
 En esta fase de la entrega, hemos dedicado nuestros esfuerzos a la optimización de los entregables previos y a la implementación del backend. Adicionalmente, hemos llevado a cabo la actualización de nuestro diseño UI/UX y el despliegue mediante un servicio de hosting. Nuestro objetivo principal ha sido la creación de una página web atractiva, funcional y efectiva como punto de entrada para nuestros usuarios.
 
-#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
-#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 
 El objetivo primordial del tercer Sprint fue la concepción del backend de la aplicación. En este proceso, nos apoyamos en plataformas como GitHub. El desarrollo se llevó a cabo siguiendo los siguientes pasos:
 1.
@@ -1371,6 +1371,64 @@ El objetivo primordial del tercer Sprint fue la concepción del backend de la ap
 3.
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
+#### 5.3 Validation Interviews
+#### 5.3.1. Diseño de Entrevistas.
+### Preguntas ambos segmentos objetivos:
+
+1. Te parece buena la estructura y diseño de la página/app?
+2. Que mejorarias?
+3. Crees que es intuitiva y facil de navegar?
+4. Crees que podrias tener dificultades con el uso de la pagina/app de alguna manera? Cual?
+5. Que es lo que menos te gusta de la pagina?
+6. Que es lo que más te gusta de la pagina?
+    
+#### 5.3.2. Registro de Entrevistas.
+**Entrevista 1:**
+
+- **Nombre:** Sergio Caycho
+- **Edad:** 19 años
+- **Localidad:** Lima
+- **Entrevista a Sergio:** timing 00:00 - 02:04 min
+  
+<div style="text-align: center;">
+  <img src="images/EntrevistaSergio.PNG" alt="EntrevistaSergio" width="500px">
+</div>
+
+- **Resumen:** En la entrevista, Sergio compartió sus impresiones sobre la página web. Comentó que le parecía intuitiva y fácil de usar, lo cual es un gran punto a favor. Sin embargo, sugirió algunas mejoras que podrían enriquecer la experiencia de los usuarios. Propuso la creación de un foro donde las personas puedan comunicarse y compartir conocimientos, así como la adición de subcategorías para una mejor organización de los contenidos. Además, destacó que le gusta mucho la idea de encontrar componentes electrónicos a precios más bajos que en otros lugares, lo que considera un gran atractivo del sitio.
+
+**Entrevista 2:**
+
+- **Nombre:** Diego Cisneros Tafur
+- **Edad:** 20 años
+- **Localidad:** San Borja
+- **Entrevista a Sergio:** timing 02:04 - 06:59 min
+  
+<div style="text-align: center;">
+  <img src="images/EntrevistaDiego.PNG" alt="EntrevistaDiego" width="500px">
+</div>
+
+- **Resumen:** En la Segunda entrevista realizada a Diego, él nos menciona que encuentra muy funcional la página web pero que le gustaría algunos cambios en la parte visual. Además, nos menciona que es bastante intuitiva y fácil de manejar, por lo que no tendría problemas en volverse un usuario activo de la página web. En conclusión, recytech ha sido muy bien valorada por el entrevistado y se proyecta a ser una excelente solución al problema tratado.
+  
+#### 5.3.3. Evaluaciones según heurísticas.
+1. Heurística de Usabilidad:
+   - Visibilidad del estado del sistema: La aplicación mantiene a los usuarios informados sobre lo que está sucediendo mediante retroalimentación   
+    apropiada dentro de un tiempo razonable.
+   - Correspondencia entre el sistema y el mundo real: La aplicación utiliza palabras, frases y conceptos familiares para el usuario, en lugar de términos 
+     técnicos orientados al sistema.
+   - Control y libertad del usuario: Los usuarios pueden deshacer y rehacer sus acciones fácilmente, lo que les permite corregir errores rápidamente.
+
+2. Arquitectura de Información:
+    - Claridad y simplicidad de la navegación: La estructura de navegación es intuitiva y facilita encontrar la información deseada sin esfuerzo adicional.
+    - Consistencia y estándares: La aplicación sigue convenciones estándar, lo que permite a los usuarios familiarizarse rápidamente con la interfaz.
+   
+3. Diseño de la Experiencia:
+   - Estética y diseño minimalista: La interfaz no contiene información irrelevante o rara vez necesaria. Cada unidad de información compite con las       
+    unidades informativas relevantes, disminuyendo su visibilidad relativa.
+   - Ayuda y documentación: La aplicación proporciona ayuda y documentación clara y accesible para los usuarios en caso de que necesiten asistencia.
+
+
+   
+#### 5.4. Video About-the-Product.
 # Bibliografía
 
 
