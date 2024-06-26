@@ -1351,23 +1351,23 @@ El objetivo de este segundo Sprint fue el desarrollo e implementación del Front
 Durante este tercer entregable, nuestro enfoque se ha dirigido hacia la mejora de los entregables previos y la fase inicial de implementación del backend.
 | Repository         | Branch | Commit ID                              | Commit Message                 | Commit Message Body | Committed on Date |
 |--------------------|--------|----------------------------------------|--------------------------------|----------------------|-------------------|
-| Backend-RecyTech   | main   |109a4111b56ce1b028edf4cc2c97a67ea8bf6901| feat: add first commit         |-                     | 24-06-2024        |
-| Backend-RecyTech   | main   |109a4111b56ce1b028edf4cc2c97a67ea8bf6901| feat: add second commit        |-                     | 24-06-2024        |
-| Backend-RecyTech   | main   |109a4111b56ce1b028edf4cc2c97a67ea8bf6901| feat: add third commit         |-                     | 24-06-2024        |
-| Backend-RecyTech   | main   |109a4111b56ce1b028edf4cc2c97a67ea8bf6901| feat: add fourth commit        |-                     | 24-06-2024        |
-| Backend-RecyTech   | main   |109a4111b56ce1b028edf4cc2c97a67ea8bf6901| feat: add fifth commit         |-                     | 24-06-2024        |
-| Backend-RecyTech   | main   |109a4111b56ce1b028edf4cc2c97a67ea8bf6901| feat: add sixth commit         |-                     | 24-06-2024        |
-| Backend-RecyTech   | main   |109a4111b56ce1b028edf4cc2c97a67ea8bf6901| feat: add seventh commit       |-                     | 24-06-2024        |
-| Backend-RecyTech   | main   |109a4111b56ce1b028edf4cc2c97a67ea8bf6901| feat: add eighth commit        |-                     | 24-06-2024        |
-| Backend-RecyTech   | main   |109a4111b56ce1b028edf4cc2c97a67ea8bf6901| feat: add ninth commit         |-                     | 24-06-2024        |
-| Backend-RecyTech   | main   |109a4111b56ce1b028edf4cc2c97a67ea8bf6901| feat: add tenth commit         |-                     | 24-06-2024        |
-| Backend-RecyTech   | main   |109a4111b56ce1b028edf4cc2c97a67ea8bf6901| feat: add eleventh commit      |-                     | 24-06-2024        |
-| Backend-RecyTech   | main   |109a4111b56ce1b028edf4cc2c97a67ea8bf6901| feat: add twelfth commit       |-                     | 24-06-2024        |
-| Backend-RecyTech   | main   |109a4111b56ce1b028edf4cc2c97a67ea8bf6901| feat: add thirteenth commit    |-                     | 24-06-2024        |
-| Backend-RecyTech   | main   |109a4111b56ce1b028edf4cc2c97a67ea8bf6901| feat: add fourteenth commit    |-                     | 24-06-2024        |
-| Backend-RecyTech   | main   |109a4111b56ce1b028edf4cc2c97a67ea8bf6901| feat: add fifteenth commit     |-                     | 24-06-2024        |
-| Backend-RecyTech   | main   |109a4111b56ce1b028edf4cc2c97a67ea8bf6901| feat: add sixteenth commit     |-                     | 24-06-2024        |
-| Backend-RecyTech   | main   |109a4111b56ce1b028edf4cc2c97a67ea8bf6901| feat: add seventeenth commit   |-                     | 24-06-2024        |
+| acceptance-test-RecyTech   | main   |109a4111b56ce1b028edf4cc2c97a67ea8bf6901| feat: add first commit         |-                     | 24-06-2024        |
+| acceptance-test-RecyTech   | main   |109a4111b56ce1b028edf4cc2c97a67ea8bf6901| feat: add second commit        |-                     | 24-06-2024        |
+| acceptance-test-RecyTech   | main   |109a4111b56ce1b028edf4cc2c97a67ea8bf6901| feat: add third commit         |-                     | 24-06-2024        |
+| acceptance-test-RecyTech   | main   |109a4111b56ce1b028edf4cc2c97a67ea8bf6901| feat: add fourth commit        |-                     | 24-06-2024        |
+| acceptance-test-RecyTech   | main   |109a4111b56ce1b028edf4cc2c97a67ea8bf6901| feat: add fifth commit         |-                     | 24-06-2024        |
+| acceptance-test-RecyTech   | main   |109a4111b56ce1b028edf4cc2c97a67ea8bf6901| feat: add sixth commit         |-                     | 24-06-2024        |
+| acceptance-test-RecyTech   | main   |109a4111b56ce1b028edf4cc2c97a67ea8bf6901| feat: add seventh commit       |-                     | 24-06-2024        |
+| acceptance-test-RecyTech   | main   |109a4111b56ce1b028edf4cc2c97a67ea8bf6901| feat: add eighth commit        |-                     | 24-06-2024        |
+| acceptance-test-RecyTech   | main   |109a4111b56ce1b028edf4cc2c97a67ea8bf6901| feat: add ninth commit         |-                     | 24-06-2024        |
+| acceptance-test-RecyTech   | main   |109a4111b56ce1b028edf4cc2c97a67ea8bf6901| feat: add tenth commit         |-                     | 24-06-2024        |
+| acceptance-test-RecyTech   | main   |109a4111b56ce1b028edf4cc2c97a67ea8bf6901| feat: add eleventh commit      |-                     | 24-06-2024        |
+| acceptance-test-RecyTech   | main   |109a4111b56ce1b028edf4cc2c97a67ea8bf6901| feat: add twelfth commit       |-                     | 24-06-2024        |
+| acceptance-test-RecyTech   | main   |109a4111b56ce1b028edf4cc2c97a67ea8bf6901| feat: add thirteenth commit    |-                     | 24-06-2024        |
+| acceptance-test-RecyTech   | main   |109a4111b56ce1b028edf4cc2c97a67ea8bf6901| feat: add fourteenth commit    |-                     | 24-06-2024        |
+| acceptance-test-RecyTech   | main   |109a4111b56ce1b028edf4cc2c97a67ea8bf6901| feat: add fifteenth commit     |-                     | 24-06-2024        |
+| acceptance-test-RecyTech   | main   |109a4111b56ce1b028edf4cc2c97a67ea8bf6901| feat: add sixteenth commit     |-                     | 24-06-2024        |
+| acceptance-test-RecyTech   | main   |109a4111b56ce1b028edf4cc2c97a67ea8bf6901| feat: add seventeenth commit   |-                     | 24-06-2024        |
 
 
 #### 5.2.3.5. Execution Evidence for Sprint Review.
@@ -1383,8 +1383,72 @@ El objetivo primordial del tercer Sprint fue la concepción del backend de la ap
 2. Luego, a través de los commits, el equipo fue editando el proyecto hasta tener una versión final funcional.
    <img src="images/img-commits-backend.png" alt="Commits-Back" style="width: 20;"></img>
    
-#### 5.2.2.8. Team Collaboration Insights during Sprint.
+#### 5.2.3.8. Team Collaboration Insights during Sprint.
 <img src="images/TeamS3.png" alt="TCIDSrint3" style="width: 65;"></img>
+
+#### 5.2.4. Sprint 4
+
+## 5.2.4.1. Sprint Planning 4.
+A continuacion se muestra la planeación para nuestro cuarto sprint
+
+| Sprint 4                         | Sprint Planning Backlog.                                                                                                                                              |
+| -------------------------------- |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Date                             |21-06-2024                                                                                                                                                             |
+| Time                             |17:00 horas (GMT-5)                                                                                                                                                                       |
+| Location                         | Reunión realizada mediante Discord                                                                                                                                    |
+| Prepared By                      | Morales Montalvo, Omar Andrew                                                                                                                                         |
+| PAttendees (to planning meeting) | <li>Chamorro Acero, Salvador Edward</li>	 <li>Jorge Arévalo, Ramón Alejandro</li> <li>Morales Montalvo, Omar Andrew</li> <li>Palomino Fano, Cristhofer Sebastian</li> |
+|Sprint n -4 Review                                                                                                                                                                                        |
+|Resumen| Se continuara con el contenido del repositorio backend implementando los diferentes bounded context                                                                                              |
+|Sprint n -4 Retrospective|
+|Resumen| Se utilizó el lenguaje java para la implementacion de la logica de negocio. Asimismo, se utilizo el Domain-Driven Design                                                                         |
+| **Sprint Goal & User Stories**   |
+| Sprint 3 Velocity                | 24 Points                                                                                                                                                            |
+| Sum of Story Points              | 24 Points
+
+## 5.2.4.2. Sprint Backlog 4.
+
+Se muestran las tareas que se tuvieron en cuenta para desarrollar en el presente sprint.
+
+| id   | Title       | Id  | Title                | Description                                     | Estimations(Hours) | Assigned To        | Status(To-do /InProcess/ToReview/Done) |
+| ---- |-------------| --- |----------------------|-------------------------------------------------|--------------------|--------------------|---------------------------------------|
+| US02    | Inicio de sesión        | 102 | User Management      |inicio de sesion de usuario  |       6h           | Sebastian/Jorge Ramon|        Done                               |
+| US08    | Opción de vender Producto      | 103 | Product Register | venta de un producto.    |         3h           | Omar Morales       |            Done                           |
+| US10    | Opción de suscripción  | 104 | Suscripción y pago   | surcipcion para los usuarios.     |          4h          | Salvador Chamorro  |                Done                       |
+| US14    | Visualizar catálogo de artefactos  | 104 | Artifacts   | visualizacion de artefactos      |          4h          | Salvador Chamorro  |                Done                       |
+
+
+### 5.2.4.3. Development Evidence for Sprint Review.
+| Repository   | Branch       | Commit Id  | Commit Message               | Commit Message Body                                     |Commited on (Date)  |
+|--------------|--------------|------------|------------------------------|---------------------------------------------------------|--------------------|
+|Recytech backend| Sebas-Rama|cd49c7f657e31fc3b013a78aeb75e4dfa86eaa0d|Arreglos actualizados| - | 25-06-24 | 
+|Recytech frontend| main |9955a51489f986ee001b5538e0be3f0263958750 |merge pull request| - | 25-06-24 | 
+|Recytech frontend| main |0b9397ea12a54e286b061ffb37b65a54fbe27b9e |chore: Fixed baseURL.| - | 25-06-24 | 
+|Recytech accentance test| main|109a4111b56ce1b028edf4cc2c97a67ea8bf6901|feat: add accentance test| - | 25-06-24 | 
+
+### 5.2.4.4. Evidencia de la Suite de Pruebas para la Revisión del Sprint
+
+| Repositorio               | Rama  | ID del Commit                          | Mensaje del Commit               | Cuerpo del Mensaje del Commit | Fecha de Commit |
+|---------------------------|-------|----------------------------------------|----------------------------------|-------------------------------|-----------------|
+| acceptance-test-RecyTech  | main  | 109a4111b56ce1b028edf4cc2c97a67ea8bf6901| feat: add second commit           | -                             | 24-06-2024      |
+| acceptance-test-RecyTech  | main  | 109a4111b56ce1b028edf4cc2c97a67ea8bf6901| feat: add eighth commit           | -                             | 24-06-2024      |
+| acceptance-test-RecyTech  | main  | 109a4111b56ce1b028edf4cc2c97a67ea8bf6901| feat: add tenth commit            | -                             | 24-06-2024      |
+| acceptance-test-RecyTech  | main  | 109a4111b56ce1b028edf4cc2c97a67ea8bf6901| feat: add fourteenth commit       | -                             | 24-06-2024      |
+
+
+### 5.2.4.5. Execution Evidence for Sprint Review.
+
+### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+
+### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+
+Para el sprint actual, se ha desarrollado el API de la aplicación web utilizando diversas herramientas. No obstante, el despliegue del API no está incluido en el alcance de este sprint.
+
+- GitHub: Utilizamos esta plataforma para crear nuestro repositorio, permitiéndonos almacenar y gestionar las distintas versiones de nuestro proyecto.
+- Swagger UI: Esta herramienta nos sirvió para probar y documentar nuestra API de manera efectiva.
+
+### 5.2.4.8. Team Collaboration Insights during Sprint.
+
 #### 5.3 Validation Interviews
 #### 5.3.1. Diseño de Entrevistas.
 ### Preguntas ambos segmentos objetivos:
@@ -1395,7 +1459,9 @@ El objetivo primordial del tercer Sprint fue la concepción del backend de la ap
 4. Crees que podrias tener dificultades con el uso de la pagina/app de alguna manera? Cual?
 5. Que es lo que menos te gusta de la pagina?
 6. Que es lo que más te gusta de la pagina?
-    
+
+
+#### 5.2.4 Software Deployment Evidence for Sprint Review.
 #### 5.3.2. Registro de Entrevistas.
 **Entrevista 1:**
 
